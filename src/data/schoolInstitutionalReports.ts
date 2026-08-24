@@ -3838,5 +3838,509 @@ export const INSTITUTIONAL_REPORTS: Record<string, InstitutionalReport> = {
       { id: 31, title: 'Contact Us & Campus Visitor Guidelines - Woodside Priory', url: 'https://www.prioryca.org/contact-us' },
     ],
   },
+  'cupertino-middle': {
+    schoolId: 'cupertino-middle',
+    title: 'Institutional Evaluation and Research Report: Cupertino Middle School',
+    subtitle: 'Comprehensive Profile: CUSD Governance, Academic Equity & Top 3% Statewide Performance, MATHCOUNTS/Science Olympiad, 5-Season WVAL Athletics, Leadership, Measure Z Facilities, and NatureBridge Yosemite',
+    overview: {
+      leadParagraph:
+        'Cupertino Middle School (CMS) is a comprehensive public middle school serving students in sixth, seventh, and eighth grades within the prestigious Cupertino Union School District (CUSD) [1]. Located at 1650 South Bernardo Avenue in Sunnyvale, California (Zip Code 94087), the campus resides on a 21-acre site situated near the municipal borders of Sunnyvale, Cupertino, and Los Altos [3]. This strategic geographic positioning allows the school to draw an ethnically and socioeconomically diverse student body, with over half of the student body and instructional staff speaking a language other than English at home [3]. Institutional records clarify that CMS operates strictly as a dedicated middle school serving grades 6 through 8, feeding into high schools within the Fremont Union High School District (FUHSD), such as Homestead High School or Fremont High School [1, 6].',
+      metricsParagraph:
+        'CUSD traces its origins back to 1917 and encompasses 17 elementary schools, one TK–8 progressive school, and five neighborhood middle schools under Superintendent Dr. Jennifer Hawn [1, 8, 9]. Cupertino Middle School enrolls approximately 1,067 to 1,122 students with an 18:1 to 19:1 student-to-teacher ratio and a 561:1 to 584:1 student-to-counselor ratio [2, 6]. CMS holds a 9/10 GreatSchools overall rating and a Grade A- on Niche (#28 public middle school in Santa Clara County), while SchoolDigger awards CMS a 5-star rating, ranking it #74 out of 2,761 public middle schools statewide (top 2.7% / 97.3th percentile) [2, 13, 14].',
+      benchmarkTable: [
+        {
+          metric: 'Year Established & Configuration',
+          schoolValue: '1954–1955 (Junior High 1962, Modern 6–8 Middle) [5]',
+          districtValue: 'CUSD (Est. 1917) [9]',
+          stateValue: 'Public Secondary',
+        },
+        {
+          metric: 'Campus Footprint',
+          schoolValue: '21 Acres; 1650 S. Bernardo Ave, Sunnyvale, CA 94087 [3, 4, 5]',
+          districtValue: 'Sunnyvale/Cupertino/Los Altos Border',
+          stateValue: 'Suburban Campus',
+        },
+        {
+          metric: 'District Jurisdiction & Feeder High',
+          schoolValue: 'Cupertino Union (CUSD) → Fremont Union High (FUHSD) [1, 6]',
+          districtValue: 'Homestead / Fremont High [6]',
+          stateValue: 'Unified / High Districts',
+        },
+        {
+          metric: 'Total Enrollment (6–8)',
+          schoolValue: '~1,067 to 1,122 Students [2]',
+          districtValue: '~14,000 Districtwide [8]',
+          stateValue: '850 CA Middle Avg',
+        },
+        {
+          metric: 'Student-to-Teacher Ratio',
+          schoolValue: '18:1 to 19:1 [6]',
+          districtValue: '18:1 CUSD Avg [2]',
+          stateValue: '22:1 CA Public Avg',
+        },
+        {
+          metric: 'Mathematics CAASPP Proficiency',
+          schoolValue: '75% – 77% (Top 3% Statewide / #74 of 2,761) [2]',
+          districtValue: '82% CUSD Avg [2]',
+          stateValue: '34% – 41% CA State Avg [2]',
+        },
+        {
+          metric: 'ELA / Reading CAASPP Proficiency',
+          schoolValue: '77% – 80% [2]',
+          districtValue: '82% CUSD Avg [2]',
+          stateValue: '41% – 47% CA State Avg [2]',
+        },
+        {
+          metric: 'Equity & Subgroup Growth Rankings',
+          schoolValue: 'ELL: 98.4th Percentile | Low SES: 90.6th | SpEd: 95.0th [2]',
+          districtValue: 'Top Growth in CUSD [2]',
+          stateValue: '50th Percentile Avg',
+        },
+      ],
+    },
+    academics: {
+      lead:
+        'Cupertino Middle School delivers academic performance metrics that place its student body well above California state averages, recording 75%–77% Math proficiency and 77%–80% ELA proficiency while excelling in educational equity and subgroup growth [2].',
+      teamingModel: {
+        title: '7-Period Daily Schedule & Diverse Instructional Growth',
+        description:
+          'CMS operates a structured 7-period schedule balancing core academic disciplines, physical education, and exploratory electives [6, 29]. While peer CUSD schools like Lawson and Miller record slightly higher raw averages due to demographic concentration, SchoolDigger equity metrics show CMS ranks in the top 1.6% statewide for English Language Learners (98.4th percentile), top 10% for economically disadvantaged students (90.6th percentile), and top 5% for students receiving special education services (95.0th percentile), proving superior instructional value-add across all learning profiles [2].',
+      },
+      mathProgression: {
+        title: 'MATHCOUNTS, AMC 8 & Santa Clara Valley Competition Pipelines',
+        description:
+          'Math Olympiad and competitive problem-solving tracks at CMS encompass MOEMS, MATHCOUNTS, and the American Mathematics Competitions 8 (AMC 8) [17, 18]. CMS serves as an active participating site and regional host for the Santa Clara Valley Northwest MATHCOUNTS chapter competition, accelerating logical reasoning and multi-step proof solving by one to two grade levels ahead of standard curricula [17, 18].',
+      },
+      choiceProgram: {
+        name: 'Science Olympiad Division B & STEM Engineering Pathways',
+        description:
+          'CMS provides rigorous applied STEM, competitive science, and robotics frameworks across all grade levels [6, 9].',
+        pillars: [
+          {
+            title: 'Science Olympiad Division B Team',
+            description:
+              'Intensive academic team discipline competing across 23 events spanning earth science, cell biology, chemistry, astronomy, and pre-built mechanical engineering challenges [9].',
+          },
+          {
+            title: 'Robotics, Coding & 3D Prototyping',
+            description:
+              'Student clubs and elective modules utilizing Lego Mindstorms/SPIKE and VEX robotics kits, hobby electronics, coding algorithms, and 3D modeling [6, 31].',
+          },
+          {
+            title: 'Comprehensive Electives Catalog',
+            description:
+              'Exploratory tracks including Visual Arts, Drama Club, Choir, Concert Band, Jazz Ensemble, Orchestra, Spanish, Mandarin, and STEM Speech & Debate [6, 31].',
+          },
+          {
+            title: 'WEB ("Where Everyone Belongs") Mentorship',
+            description:
+              'Structured 8th-grade peer mentorship program providing 6th graders with orientation, social navigation, and academic transition support throughout the school year [3].',
+          },
+        ],
+        governance: 'Led by Principal Dr. Alison Zuniga and Assistant Principals Emily DeLora Ellefson and Carmen Andrade [1, 25].',
+      },
+      foundationFunding: {
+        name: 'Measure Z Bond Program & CMS Parent Teacher Organization (CMS-PTO)',
+        description:
+          'District bond financing and parent contributions fund modern classroom technologies, emergency safety systems, and school events [8, 38].',
+        initiatives: [
+          'Measure Z Bond Capital Modernizations: Funding high-efficiency HVAC upgrades, enhanced physical security perimeters, classroom lighting, and commercial kitchen walk-in cooler/freezer units [8, 34].',
+          'CMS-PTO Direct Enrichment: Underwriting student clubs, classroom technology mini-grants, school assemblies, and teacher appreciation [38].',
+          'School Site Council (SSC) & ELAC: Community-based governance aligning the Single Plan for Student Achievement with district strategic priorities [39].',
+          'Expanded Learning Opportunities Program (ELO-P): State AB 130 funded after-school and summer academic support and recreation [36].',
+        ],
+      },
+    },
+    athletics: {
+      leagueArchitecture: {
+        title: 'West Valley Athletic League (WVAL / VAL) 5-Season Structure',
+        leagues: [
+          {
+            name: 'WVAL (West Valley Athletic League)',
+            description:
+              'Interscholastic league comprising 11 middle schools across 4 Silicon Valley districts: CUSD (Cupertino, Hyde, Kennedy, Lawson, Miller), Sunnyvale SD (Columbia, Sunnyvale MS), Los Altos SD (Blach, Egan), and Mountain View Whisman SD (Crittenden, Graham) [1, 7, 19, 20].',
+          },
+          {
+            name: '5 Distinct Sports Seasons (Mon–Thu Schedule)',
+            description:
+              'Operates five 6-to-7 week seasonal windows scheduled strictly Monday through Thursday (3:15–6:30 PM, games at 4:00 PM / 5:05 PM), strictly preserving Fridays and weekends for academics and family time [19].',
+          },
+          {
+            name: 'Cut & Non-Cut Athletic Pathways',
+            description:
+              'Maintains competitive tryout cut-based rosters for high-demand team sports alongside open-participation non-cut programs in Cross Country, Wrestling, and Track & Field [19].',
+          },
+        ],
+      },
+      seasonalSchedule: [
+        {
+          season: 'Season 1 (Late Aug – Early Oct)',
+          sports: 'Boys Basketball (Cut), Girls Softball (Cut), Cross Country (Non-Cut Open) [19]',
+          structure: '4 multi-school Wednesday practice meets involving 1,000+ runners across 11 schools, culminating in WVAL Championship [23].',
+        },
+        {
+          season: 'Season 2 (Oct – Dec)',
+          sports: 'Girls Volleyball (Cut), Boys Soccer (Cut) [19]',
+          structure: 'Competitive league schedule, games at CMS fields, Serra Park, or De Anza Park [7, 19].',
+        },
+        {
+          season: 'Season 3 (Jan – March)',
+          sports: 'Boys Volleyball (Cut), Girls Basketball (Cut) [19]',
+          structure: 'Indoor gymnasium matches in the 2015 CMS Event Center [5, 19].',
+        },
+        {
+          season: 'Season 4 (March – April)',
+          sports: 'Girls Soccer (Cut), Wrestling (Non-Cut Open) [19]',
+          structure: 'Spring soccer fixtures and dual-meet middle school wrestling tournaments [19].',
+        },
+        {
+          season: 'Season 5 (April – May)',
+          sports: 'Track & Field (Non-Cut Open) [19]',
+          structure: 'Sprints (100m, 200m), distance (800m, 1600m), hurdles, 4x100m relays, long jump, high jump, shot put [19].',
+        },
+      ],
+      focusSportsAnalysis: [
+        {
+          title: 'Soccer Program: High-Level WVAL League Contention',
+          description:
+            'Soccer at CMS is highly competitive with multi-day tryouts assessing technical ball control, tactical positioning, and physical conditioning [19]. Boys compete in Season 2 and Girls compete in Season 4 against WVAL peers on campus fields and municipal complexes (Serra Park, De Anza Park) [7, 19].',
+        },
+        {
+          title: 'Cross Country & Track & Field (Long-Standing Dynasty & Open Inclusion)',
+          description:
+            'Cross Country features six competitive divisions (6th/7th/8th boys & girls) led by a head coach with over 20 years of coaching tenure at CMS [23]. Over 1,000 runners compete in four large Wednesday league meets before the WVAL Finals [23]. Track & Field (Season 5) guarantees open participation for all students, building endurance and speed prior to high school [19].',
+        },
+      ],
+    },
+    community: {
+      behavioralCharter: {
+        name: 'PBIS Framework & "Olympic Odyssey" Belonging Theme',
+        motto: 'Bear Pride: Resilient Learners & Global Contributors',
+        pillars: [
+          {
+            name: 'Belonging & Community',
+            description:
+              'Cultivating an inclusive, supportive environment honoring students of all linguistic and cultural backgrounds [3, 27].',
+          },
+          {
+            name: 'Resilience & Goal Setting',
+            description:
+              'Encouraging academic perseverance, self-advocacy, and emotional intelligence [8, 25].',
+          },
+          {
+            name: 'Positive Recognition',
+            description:
+              'Recognizing constructive behavior, teamwork, and school pride through "Honey Tokens" and monthly "Bear Paws" assemblies [5, 27].',
+          },
+          {
+            name: 'Global Contribution',
+            description:
+              'Inspiring students to act as ethical, responsible community contributors and environmental stewards [8, 43].',
+          },
+        ],
+      },
+      communityEngagement: {
+        title: 'WEB Peer Mentorship, ParentVUE & Principal Coffees',
+        description:
+          'Active parent-school partnerships and cross-grade student leadership initiatives [3, 12, 30].',
+        initiatives: [
+          'WEB ("Where Everyone Belongs"): 8th-grade student leaders guide 6th graders through team activities, campus tours, and ongoing check-ins [3].',
+          'ParentVUE & StudentVUE: Digital gradebooks, assignment portals, and progress tracking accessible to parents and students [8, 23, 30].',
+          'Principal Coffee & ELAC Meetings: Monthly forums with Dr. Zuniga to discuss school climate, curriculum, and safety [12, 27].',
+          'Bear Bulletin Daily Announcements: Morning school news broadcast digitally and read in classrooms [30].',
+        ],
+      },
+      academicClimateAndWellbeing: {
+        historicalContext:
+          'Situated in the high-achieving Silicon Valley tech corridor, CMS balances rigorous academic standards with strong socio-emotional counseling and emotional intelligence frameworks [25, 27].',
+        investigationFindings:
+          'Reviews on Niche and GreatSchools highlight CMS\'s excellent preparation for high school honors and competitive math/science, noting that while 100% of respondents characterize the student body as competitive, the climate is modestly less intense than peer schools like Lawson or Miller, with exceptional equity ratings for diverse learners [2, 6, 13, 33].',
+        countermeasures: [
+          'Dedicated Guidance Counseling: 561:1 to 584:1 ratio assisting with conflict resolution, academic planning, and wellness [6, 30].',
+          'Emotional Intelligence Leadership: Principal Dr. Zuniga holds an Ed.D. in emotional intelligence and teamwork [25].',
+          'Closed Campus & Strict Health Protocols: Regulated medication administration and health office evaluation procedures ensuring safety [30].',
+        ],
+      },
+    },
+    facilities: {
+      architecturalHeritage: {
+        architects: 'Mid-Century California Finger-Wing Architecture & 2013–2019 Modernizations',
+        year: 1954,
+        history:
+          'Originally built in 1954–1955 during post-WWII expansion; transformed into a junior high in 1962; thoroughly modernized with new classroom wings (2014) and Event Center gym (2015) [5].',
+      },
+      keyFacilities: [
+        {
+          name: 'CMS Event Center & Gymnasium (2015)',
+          category: 'Athletics & PE',
+          description:
+            'State-of-the-art indoor athletic facility hosting basketball, volleyball, student assemblies, and community events [5].',
+        },
+        {
+          name: 'Modern Classroom Wing (2014)',
+          category: 'Classrooms',
+          description:
+            'High-density instructional building featuring modern interactive displays, flexible seating, and advanced wireless networks [5].',
+        },
+        {
+          name: 'Science Laboratories & STEM Classrooms',
+          category: 'STEM & Labs',
+          description:
+            'Modernized science labs supporting hands-on inquiry, chemistry experiments, and Science Olympiad build challenges [5, 9].',
+        },
+        {
+          name: 'Library Learning Commons & Media Hub',
+          category: 'Research & Gathering',
+          description:
+            'Central research library with digital catalog access, quiet study areas, and Chromebook charging stations [5, 23].',
+        },
+        {
+          name: 'Athletic Fields & Track Complex',
+          category: 'Athletics & PE',
+          description:
+            '21-acre campus grounds featuring regulation running track, soccer/football fields, and baseball diamond [5, 23].',
+        },
+        {
+          name: 'Measure Z Commercial Kitchen & HVAC Upgrades',
+          category: 'Facilities',
+          description:
+            'Bond-funded energy-efficient HVAC climate control systems and modernized commercial food service walk-in refrigeration units [8, 34].',
+        },
+      ],
+    },
+    logistics: {
+      counselingModel: {
+        name: 'Caseload Academic Counseling & Health Office Protocols',
+        description:
+          'Dedicated counselors divided by student last names (A–L and M–Z) providing academic tracking, socio-emotional guidance, and high school articulation [1, 30].',
+      },
+      academicInterventions: {
+        name: 'ELO-P Expanded Learning & Chromebook 1:1 Integration',
+        description:
+          'State-funded Expanded Learning Opportunities Program (ELO-P) after-school tutoring, supervised recreation, and 1:1 district Chromebooks with StudentVUE [23, 36].',
+      },
+      safetyAndTransit: {
+        title: 'Ingress Protocols, Closed Campus & Work Proximity',
+        points: [
+          'Location: 1650 S. Bernardo Ave, Sunnyvale, CA 94087; ~7–10 min drive to MP4 Sunnyvale workplace [3, 4].',
+          'Strict Closed Campus: Students must remain on campus grounds during brunch and lunch; safety drills conducted regularly [30].',
+          'Health Office Protocols: Strict medication storage in main office; sick students evaluated before parent notification [30].',
+          'No Weekend Sports Policy: WVAL league schedules practices and games strictly Mon–Thu, preserving family weekends [19].',
+        ],
+      },
+    },
+    extracurriculars: {
+      stemCompetitions: [
+        {
+          category: 'Mathematics',
+          name: 'MATHCOUNTS, AMC 8 & Math Olympiad',
+          description:
+            'Active participating site and regional host for the Santa Clara Valley Northwest MATHCOUNTS chapter and AMC 8 exams [17, 18].',
+        },
+        {
+          category: 'Science Olympiad',
+          name: 'Science Olympiad Division B Team',
+          description:
+            'Comprehensive middle school competitive science squad preparing across 23 national knowledge, lab, and engineering events [9].',
+        },
+        {
+          category: 'Robotics & Coding',
+          name: 'CMS Robotics & Computer Science Guild',
+          description:
+            'Lego Mindstorms/SPIKE and VEX robotics design, 3D printing prototyping, and Python/Scratch programming [6, 31].',
+        },
+        {
+          category: 'Applied Arts & Music',
+          name: 'Concert Band, Jazz Ensemble, Choir & Drama',
+          description:
+            'Comprehensive performing arts program with annual theatrical productions, orchestra concerts, and choral festivals [6, 31].',
+        },
+      ],
+      outdoorAndMedia: [
+        {
+          name: 'Signature 8th-Grade Yosemite Outdoor Program (NatureBridge)',
+          grade: 'Grade 8',
+          description:
+            'Annual 5-day, 4-night residential environmental science program in Yosemite National Park with field science and trail ecology [43, 44].',
+        },
+        {
+          name: 'WEB ("Where Everyone Belongs") Peer Leadership',
+          grade: 'Grade 8 Mentors / Grade 6 Mentees',
+          description:
+            '8th-grade student leaders facilitate 6th-grade orientation, school climate initiatives, and campus transition support [3].',
+        },
+        {
+          name: 'Bear Bulletin & Campus Media Broadcast',
+          grade: 'Grades 6–8',
+          description:
+            'Daily morning video announcements, journalism, and student council communications [30].',
+        },
+      ],
+      dayInTheLife: [
+        {
+          time: '7:45 AM – 7:57 AM',
+          activity: 'Campus Arrival & Warning Bell',
+          description: 'Students arrive at the 21-acre Sunnyvale campus; morning warning bell rings at 7:57 AM [29].',
+        },
+        {
+          time: '8:00 AM – 8:50 AM',
+          activity: 'Period 1: Core Academic Subject (Mathematics)',
+          description: 'Direct math instruction and collaborative problem-solving; daily "Bear Bulletin" announcements [29, 30].',
+        },
+        {
+          time: '8:54 AM – 9:44 AM',
+          activity: 'Period 2: English Language Arts (ELA)',
+          description: 'Literature analysis, expository writing workshops, and vocabulary development [29].',
+        },
+        {
+          time: '9:48 AM – 10:41 AM',
+          activity: 'Period 3: Integrated Science Laboratory',
+          description: 'Hands-on laboratory investigations, earth science, and physical science experimentation [29].',
+        },
+        {
+          time: '10:41 AM – 11:01 AM',
+          activity: 'Brunch Break on Central Quad',
+          description: '20-minute mid-morning outdoor break on the central landscaped quad [29].',
+        },
+        {
+          time: '11:04 AM – 11:54 AM',
+          activity: 'Period 4: Elective (World Language / Coding / Band)',
+          description: 'Specialized exploratory elective such as Spanish, Mandarin, Computer Science, or Concert Band [6, 29].',
+        },
+        {
+          time: '11:58 AM – 12:48 PM',
+          activity: 'Period 5: Social Studies / Ancient Civilizations',
+          description: 'Historical inquiry, world geography, and primary document analysis [29].',
+        },
+        {
+          time: '12:48 PM – 1:18 PM',
+          activity: 'Lunch Break & Student Clubs',
+          description: '30-minute lunch; quad recreation, library research, or lunchtime club meetings (Chess, Robotics, Art) [29, 31].',
+        },
+        {
+          time: '1:21 PM – 2:11 PM',
+          activity: 'Period 6: Physical Education (PE) & Fitness',
+          description: 'Physical fitness drills, team sports, and track running on the athletic grounds [29].',
+        },
+        {
+          time: '2:15 PM – 3:05 PM',
+          activity: 'Period 7: Elective or Academic Support',
+          description: 'Secondary elective module, arts exploration, or targeted academic intervention [29].',
+        },
+        {
+          time: '3:05 PM Onward',
+          activity: 'Dismissal & WVAL Interscholastic Sports Practice',
+          description: 'Transition to WVAL Cross Country or Soccer practice (Mon–Thu) or ELO-P after-school study hall [19, 36].',
+        },
+      ],
+    },
+    historyAndLeadership: {
+      historicalChronology: [
+        '1917: Cupertino Union School District established through consolidation of 4 historic one-room school districts [9].',
+        '1954–1955: Cupertino Middle School campus constructed on 21 acres in Sunnyvale during post-WWII expansion [5].',
+        '1962: Campus converted into a dedicated junior high school within CUSD [5].',
+        '2013: Deep infrastructure modernization replacing site utilities and digital networks [5].',
+        '2014: Construction of the modern two-story high-density classroom wing [5].',
+        '2015: Completion of the state-of-the-art CMS Event Center gymnasium [5].',
+        '2026: Dr. Jennifer Hawn assumes CUSD Superintendency; Dr. Alison Zuniga leads CMS with "Olympic Odyssey" theme [8, 25, 27].',
+      ],
+      namesakeBackground:
+        'Named for the City of Cupertino and the historic Cupertino Union School District, situated at the crossroads of Sunnyvale, Cupertino, and Los Altos [3, 9].',
+      leadershipCohort: [
+        {
+          gradeOrRole: 'Principal (Site Executive)',
+          administrator: 'Dr. Alison Zuniga (Ed.D. in Emotional Intelligence & Teamwork, ASU; Former AP San Jose High) [25]',
+          counselor: 'Dr. Jennifer Hawn (CUSD Superintendent) [8]',
+        },
+        {
+          gradeOrRole: 'Assistant Principal (A–L)',
+          administrator: 'Emily DeLora Ellefson (Curriculum, instruction & academic services) [1]',
+          counselor: 'Academic Counselors (Caseload A–L) [1, 6]',
+        },
+        {
+          gradeOrRole: 'Assistant Principal (M–Z)',
+          administrator: 'Carmen Andrade (School operations, equity & student discipline) [1]',
+          counselor: 'Academic Counselors (Caseload M–Z) [1, 6]',
+        },
+        {
+          gradeOrRole: 'Athletic Leadership & Activities',
+          administrator: 'CMS Physical Education & Coaching Staff (WVAL League Directors) [19, 23]',
+          counselor: 'CMS-PTO & School Site Council [38, 39]',
+        },
+      ],
+      mediaAnalysis: {
+        positive:
+          'Commended for top 3% statewide standardized testing outcomes, rigorous preparation for high school honors STEM, exceptional growth percentiles for English Learners (98.4th percentile), accessible counselors, and modern Event Center facilities [2, 6, 13, 26].',
+        neutral:
+          'Reviews note a competitive student climate (100% in Niche survey report competitive peers) and comparisons to CUSD sister schools (Lawson, Miller), though families value CMS for a slightly more balanced environment [2, 33].',
+        critical: {
+          incidentSummary:
+            'Historical parent feedback mentioned middle school hallway behavior and variability in homework pacing across instructors [32].',
+          reforms: [
+            'Institutionalized the PBIS recognition system ("Honey Tokens" and "Bear Paws") to foster positive behavioral culture [5, 27].',
+            'Expanded the WEB peer mentorship framework to support 6th-grade social belonging [3].',
+            'Maintained strict WVAL policies prohibiting weekend athletic commitments [19].',
+          ],
+        },
+      },
+    },
+    prospectiveFamilySynthesis: {
+      summary:
+        'For a prospective parent evaluating Cupertino Middle School for a rising 6th grader, CMS delivers top 3% California academic performance within CUSD, exceptional growth equity for diverse learners, 5-season WVAL athletics with no weekend commitments, MATHCOUNTS/Science Olympiad STEM tracks, and the signature 8th-grade NatureBridge Yosemite experience—all just 7–10 minutes from Sunnyvale workplaces [2, 6, 19, 43].',
+      keyTakeaways: [
+        'Top 3% Statewide Academic Excellence: 75%–77% Math and 77%–80% ELA proficiency (#74 of 2,761 in CA) with top 2% statewide equity growth for English Learners [2].',
+        '5-Season WVAL Athletics (No Weekend Burden): 11-school competitive league with Mon–Thu scheduling, competitive Soccer, and open-participation Cross Country and Track [19, 23].',
+        'Advanced STEM & National Competitions: Regional host site for MATHCOUNTS, AMC 8 Math Olympiad, and 23-event Science Olympiad Division B squad [9, 17, 18].',
+        'Signature Milestone Traditions: 6th-grade WEB peer mentorship, modern 2015 Event Center gym, and 8th-grade NatureBridge Yosemite 5-day residential field science expedition [3, 5, 43].',
+      ],
+    },
+    worksCited: [
+      { id: 1, title: 'Middle Schools - Cupertino Union School District', url: 'https://www.cusdk8.org/schools/middle-schools' },
+      { id: 2, title: 'Cupertino Middle School in Sunnyvale CA - SchoolDigger Profile & Rankings', url: 'https://www.schooldigger.com/go/CA/schools/1029001127/school.aspx' },
+      { id: 3, title: 'About Us & Demographics - Cupertino Middle School', url: 'https://cms.cusdk8.org/about-us' },
+      { id: 4, title: 'Contact Us & Campus Location - Cupertino Middle School', url: 'https://cms.cusdk8.org/about-us/contact-us' },
+      { id: 5, title: 'Cupertino Middle School - LPA Masterplans & Facility Upgrades', url: 'https://lpamasterplans.com/cupertino-usd-fmp/middle-schools/cupertino-middle-school/' },
+      { id: 6, title: 'Cupertino Middle | Sunnyvale, CA (For STEM & High Feeder) - Moonpreneur', url: 'https://moonpreneur.com/school/m/ca/sunnyvale/cupertino-middle-14149' },
+      { id: 7, title: 'Locations & Athletic Fields - Valley Athletic League', url: 'https://valleyal.org/locations' },
+      { id: 8, title: 'Cupertino Union School District Home & Strategic Priorities', url: 'https://www.cusdk8.org/' },
+      { id: 9, title: 'Cupertino Union School District - Wikipedia', url: 'https://en.wikipedia.org/wiki/Cupertino_Union_School_District' },
+      { id: 10, title: 'About Us - Cupertino Union School District Profile', url: 'https://www.cusdk8.org/about-us' },
+      { id: 11, title: 'Education Options - Cupertino Union School District', url: 'https://www.cusdk8.org/our-approach/educationoptions' },
+      { id: 12, title: 'Cupertino Middle School School Accountability Report Card (SARC)', url: 'https://www.axiomadvisors.net/livesarc/sarcindexpdfs/43694196046767_08-09_1.pdf' },
+      { id: 13, title: 'Cupertino Middle School in Sunnyvale, CA - Homes.com Profile', url: 'https://www.homes.com/school/sunnyvale-ca/cupertino-middle-school/0460dxb7m0gb1/' },
+      { id: 14, title: '2026 Cupertino Middle School Rankings - Niche', url: 'https://www.niche.com/k12/cupertino-middle-school-sunnyvale-ca/rankings/' },
+      { id: 15, title: 'Cupertino Middle School vs. Sam H. Lawson Middle School Comparison', url: 'https://www.publicschoolreview.com/popular-comparisons/cupertino-middle-school-vs-sam-h-lawson-middle-school/6631/125892' },
+      { id: 16, title: 'Best Middle Schools in Cupertino, CA - GreatSchools', url: 'https://www.greatschools.org/best-middle-schools/california/cupertino/' },
+      { id: 17, title: 'Northwest Santa Clara Valley Chapter - MATHCOUNTS of California', url: 'https://cspeef.org/competitions/santa-clara-valley-northwest/' },
+      { id: 18, title: 'Pre-Algebra & Math Olympiad Middle School Preparation - Think Academy', url: 'https://www.thethinkacademy.com/blog/think-academy-2026-spring-pre-algebra-math-course-introduction/' },
+      { id: 19, title: 'After School Sports & 5 Seasons - Cupertino Middle School', url: 'https://cms.cusdk8.org/student-life/after-school-sports' },
+      { id: 20, title: 'Schools & Member Districts - Valley Athletic League', url: 'https://www.valleyal.org/content/8260/Schools' },
+      { id: 21, title: 'Interscholastic Sports - Cupertino Union School District', url: 'https://www.cusdk8.org/departments/sports' },
+      { id: 22, title: 'Student Activities & Enrichment - CUSD Middle Schools', url: 'https://miller.cusdk8.org/community/student-activities' },
+      { id: 23, title: 'Cross Country Program - Mr. Sickler Physical Education Website', url: 'https://www.sickfitpe.com/cross-country.html' },
+      { id: 24, title: 'Cupertino Little League & Community Sports Facilities', url: 'http://tshq.bluesombrero.com/Default.aspx?tabid=1298504&portalid=21035&mid=1375377&templateid=-1&ctl=viewallfieldstatus' },
+      { id: 25, title: 'Dr. Alison Zuniga Professional Leadership Profile | CUSD', url: 'https://rocketreach.co/alison-zuniga-email_238820941' },
+      { id: 26, title: 'Sunnyvale Fire Displaces Residents - The Silicon Valley Voice', url: 'https://www.svvoice.com/sunnyvale-fire-displaces-24-residents/' },
+      { id: 27, title: 'Principal Message & Olympic Odyssey Theme - Cupertino Middle School', url: 'https://cms.cusdk8.org/about-us/principal-message' },
+      { id: 28, title: 'Cupertino Middle School Directory Details (CA Dept of Education)', url: 'https://www.cde.ca.gov/schooldirectory/details?cdscode=43694196046767' },
+      { id: 29, title: 'Bell Schedule & 7-Period Structure - Cupertino Middle School', url: 'https://cms.cusdk8.org/about-us/bell-schedule' },
+      { id: 30, title: 'CMS Student Handbook, Medication & Safety Policies - Cupertino Middle', url: 'https://cms.cusdk8.org/about-us/handbook' },
+      { id: 31, title: 'Clubs & Student Activities - Cupertino Middle School', url: 'https://cms.cusdk8.org/student-life/clubs' },
+      { id: 32, title: 'Cupertino Middle School Reviews & Feedback - Movoto', url: 'https://www.movoto.com/schools/sunnyvale-ca/cupertino-middle-school-061029001127/' },
+      { id: 33, title: 'Cupertino Middle School Student Life & Climate Reviews - Niche', url: 'https://www.niche.com/k12/cupertino-middle-school-sunnyvale-ca/' },
+      { id: 34, title: 'Cupertino Union School District Walk-In Cooler/Freezer Project IFB', url: 'https://civiciq.com/public-rfp/cupertino-union-school-district-walk-in-cooler-freezer-project-ifb-26-b04-08' },
+      { id: 35, title: 'Cupertino Middle School Official Portal', url: 'https://cms.cusdk8.org/' },
+      { id: 36, title: 'Expanded Learning Opportunities Program (ELO-P) - CUSD', url: 'https://www.cusdk8.org/departments/educational-services/expanded-learning-opportunities-program-elop' },
+      { id: 37, title: 'School Calendar & Events - Cupertino Middle School', url: 'https://cms.cusdk8.org/about-us/school-calendar' },
+      { id: 38, title: 'About CMS-PTO & Parent Engagement', url: 'https://cms-pto.org/what-is-cms-pto/' },
+      { id: 39, title: 'School Site Council & Governance - Cupertino Middle School', url: 'https://cms.cusdk8.org/about-us/school-site-council2' },
+      { id: 40, title: 'Student Life & Campus Opportunities - Cupertino Middle School', url: 'https://cms.cusdk8.org/student-life' },
+      { id: 41, title: 'Middle School Academics in Cupertino - Legend Learning Center', url: 'https://legendlearning.com/category/middle-school-academics/' },
+      { id: 42, title: 'Academic Competitions in CUSD - Miller / Cupertino', url: 'https://miller.cusdk8.org/community/student-activities/academic-competitions' },
+      { id: 43, title: 'Yosemite Outdoor Education Program - Cupertino Union School District', url: 'https://www.cusdk8.org/departments/educational-services/yosemite' },
+      { id: 44, title: 'Information & Forms: NatureBridge Yosemite - CUSD', url: 'https://www.cusdk8.org/departments/educational-services/yosemite/information-forms' },
+      { id: 45, title: 'Yosemite Program FAQs & On-Campus Alternative - CUSD', url: 'https://www.cusdk8.org/departments/educational-services/yosemite/faqs' },
+    ],
+  },
 };
 
