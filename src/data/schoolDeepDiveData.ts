@@ -13,7 +13,7 @@ export const GREAT_SCHOOLS_DATABASE: Record<string, GreatSchoolsData> = {
     stateEnglishAvg: 47,
     stateScienceAvg: 30,
     teachersWith3PlusYears: 96,
-    teacherRatioStateAvg: '21:1 (Blach is 14:1)',
+    teacherRatioStateAvg: '21:1 (Blach is 18:1)',
     sourceUrl: 'https://www.greatschools.org/california/los-altos/5515-Georgina-P.-Blach-Junior-High-School/',
     lastUpdated: '2026 Academic Year (CAASPP & CAST)',
   },

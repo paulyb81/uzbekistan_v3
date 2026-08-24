@@ -955,7 +955,7 @@ export const SchoolDetailPage: React.FC<SchoolDetailPageProps> = ({
                   <div className="bg-white dark:bg-[#121826] border border-slate-200 dark:border-slate-800 rounded-2xl p-6 shadow-sm space-y-4">
                     <h3 className="text-sm font-bold text-slate-900 dark:text-white flex items-center gap-2">
                       <Clock className="w-4 h-4 text-sky-600" />
-                      A Day in the Life of an Incoming 6th Grader at {school.shortName}
+                      A Day in the Life of a Student at {school.shortName}
                     </h3>
                     <div className="space-y-3 relative before:absolute before:inset-0 before:left-3 before:w-0.5 before:bg-slate-200 dark:before:bg-slate-800">
                       {report.extracurriculars.dayInTheLife.map((step, dIdx) => (

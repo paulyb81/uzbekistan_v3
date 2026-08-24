@@ -582,4 +582,437 @@ export const INSTITUTIONAL_REPORTS: Record<string, InstitutionalReport> = {
       { id: 51, title: 'Investigation to begin as JLS incident sparks concern - The Paly Voice', url: 'https://palyvoice.com/172797/news/investigation-to-begin-as-jls-incident-sparks-concern/' },
     ],
   },
+  'blach-intermediate': {
+    schoolId: 'blach-intermediate',
+    title: 'Institutional Evaluation of Georgina P. Blach Intermediate School',
+    subtitle: 'History, Academic Frameworks, District Dynamics, and Student Experience',
+    overview: {
+      leadParagraph:
+        'Georgina P. Blach Intermediate School is a top-performing public junior high school located at 1120 Covington Road in southern Los Altos, California [1]. Operating within the Los Altos School District (LASD), Blach serves approximately 388 to 423 students in the seventh and eighth grades [1, 3]. The school functions as the primary middle school destination for students matriculating from southern and western Los Altos elementary campuses, including Almond, Covington, Loyola, Oak, and Springer elementary schools [1].',
+      metricsParagraph:
+        'The institution holds a long-standing reputation for high academic performance, consistently ranking among the top 15 public middle schools in California and receiving an overall grade of A+ on educational review platforms [2, 3]. Blach was designated a National Blue Ribbon School by the U.S. Department of Education in 2014 and earned California Distinguished School honors in 1990, 1992, and 2023 [1]. For a prospective parent evaluating middle school options, Blach presents an educational environment characterized by academic challenge, structured extracurricular programs, modern facilities, and a tight-knit community context [1].',
+      benchmarkTable: [
+        {
+          metric: 'Grades Served & Grade Structure',
+          schoolValue: '7th – 8th Grade [1]',
+          districtValue: 'TK–8 (LASD)',
+          stateValue: 'K–12 Public',
+        },
+        {
+          metric: 'Student Enrollment Cohort',
+          schoolValue: '388 – 423 Students [3]',
+          districtValue: '~3,400 Total',
+          stateValue: '~600 Avg Middle',
+        },
+        {
+          metric: 'Student-to-Teacher Ratio',
+          schoolValue: '18:1 [3]',
+          districtValue: '18:1',
+          stateValue: '22:1',
+        },
+        {
+          metric: 'State & Federal Honors',
+          schoolValue: 'Blue Ribbon (2014) / 3x CA Dist. [1]',
+          districtValue: 'High Baseline',
+          stateValue: 'Standard',
+        },
+        {
+          metric: 'Niche California Rankings',
+          schoolValue: '#15 Best Teachers / #44 School [3]',
+          districtValue: 'Top 5% in CA',
+          stateValue: 'State Average',
+        },
+        {
+          metric: 'Feeder Elementary Campuses',
+          schoolValue: 'Almond, Covington, Loyola, Oak, Springer [1]',
+          districtValue: '7 Elementary Sites',
+          stateValue: 'N/A',
+        },
+      ],
+    },
+    academics: {
+      lead:
+        'Blach Intermediate School delivers a rigorous core curriculum structured to prepare seventh and eighth-grade students for the transition to regional high schools within the Mountain View–Los Altos Union High School District (MVLA) [1]. Core academic requirements include English Language Arts, Mathematics, Science, and Social Studies, alongside specialized elective choices [1].',
+      teamingModel: {
+        title: 'Core Academics & High School Preparation',
+        description:
+          'Blach structures seventh and eighth-grade instruction to ensure comprehensive mastery of core subjects and smooth matriculation to Los Altos High School or Mountain View High School [1]. Instruction combines high academic expectations with individualized social-emotional support under a "care and push" approach [1, 11].',
+      },
+      mathProgression: {
+        title: 'MATHCOUNTS & Competitive Mathematics League',
+        description:
+          'Blach fields a dedicated competitive math team in the Peninsula Chapter MATHCOUNTS league [19]. Coached by faculty leaders, Blach\'s math program regularly competes against top public and private schools in Silicon Valley, challenging students in advanced algebra, geometry, speed arithmetic, and complex logic, and frequently advancing individual students and team cohorts to the Northern California State MATHCOUNTS Competition and the AMC 8 contest [19, 21, 22].',
+      },
+      choiceProgram: {
+        name: 'Science Olympiad ("Blach MS-Green") & LAHS Mentorship',
+        description:
+          'Blach maintains an active Science Olympiad program (competing under the team handle "Blach MS-Green") that participates in regional and university tournaments, including the Santa Clara County Regional Science Olympiad and the Scioly Invitational at UC Berkeley [20, 23]. Blach’s program benefits from a direct mentorship pipeline with nearby Los Altos High School (LAHS), where LAHS officers and alumni regularly mentor Blach students in laboratory preparation and engineering builds [25].',
+        pillars: [
+          {
+            title: 'Study Events',
+            description:
+              'Academic testing in specialized fields such as anatomy, astronomy, meteorology, and epidemiology [24].',
+          },
+          {
+            title: 'Lab & Inquiry Events',
+            description:
+              'Hands-on experimental challenges in chemistry, physics, and forensic science [24].',
+          },
+          {
+            title: 'Engineering & Building Events',
+            description:
+              'Pre-built design projects where student teams construct functional devices—such as gliders, wooden bridges, or rubber-band-powered vehicles—to satisfy strict engineering benchmarks [24].',
+          },
+          {
+            title: 'High School Mentorship Pipeline',
+            description:
+              'Direct workshop guidance and build review sessions conducted by Los Altos High School Science Olympiad officers [25].',
+          },
+        ],
+        governance: 'Coached by faculty leads and parent volunteers in coordination with LAHS STEM leadership.',
+      },
+      foundationFunding: {
+        name: 'Los Altos Education Foundation (LAEF) & PTA Funding',
+        description:
+          'Direct financial support from the local community plays an essential role in sustaining academic programming and student wellness through the Los Altos Education Foundation (LAEF) and the Blach PTA [1].',
+        initiatives: [
+          'Fund dedicated school counselors and mental health support personnel across the district [1].',
+          'Support specialized literacy coaches, writing pedagogy specialists, and STEM elective teachers [1].',
+          'Finance campus librarians, physical education equipment, and state-of-the-art classroom materials [1].',
+          'Sponsor student wellness initiatives in partnership with EQ Schools for mindfulness and positive peer culture [11].',
+        ],
+      },
+    },
+    athletics: {
+      leagueArchitecture: {
+        title: 'League Architecture: Valley Athletic League (VAL) & Los Altos Recreation',
+        leagues: [
+          {
+            name: 'Valley Athletic League (VAL)',
+            description:
+              'Blach competes in the Valley Athletic League for nearly all official school sports [26]. The VAL is an interscholastic sports league comprising 11 middle schools across four local public school districts (LASD, CUSD, SSD, and MVWSD), providing structured regional competition against neighboring cities without requiring costly private club fees [28]. (Note: SCVAL is the high school athletic conference serving MVLA [32]).',
+          },
+          {
+            name: 'Los Altos Recreation Department Administration',
+            description:
+              'Following school-based tryouts led by PE staff and coaches, rostered student-athletes register through the Los Altos Recreation Department and pay a standard $115 athletic registration fee per sport [27].',
+          },
+        ],
+      },
+      seasonalSchedule: [
+        {
+          season: 'Season 1 (Aug–Sept)',
+          sports: 'Co-Ed Cross Country, Girls Softball, Boys Basketball [27]',
+          structure: 'Tryouts for Basketball/Softball; Cross Country is non-cut and open to all students [27].',
+        },
+        {
+          season: 'Season 2 (Oct–Nov)',
+          sports: 'Girls Volleyball, Co-Ed Wrestling [27]',
+          structure: 'Tryouts for Volleyball; Wrestling is non-cut and inclusive [27].',
+        },
+        {
+          season: 'Season 3 (Dec–Jan)',
+          sports: 'Boys Volleyball, Girls Soccer [27]',
+          structure: 'Tryouts held on gym courts and central campus soccer fields [27].',
+        },
+        {
+          season: 'Season 4 (Feb–Mar)',
+          sports: 'Boys Soccer, Girls Basketball [27]',
+          structure: 'Tryouts held on gym courts and soccer fields [27].',
+        },
+        {
+          season: 'Season 5 (Apr–May)',
+          sports: 'Co-Ed Track & Field [27]',
+          structure: 'Non-cut, inclusive team open to all students on the campus running track [27].',
+        },
+        {
+          season: 'Independent Seasons',
+          sports: 'Tennis (Mid-Peninsula), Flag Football [27]',
+          structure: 'Administered outside VAL league structures during spring and fall [27].',
+        },
+      ],
+      focusSportsAnalysis: [
+        {
+          title: 'Soccer Program (Girls: Season 3 / Boys: Season 4)',
+          description:
+            'Tryouts take place on Blach’s central grass soccer field, fielding distinct 7th-grade and 8th-grade teams that compete against other VAL middle schools [27]. Campus fields also serve as host sites for community youth sports organizations, including AYSO Region 1099 and i9 Sports co-ed leagues [33, 34].',
+        },
+        {
+          title: 'Track & Field & Athletic Recognition (Blach Jacket)',
+          description:
+            'Track & Field operates as a non-cut, co-ed sport during April and May on the campus track complex [27]. Student-athletes who complete four or more official interscholastic sports seasons during their two years at Blach are awarded an official Blach Athletics jacket at the end-of-year Sports Awards assembly [35].',
+        },
+      ],
+    },
+    community: {
+      behavioralCharter: {
+        name: 'Falcon Culture: "Care and Push" Philosophy',
+        motto: 'Combining High Academic Expectations with Individualized Social-Emotional Support',
+        pillars: [
+          { name: 'Academic Accountability', description: 'Emphasizing high expectations and preparation for high school success [1].' },
+          { name: 'Social-Emotional Wellness', description: 'Partnering with EQ Schools for mindfulness and emotional resilience [11].' },
+          { name: 'Falcon Pride', description: 'Celebrating school spirit, Pancake Breakfasts, and Holiday Faires [1].' },
+          { name: 'Inclusive Community', description: 'Zero tolerance for hate; partnering with ADL for anti-bias learning [40].' },
+          { name: 'Thrive & Vibe', description: 'Building authentic peer connections in dedicated campus wellness lounges [30].' },
+        ],
+      },
+      communityEngagement: {
+        title: 'Community Traditions & Parent Partnerships',
+        description:
+          'School culture at Blach is defined by high parent involvement, active community partnerships, and civic participation [1]. The Parent Teacher Association (PTA) and the Los Altos Education Foundation (LAEF) provide significant financial and volunteer resources [1].',
+        initiatives: [
+          'PTA Family Pancake Breakfast and community morning gatherings [1].',
+          'Annual Campus Holiday Faire and student artisan showcase [1].',
+          'Back-to-School Night and 7th-Grade Transition Orientations [1, 36].',
+          'Eighth-Grade Graduation Ceremonies & Outdoor Leadership recognition [38].',
+        ],
+      },
+      academicClimateAndWellbeing: {
+        historicalContext:
+          'Operating in high-performing Los Altos, LASD balances academic rigor with structured mental health supports [1, 2]. District leadership emphasizes a student-centered culture where moderate enrollment (~400 students) ensures every student is recognized and supported [1].',
+        investigationFindings:
+          'In partnership with EQ Schools, faculty members receive training in student social-emotional wellness and positive peer culture to create a supportive middle school transition [11, 17].',
+        countermeasures: [
+          'Thrive and Vibe Center: A dedicated space on campus where 7th and 8th graders meet during breaks to relax, interact with peers, and build friendships in a supportive environment [30].',
+          'Multi-Tiered System of Supports (MTSS): Faculty utilizes MTSS protocols, co-teaching models, and targeted intervention strategies to assist students needing academic reinforcement [44].',
+          'LAEF-Funded Counselors: Community contributions fund professional school counselors and mental health specialists [1].',
+          'Anti-Bias & Anti-Hate Partnerships: Active student and faculty workshops conducted with the Anti-Defamation League (ADL) [40].',
+        ],
+      },
+    },
+    facilities: {
+      architecturalHeritage: {
+        architects: 'Gelfand Partners Architects',
+        year: 2002,
+        history:
+          'Originally established in 1957, the campus underwent a comprehensive 75,000-square-foot architectural modernization in 2002 designed by Gelfand Partners [42]. The project transformed 1950s infrastructure into a modern learning environment with passive daylighting, natural cross-ventilation, and permanent construction, earning the AIA California Council Energy Efficiency Integration Merit Award, CEFPI Project of Distinction, and verification as an Ultralow Energy facility by the New Buildings Institute [42].',
+      },
+      keyFacilities: [
+        {
+          name: 'Ultralow Energy Classroom Wings',
+          category: 'Instructional',
+          description:
+            'AIA-award-winning classrooms engineered with natural cross-ventilation, optimized daylighting, and modern instructional tech [42].',
+        },
+        {
+          name: 'Thrive and Vibe Center',
+          category: 'Wellness',
+          description:
+            'Dedicated on-campus student lounge for breaks, mindfulness, and relaxed peer interaction [30].',
+        },
+        {
+          name: 'Central Athletic Complex & Grass Fields',
+          category: 'Athletics',
+          description:
+            'Expansive grass soccer field, running track complex, and gymnasium hosting VAL games and community youth leagues [27, 33].',
+        },
+      ],
+    },
+    logistics: {
+      counselingModel: {
+        name: 'LAEF-Funded Counseling & MTSS Interventions',
+        description:
+          'Dedicated school counselors funded through LAEF collaborate with teachers and MTSS specialists to provide continuous academic and emotional guidance [1, 44].',
+      },
+      academicInterventions: {
+        name: 'Rotating Advisory & Block Scheduling',
+        description:
+          'A rotating schedule that balances standard 46-minute periods (Mon/Fri) with Tuesday 28-min Advisory, Wednesday Late Start (9:12 AM) 82-min blocks with 38-min afternoon Advisory, and Thursday block days [36, 43].',
+      },
+      safetyAndTransit: {
+        title: 'Commute Safety, 1:1 Technology & Universal Nutrition',
+        points: [
+          'Covington Road Traffic Safety: City of Los Altos installed dedicated roadway signage, crossing indicators, and traffic-calming enhancements along Covington Road [39].',
+          '1:1 Chromebook Deployment: Every incoming student is provided with an official Blach student planner and an LASD-issued Chromebook charger set on day one; charged nightly at home [36].',
+          'Universal Meals Program: Free breakfast and lunch daily under California\'s Universal Meals Program; third-party commercial deliveries (DoorDash/UberEats) strictly prohibited [36].',
+          'Short Commute to Sunnyvale MP4: ~10 minute drive to Sunnyvale MP4 workplace; top bikeability throughout Los Altos neighborhoods [5, 6].',
+        ],
+      },
+    },
+    extracurriculars: {
+      stemCompetitions: [
+        {
+          category: 'Mathematics',
+          name: 'MATHCOUNTS & AMC 8 Competitive Team',
+          description:
+            'Peninsula Chapter league coaching and competition, frequently advancing individual students and cohorts to Northern California State [19, 21].',
+        },
+        {
+          category: 'STEM Olympiad',
+          name: 'Science Olympiad ("Blach MS-Green")',
+          description:
+            '23 Division B events (Study, Lab, Engineering) competing in Santa Clara Regional and Berkeley Scioly with Los Altos High School mentorship [20, 24, 25].',
+        },
+        {
+          category: 'Student Life',
+          name: 'Student Clubs & Digital Magazine',
+          description:
+            'Student-led clubs in student government, drama, instrumental band, creative writing, art, robotics, and digital journalism [1, 6].',
+        },
+      ],
+      outdoorAndMedia: [
+        {
+          name: '8th-Grade Yosemite National Park Trip',
+          grade: 'Grade 8 (November)',
+          description:
+            'A landmark tradition: annual weeklong outdoor education trip to Yosemite National Park immersing students in environmental science, hiking, and team-building [37].',
+        },
+        {
+          name: 'Blach Student Digital Magazine',
+          grade: 'Grades 7–8',
+          description:
+            'Student-created digital publication featuring creative writing, photography, and campus news updates [6].',
+        },
+        {
+          name: 'Music & Performing Arts',
+          grade: 'Grades 7–8',
+          description:
+            'Concert band, jazz ensemble, drama productions, and musical performances supported by LAEF and PTA [1].',
+        },
+      ],
+      dayInTheLife: [
+        {
+          time: '8:25 AM',
+          activity: 'First Bell & Campus Arrival',
+          description: 'Students arrive via Covington Road bike paths, carpools, or neighborhood walks; Chromebooks ready for morning classes [36, 43].',
+        },
+        {
+          time: '8:30 AM – 10:50 AM',
+          activity: 'Core Academic Periods (ELA / Math / Science)',
+          description: 'Attending core academic instruction in literature, mathematics (pre-algebra/algebra), and physical/life science [43].',
+        },
+        {
+          time: '10:54 AM – 11:09 AM',
+          activity: 'Morning Brunch Break & Thrive & Vibe Check-In',
+          description: '15-minute brunch break; relaxing in the Thrive and Vibe Center or central courtyard [30, 43].',
+        },
+        {
+          time: '11:00 AM (Tuesdays)',
+          activity: 'Dedicated Advisory Period',
+          description: '28-minute advisory block for community-building, mindfulness with EQ Schools, and announcements [11, 43].',
+        },
+        {
+          time: '11:13 AM – 12:47 PM',
+          activity: 'Elective Explorations & Social Studies',
+          description: 'Instruction in Spanish, robotics, studio art, instrumental band, or world history [1, 43].',
+        },
+        {
+          time: '12:47 PM – 1:25 PM',
+          activity: 'Universal Free Lunch & Quad Socializing',
+          description: '38-minute lunch period; hot meals provided under California Universal Meals Program and quad games [36, 43].',
+        },
+        {
+          time: '1:29 PM – 3:03 PM',
+          activity: 'Afternoon Block / Academic Lab Periods',
+          description: 'Hands-on laboratory investigations and collaborative group projects prior to 3:03 PM dismissal [43].',
+        },
+        {
+          time: '3:05 PM – 4:45 PM',
+          activity: 'VAL Athletics & STEM Team Coaching',
+          description: 'After-school sports practice (cross country, soccer, track, volleyball) or MATHCOUNTS / Science Olympiad builds [26, 27].',
+        },
+      ],
+    },
+    historyAndLeadership: {
+      historicalChronology: [
+        '1909: Los Altos School District (LASD) founded with a single schoolhouse on San Antonio Road [2].',
+        '1957: Blach Intermediate School established during post-WWII suburban expansion to maintain dedicated sub-800 student junior high campuses [2].',
+        '1990, 1992, 2023: Designated a California Distinguished School by the California Department of Education [1].',
+        '2002: Campus undergoes comprehensive 75,000 sq ft modernization by Gelfand Partners, winning AIA California Council Energy Efficiency Integration and CEFPI awards [42].',
+        '2003–Present: Complex Proposition 39 district facility negotiations regarding Bullis Charter School (BCS) allocations [2, 10].',
+        '2014: Honored as a National Blue Ribbon School by the U.S. Department of Education [1].',
+        'July 2023: Veteran LASD educator Wade Spenader appointed Principal, advancing the "care and push" SEL philosophy [4, 11, 13].',
+      ],
+      namesakeBackground:
+        'Named in honor of Georgina P. Blach, a pioneering local educator and community advocate remembered for her dedicated support of youth development in Los Altos [8].',
+      leadershipCohort: [
+        {
+          gradeOrRole: 'Principal',
+          administrator: 'Wade Spenader (B.A. CSU Chico, M.A. San Jose State) [4, 13]',
+          counselor: 'LAEF-Funded Counseling Team [1]',
+        },
+        {
+          gradeOrRole: 'District Leadership',
+          administrator: 'Sandra McGonagle (Superintendent, LASD) [40]',
+          counselor: 'District Student Services & MTSS Specialists [44]',
+        },
+        {
+          gradeOrRole: '7th & 8th Grade Cohorts',
+          administrator: 'Wade Spenader / Department Chairs [12]',
+          counselor: 'Site Counselors & Wellness Coordinators [1, 30]',
+        },
+      ],
+      mediaAnalysis: {
+        positive:
+          'Local news outlets and real estate publications regularly spotlight Blach\'s academic accolades (#15 Best Public Middle School Teachers in CA, #44 Best Public Middle School in CA by Niche), top state standardized test percentiles, and smooth high school matriculation to Mountain View and Los Altos High Schools [1, 3, 38].',
+        neutral:
+          'Regional news organizations (Los Altos Town Crier) frequently cover the broader administrative landscape of LASD, including enrollment shifts, municipal safety improvements on Covington Road, and Proposition 39 facility-sharing agreements with Bullis Charter School [2, 10, 39].',
+        critical: {
+          incidentSummary:
+            'In December 2023, local media (including J. The Jewish News of Northern California) reported on an antisemitic vandalism incident in the boys\' P.E. locker room where seven swastikas sketched in pen were discovered [40].',
+          reforms: [
+            'Superintendent Sandra McGonagle issued a districtwide message affirming zero tolerance for hate or discrimination [40].',
+            'Principal Wade Spenader contacted the Los Altos Police Department, oversaw immediate graffiti remediation, and communicated safety steps directly to families [40].',
+            'Campus partnered with the Anti-Defamation League (ADL) to conduct anti-bias and anti-hate workshops for students and faculty [40].',
+          ],
+        },
+      },
+    },
+    prospectiveFamilySynthesis: {
+      summary:
+        'For a prospective parent evaluating Georgina P. Blach Intermediate School, Blach presents an exemplary public junior high environment balancing academic excellence, active STEM competition pathways (MATHCOUNTS, Science Olympiad), structured VAL athletics, modern ultralow-energy facilities, and experienced leadership committed to social-emotional wellness [1, 3].',
+      keyTakeaways: [
+        'Academic Rigor & STEM Pathways: Strong core preparation for MVLA high schools, top MATHCOUNTS competitive team advancing to State, and Science Olympiad mentored by Los Altos High School [1, 19, 25].',
+        'Moderate School Size (~400 Students): Allows faculty to know students personally, fostering high accountability and supportive mentorship under Principal Wade Spenader\'s "care and push" leadership [1, 11].',
+        'Comprehensive Athletics & Non-Cut Sports: 5 seasonal sports periods under VAL and Los Altos Recreation Department, including non-cut Cross Country, Wrestling, and Track & Field, plus the 4-sport varsity jacket tradition [26, 27, 35].',
+        'Modern Ultralow Energy Campus: Award-winning 75,000 sq ft Gelfand Partners reconstruction with passive daylighting, Thrive & Vibe Center, and Covington Road safety upgrades [30, 39, 42].',
+      ],
+    },
+    worksCited: [
+      { id: 1, title: 'About Blach School - Los Altos', url: 'https://www.blachschool.org/about-blach-school' },
+      { id: 2, title: 'Los Altos School District - Wikipedia', url: 'https://en.wikipedia.org/wiki/Los_Altos_School_District' },
+      { id: 3, title: 'Georgina P. Blach Junior High School in Los Altos, CA - Niche', url: 'https://www.niche.com/k12/georgina-p-blach-junior-high-school-los-altos-ca/' },
+      { id: 4, title: 'School Profile: Georgina P. Blach Junior High (CA Dept of Education)', url: 'https://www.cde.ca.gov/sdprofile/details.aspx?cds=43695186047435' },
+      { id: 5, title: 'Los Altos Real Estate & Neighborhood Guide | Nancy Liu Team', url: 'https://www.nancyliurealty.com/los-altos-realtor' },
+      { id: 6, title: 'Los Altos Schools and Real Estate Market for Families', url: 'https://www.davidazimigroup.com/los-altos-education-property' },
+      { id: 7, title: "Principal's Message - Blach Intermediate School", url: 'https://www.blachschool.org/principals-message' },
+      { id: 8, title: 'Georgina P Blach Falcons Apparel | Prep Sportswear', url: 'https://www.prepsportswear.com/school/us/california/los-altos/georgina-p-blach-intermediate-school-falcons?schoolid=147752' },
+      { id: 9, title: 'Los Altos Homes & Lifestyle Guide | Explore the Area - Campi Group', url: 'https://campi.com/neighborhoods/los-altos' },
+      { id: 10, title: 'Schoolyard Fight - Daily Journal', url: 'https://dailyjournal.com/articles/246898-schoolyard-fight' },
+      { id: 11, title: 'EQ Schools Impact | Transforming School Communities', url: 'https://eqschools.com/impact/' },
+      { id: 12, title: 'Teachers and Staff - Blach Intermediate School', url: 'https://www.blachschool.org/teachers-and-staff' },
+      { id: 13, title: 'Wade Spenader - Age, Phone Number, Email, Contact ... - Radaris', url: 'https://radaris.com/p/Wade/Spenader/' },
+      { id: 14, title: 'Camp Visit: Decathlon Sports Club Offers Students a Glimpse of the', url: 'https://patch.com/california/losaltos/camp-visit-decathlon-sports-club-offers-students-a-gl5e3de9d2be' },
+      { id: 15, title: 'Los Altos Elementary Salaries - California - GovSalaries', url: 'https://govsalaries.com/salaries/CA/los-altos-elementary' },
+      { id: 16, title: 'EdSummit LASD: Directory - Sched', url: 'https://edsummitlasd2014.sched.com/directory/descriptions/4' },
+      { id: 17, title: 'Schoolwide SEL Wellness & Learning Program - EQ Schools', url: 'https://eqschools.com/sel-program/' },
+      { id: 18, title: '921 Loraine Ave, Los Altos, CA 94024 | Redfin', url: 'https://www.redfin.com/CA/Los-Altos/921-Loraine-Ave-94024/home/168870061' },
+      { id: 19, title: 'San Mateo County Mathcounts Chapter - 2018 Schools and Results', url: 'https://sites.google.com/view/san-mateo-county-mathcounts/participating-schools-and-results/2018-schools-and-results' },
+      { id: 20, title: 'Participating Schools - Scilympiad', url: 'https://scilympiad.com/scioly-at-berkeley/Reg/School' },
+      { id: 21, title: 'Peninsula Chapter - MATHCOUNTS of California', url: 'https://cspeef.org/competitions/peninsula/' },
+      { id: 22, title: 'Peninsula Advancing Students 2025 - MATHCOUNTS of California', url: 'https://cspeef.org/competitions/peninsula/peninsula-advancing-students-2025/' },
+      { id: 23, title: 'Santa Clara County Regional Science Olympiad - Scilympiad', url: 'https://scilympiad.com/santa-clara-so/Info/Results/0b4bff75-2c1c-474c-8509-8addf5ad5ab8' },
+      { id: 24, title: 'Team Registration - Northern California Science Olympiad', url: 'https://www.norcalscioly.org/?tab=registration' },
+      { id: 25, title: 'Los Altos High School - Wiki - Scioly.org', url: 'https://scioly.org/wiki/Los_Altos_High_School' },
+      { id: 26, title: 'Sports Seasons - Blach Intermediate School', url: 'https://www.blachschool.org/sports-seasons' },
+      { id: 27, title: 'Team Selection & Tryouts - Los Altos - Blach Intermediate School', url: 'https://www.blachschool.org/team-selection-tryouts' },
+      { id: 28, title: 'Schools - Valley Athletic League', url: 'https://www.valleyal.org/content/8260/Schools' },
+      { id: 29, title: 'Blach Athletics - Blach Intermediate School', url: 'https://www.blachschool.org/index.php?pageID=smartSiteFeed&psqFeed=true&articleID=84455757' },
+      { id: 30, title: 'Blach Banner - August 21, 2026', url: 'https://www.blachschool.org/index.php?pageID=smartSiteFeed&psqFeed=true&articleID=84984134' },
+      { id: 31, title: 'West Valley Athletic League (WVAL) - Redwood Sports - Google Sites', url: 'https://sites.google.com/saratogausd.org/redwood-sports/west-valley-athletic-league' },
+      { id: 32, title: 'Santa Clara Valley Athletic League - Wikipedia', url: 'https://en.wikipedia.org/wiki/Santa_Clara_Valley_Athletic_League' },
+      { id: 33, title: 'Menlo Park - Soccer League - Fall 2026 Outdoor, Saturday - i9 Sports', url: 'https://www.i9sports.com/programs/menlo-park-menlo-atherton-high-school-soccer-league-september-2026/186068' },
+      { id: 34, title: 'Welcome to AYSO Region 1099 - Half Moon Bay', url: 'https://www.ayso1099.org/Default.aspx?tabid=736842&mid=814890&templateid=-1&ctl=viewallfieldstatus' },
+      { id: 35, title: 'Athletic Recognition - Blach Intermediate School', url: 'https://www.blachschool.org/athletic-recognition' },
+      { id: 36, title: 'Blach Banner Welcome Back Edition 2 - August 5, 2026', url: 'https://www.blachschool.org/index.php?pageID=smartSiteFeed&psqFeed=true&articleID=81112377' },
+      { id: 37, title: 'Blach Intermediate School - Home', url: 'https://www.blachschool.org/' },
+      { id: 38, title: "Blach's Graduates Spread Their Wings | Los Altos, CA Patch", url: 'https://patch.com/california/losaltos/blach-s-graduates-spread-their-wings' },
+      { id: 39, title: 'Traffic Safety Sign Upgrades on Covington Road - Los Altos, CA', url: 'http://www.losaltosca.gov/m/newsflash/Home/Detail/29' },
+      { id: 40, title: 'Two Bay Area middle schools respond to Nazi salutes, graffiti', url: 'https://jweekly.com/2023/12/28/two-bay-area-middle-schools-respond-to-nazi-salutes-graffiti/' },
+      { id: 41, title: "UPDATED: We've mapped antisemitism at K-12 Bay Area schools", url: 'https://jweekly.com/2025/09/10/where-has-antisemitism-at-schools-been-reported-this-map-shows-you/' },
+      { id: 42, title: 'Blach Intermediate School - Gelfand Partners Architects', url: 'https://www.gelfand-partners.com/projects/blach/' },
+      { id: 43, title: 'Bell Schedule - Blach Intermediate School', url: 'https://www.blachschool.org/bell-schedule' },
+      { id: 44, title: 'Our Superintendent - Bayshore Elementary School District', url: 'https://www.thebayshoreschool.org/Our-District/Our-Superintendent/index.html' },
+    ],
+  },
 };

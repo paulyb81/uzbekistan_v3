@@ -116,8 +116,8 @@ export const INITIAL_SCHOOLS: School[] = [
     familyScore: 9.11,
     aidenScore: 0,
     aidenNotes: 'Very close to MP4 campus. Aiden liked the green open lawn during drive-by.',
-    studentCount: 390,
-    studentTeacherRatio: '14:1',
+    studentCount: 405,
+    studentTeacherRatio: '18:1',
     imageUrl: 'https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=800&q=80',
     categoryScores: {
       academics: 9.2,
@@ -127,10 +127,10 @@ export const INITIAL_SCHOOLS: School[] = [
       logistics: 9.5,
       extracurriculars: 9.0,
     },
-    academicFocus: ['LAEF Funded Writing Specialists', 'STEM Design Lab', 'Accelerated Pre-Algebra & Algebra 1', 'Spanish Elective'],
-    extracurriculars: ['Blach Robotics Team', 'Track & Cross Country', 'Jazz Band', 'Drama Production', 'Speech Club'],
-    topStrengths: 'Shortest work commute, high local friend density, LAEF writing specialists',
-    considerations: '6th grade in elementary, only 2 years in junior high (7-8)',
+    academicFocus: ['MATHCOUNTS & AMC 8', 'Science Olympiad ("Blach MS-Green")', 'LAEF Writing Specialists', 'Spanish Elective', 'Advanced Pre-Algebra & Algebra 1'],
+    extracurriculars: ['VAL After-School Athletics (5 Seasons)', '8th-Grade Yosemite Trip', 'MATHCOUNTS Team', 'Science Olympiad', 'Student Digital Magazine', 'Jazz & Concert Band'],
+    topStrengths: 'Shortest work commute (10 min to MP4), award-winning Gelfand ultralow energy campus, strong MATHCOUNTS & Science Olympiad pipeline, LAEF counselors',
+    considerations: '6th grade remains at elementary school; 2-year junior high span (7th–8th grades)',
     status: 'To Research',
     tourDates: [
       { id: 't-blach-1', date: '2027-01-14', time: '8:00 AM', type: 'District Event', status: 'Registration Open', notes: 'LASD Priority Registration Window Opens for 2027-2028 Academic Year' },
@@ -174,7 +174,7 @@ export const INITIAL_SCHOOLS: School[] = [
       }
     ],
     customNotes: 'Feeds into Mountain View / Los Altos (MVLA) High School District (Los Altos High or Mountain View High).',
-    websiteUrl: 'https://blach.lasdschools.org'
+    websiteUrl: 'https://www.blachschool.org'
   },
   {
     id: 'sunnyvale-middle',
