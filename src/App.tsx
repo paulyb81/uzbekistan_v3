@@ -26,7 +26,7 @@ import {
 } from './services/firebaseSchools';
 import { BookmarkCheck, X, Sparkles, Plus, Download, AlertCircle } from 'lucide-react';
 
-const STORAGE_KEY = 'bay_area_middle_schools_data_v5';
+const STORAGE_KEY = 'bay_area_middle_schools_data_v6';
 
 export default function App() {
   // Cloud Database synchronization status
@@ -67,23 +67,32 @@ export default function App() {
   // Load persistent school data from localStorage as initial instant cache
   const [schools, setSchools] = useState<School[]>(() => {
     try {
+      // Clean up older cache keys
+      ['bay_area_middle_schools_data_v1', 'bay_area_middle_schools_data_v2', 'bay_area_middle_schools_data_v3', 'bay_area_middle_schools_data_v4', 'bay_area_middle_schools_data_v5'].forEach((k) => {
+        try { localStorage.removeItem(k); } catch {}
+      });
+
       const saved = localStorage.getItem(STORAGE_KEY);
       if (saved) {
         const parsed = JSON.parse(saved);
         if (Array.isArray(parsed) && parsed.length > 0) {
-          return parsed.map((item) => ({
-            ...item,
-            baseCategoryScores: item.baseCategoryScores ?? getBaseCategoryScores(item),
-          }));
+          return parsed
+            .filter((s: School) => s.id !== 'castilleja-school' && !s.name?.toLowerCase().includes('castilleja'))
+            .map((item) => ({
+              ...item,
+              baseCategoryScores: item.baseCategoryScores ?? getBaseCategoryScores(item),
+            }));
         }
       }
     } catch (e) {
       console.warn('Failed to load cached school data:', e);
     }
-    return INITIAL_SCHOOLS.map((item) => ({
-      ...item,
-      baseCategoryScores: getBaseCategoryScores(item),
-    }));
+    return INITIAL_SCHOOLS
+      .filter((s) => s.id !== 'castilleja-school' && !s.name?.toLowerCase().includes('castilleja'))
+      .map((item) => ({
+        ...item,
+        baseCategoryScores: getBaseCategoryScores(item),
+      }));
   });
 
   // Track if we have performed initial sync
@@ -95,11 +104,13 @@ export default function App() {
     const unsubscribe = subscribeToSchools(
       (remoteSchools) => {
         if (remoteSchools && remoteSchools.length > 0) {
-          // Normalize baseCategoryScores if missing in remote records
-          const normalized = remoteSchools.map((item) => ({
-            ...item,
-            baseCategoryScores: item.baseCategoryScores ?? getBaseCategoryScores(item),
-          }));
+          // Normalize baseCategoryScores if missing in remote records and filter out Castilleja
+          const normalized = remoteSchools
+            .filter((s) => s.id !== 'castilleja-school' && !s.name?.toLowerCase().includes('castilleja'))
+            .map((item) => ({
+              ...item,
+              baseCategoryScores: item.baseCategoryScores ?? getBaseCategoryScores(item),
+            }));
           setSchools(normalized);
           try {
             localStorage.setItem(STORAGE_KEY, JSON.stringify(normalized));

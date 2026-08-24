@@ -1,5 +1,5 @@
 import { initializeApp, getApps, getApp } from 'firebase/app';
-import { getFirestore, collection, doc, getDocs, setDoc, updateDoc, onSnapshot, serverTimestamp } from 'firebase/firestore';
+import { getFirestore, collection, doc, getDocs, setDoc, deleteDoc, updateDoc, onSnapshot, serverTimestamp } from 'firebase/firestore';
 import { School } from '../types';
 import { INITIAL_SCHOOLS } from '../data/schoolsData';
 import firebaseConfig from '../../firebase-applet-config.json';
@@ -62,7 +62,20 @@ export function subscribeToSchools(
       const updatesToSync: School[] = [];
 
       snapshot.forEach((docSnap) => {
-        const data = docSnap.data() as School;
+        const data = docSnap.data() as any;
+
+        // Permanently prune Castilleja or explicitly deleted schools from the remote database
+        if (
+          docSnap.id === 'castilleja-school' ||
+          data?.isDeleted === true ||
+          (typeof data?.name === 'string' && data.name.toLowerCase().includes('castilleja'))
+        ) {
+          deleteDoc(doc(db, SCHOOLS_COLLECTION, docSnap.id)).catch((err) =>
+            console.warn('[Firestore] Error pruning removed school doc:', err)
+          );
+          return;
+        }
+
         let schoolData: School = {
           ...data,
           id: docSnap.id,
@@ -114,6 +127,7 @@ export function subscribeToSchools(
  */
 export async function seedInitialSchools(): Promise<void> {
   for (const school of INITIAL_SCHOOLS) {
+    if (school.id === 'castilleja-school') continue;
     const docRef = doc(db, SCHOOLS_COLLECTION, school.id);
     const sanitized = sanitizeForFirestore({
       ...school,
@@ -127,6 +141,7 @@ export async function seedInitialSchools(): Promise<void> {
  * Save / Update a school document in Firestore in real time
  */
 export async function saveSchoolToFirestore(school: School): Promise<void> {
+  if (school.id === 'castilleja-school') return;
   const docRef = doc(db, SCHOOLS_COLLECTION, school.id);
   const sanitized = sanitizeForFirestore({
     ...school,
@@ -140,14 +155,29 @@ export async function saveSchoolToFirestore(school: School): Promise<void> {
  */
 export async function deleteSchoolFromFirestore(schoolId: string): Promise<void> {
   const docRef = doc(db, SCHOOLS_COLLECTION, schoolId);
-  await setDoc(docRef, { isDeleted: true, updatedAt: new Date().toISOString() }, { merge: true });
+  await deleteDoc(docRef).catch(async () => {
+    await setDoc(docRef, { isDeleted: true, updatedAt: new Date().toISOString() }, { merge: true });
+  });
 }
 
 /**
  * Reset all schools back to the default database dataset in Firestore
  */
 export async function resetSchoolsToDefaultsInFirestore(): Promise<void> {
+  // First clean up any removed legacy docs
+  try {
+    const existingSnap = await getDocs(collection(db, SCHOOLS_COLLECTION));
+    for (const snap of existingSnap.docs) {
+      if (!INITIAL_SCHOOLS.some((s) => s.id === snap.id) || snap.id === 'castilleja-school') {
+        await deleteDoc(doc(db, SCHOOLS_COLLECTION, snap.id)).catch(() => {});
+      }
+    }
+  } catch (e) {
+    console.warn('[Firestore] Pre-reset cleanup error:', e);
+  }
+
   for (const school of INITIAL_SCHOOLS) {
+    if (school.id === 'castilleja-school') continue;
     const docRef = doc(db, SCHOOLS_COLLECTION, school.id);
     const sanitized = sanitizeForFirestore({
       ...school,
