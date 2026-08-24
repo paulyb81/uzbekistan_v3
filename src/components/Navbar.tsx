@@ -9,9 +9,6 @@ import {
   MoreVertical,
   Moon,
   Sun,
-  Cloud,
-  CloudOff,
-  RefreshCw,
 } from 'lucide-react';
 import { useTheme } from '../context/ThemeContext';
 
@@ -30,7 +27,6 @@ interface NavbarProps {
 
 export const Navbar: React.FC<NavbarProps> = ({
   compareCount,
-  syncStatus = 'synced',
   onOpenCompare,
   onOpenDatabase,
   onOpenCalendar,
@@ -66,35 +62,9 @@ export const Navbar: React.FC<NavbarProps> = ({
             <GraduationCap className="w-5 h-5" />
           </div>
           <div>
-            <div className="flex items-center gap-2">
-              <span className="font-bold text-sm sm:text-base text-slate-900 dark:text-white tracking-tight block">
-                Aiden's Middle School Transition
-              </span>
-              {/* Cloud Sync Status Badge */}
-              <div
-                className={`hidden md:inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-bold tracking-tight border transition-colors ${
-                  syncStatus === 'synced'
-                    ? 'bg-emerald-50 text-emerald-700 border-emerald-200 dark:bg-emerald-950/50 dark:text-emerald-300 dark:border-emerald-800/60'
-                    : syncStatus === 'syncing'
-                    ? 'bg-sky-50 text-sky-700 border-sky-200 dark:bg-sky-950/50 dark:text-sky-300 dark:border-sky-800/60'
-                    : 'bg-amber-50 text-amber-700 border-amber-200 dark:bg-amber-950/50 dark:text-amber-300 dark:border-amber-800/60'
-                }`}
-                title={
-                  syncStatus === 'synced'
-                    ? 'Cloud Database Synced (Firestore)'
-                    : syncStatus === 'syncing'
-                    ? 'Syncing changes to Cloud...'
-                    : 'Local Cache Active (Connecting...)'
-                }
-              >
-                {syncStatus === 'synced' && <Cloud className="w-3 h-3 text-emerald-600 dark:text-emerald-400" />}
-                {syncStatus === 'syncing' && <RefreshCw className="w-3 h-3 text-sky-600 dark:text-sky-400 animate-spin" />}
-                {syncStatus === 'offline' && <CloudOff className="w-3 h-3 text-amber-600 dark:text-amber-400" />}
-                <span>
-                  {syncStatus === 'synced' ? 'Cloud Synced' : syncStatus === 'syncing' ? 'Syncing...' : 'Local Cache'}
-                </span>
-              </div>
-            </div>
+            <span className="font-bold text-sm sm:text-base text-slate-900 dark:text-white tracking-tight block">
+              Aiden's Middle School Transition
+            </span>
             <span className="text-[11px] text-slate-500 dark:text-slate-400 hidden sm:block">
               Bay Area Explorer
             </span>
@@ -103,32 +73,12 @@ export const Navbar: React.FC<NavbarProps> = ({
 
         {/* Action Controls */}
         <div className="flex items-center gap-2">
-          {/* Quick Theme Toggle Button */}
-          <button
-            onClick={toggleDarkMode}
-            title={isDarkMode ? 'Switch to Light Mode' : 'Switch to Dark Mode'}
-            aria-label={isDarkMode ? 'Switch to Light Mode' : 'Switch to Dark Mode'}
-            className="p-1.5 sm:px-2.5 sm:py-1.5 rounded-lg text-xs font-medium border flex items-center justify-center gap-1.5 transition-all bg-slate-100 hover:bg-slate-200 text-slate-700 border-slate-200 dark:bg-slate-900 dark:hover:bg-slate-800 dark:text-slate-300 dark:border-slate-700 shadow-sm"
-          >
-            {isDarkMode ? (
-              <>
-                <Sun className="w-4 h-4 text-amber-500" />
-                <span className="hidden md:inline">Light</span>
-              </>
-            ) : (
-              <>
-                <Moon className="w-4 h-4 text-indigo-500" />
-                <span className="hidden md:inline">Dark</span>
-              </>
-            )}
-          </button>
-
           {/* Side by side compare trigger */}
           <button
             onClick={onOpenCompare}
             className={`px-3 py-1.5 rounded-lg text-xs font-semibold flex items-center gap-1.5 transition-all border shadow-sm ${
               compareCount > 0
-                ? 'bg-emerald-600 hover:bg-emerald-500 text-white border-emerald-500 animate-pulse'
+                ? 'bg-emerald-600 hover:bg-emerald-500 text-white border-emerald-500'
                 : 'bg-slate-100 hover:bg-slate-200 text-slate-700 border-slate-200 dark:bg-slate-900 dark:hover:bg-slate-800 dark:text-slate-300 dark:border-slate-700'
             }`}
           >

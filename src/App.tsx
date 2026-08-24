@@ -722,44 +722,6 @@ export default function App() {
         </div>
       </main>
 
-      {/* Floating Compare Action Bar if 1+ schools selected */}
-      {comparedSchoolIds.length > 0 && (
-        <div className="fixed bottom-4 inset-x-0 z-40 flex justify-center px-4 pointer-events-none">
-          <div className="bg-slate-900/95 dark:bg-[#131a29]/95 backdrop-blur-md border border-emerald-500/60 shadow-2xl rounded-2xl p-3 sm:px-6 flex items-center justify-between gap-4 max-w-xl w-full pointer-events-auto ring-1 ring-emerald-500/20 text-white">
-            <div className="flex items-center gap-3">
-              <div className="w-8 h-8 rounded-lg bg-emerald-600 text-white flex items-center justify-center font-mono font-bold text-sm">
-                {comparedSchoolIds.length}
-              </div>
-              <div>
-                <span className="font-semibold text-xs sm:text-sm text-white block">
-                  {comparedSchoolIds.length} School{comparedSchoolIds.length > 1 ? 's' : ''} Ready to Compare
-                </span>
-                <span className="text-[10px] text-slate-400">
-                  Side-by-side programs, deadlines & commute
-                </span>
-              </div>
-            </div>
-
-            <div className="flex items-center gap-2">
-              <button
-                onClick={() => setComparedSchoolIds([])}
-                className="p-1.5 rounded-lg text-slate-400 hover:text-slate-200 hover:bg-slate-800 text-xs"
-                title="Clear comparison"
-              >
-                <X className="w-4 h-4" />
-              </button>
-              <button
-                onClick={() => setIsCompareOpen(true)}
-                className="px-4 py-2 rounded-xl bg-gradient-to-r from-emerald-600 to-teal-500 hover:from-emerald-500 hover:to-teal-400 text-white font-bold text-xs shadow-md flex items-center gap-1.5 transition-all"
-              >
-                <BookmarkCheck className="w-4 h-4" />
-                <span>Compare Now</span>
-              </button>
-            </div>
-          </div>
-        </div>
-      )}
-
       {/* Modals */}
       <CompareModal
         isOpen={isCompareOpen}

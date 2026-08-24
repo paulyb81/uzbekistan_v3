@@ -10,7 +10,6 @@ export const DEFAULT_SCHOOL_BASELINES: Record<string, CategoryScores> = {
   'menlo-school': { academics: 9.0, athletics: 9.5, community: 8.0, facilities: 9.5, logistics: 9.0, extracurriculars: 9.5 },
   'pinewood-school': { academics: 9.0, athletics: 8.5, community: 9.5, facilities: 8.5, logistics: 9.0, extracurriculars: 9.0 },
   'sacred-heart-schools': { academics: 8.5, athletics: 9.5, community: 9.0, facilities: 9.5, logistics: 8.5, extracurriculars: 9.5 },
-  'castilleja-school': { academics: 9.8, athletics: 8.0, community: 9.0, facilities: 9.0, logistics: 9.0, extracurriculars: 9.5 },
   'woodside-priory': { academics: 9.0, athletics: 9.0, community: 9.5, facilities: 9.0, logistics: 7.5, extracurriculars: 9.5 },
   'harker-middle': { academics: 9.8, athletics: 8.0, community: 8.5, facilities: 9.5, logistics: 8.5, extracurriculars: 9.5 },
   'hillview-middle': { academics: 9.0, athletics: 8.5, community: 9.5, facilities: 9.0, logistics: 9.5, extracurriculars: 9.0 },

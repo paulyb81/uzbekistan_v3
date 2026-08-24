@@ -2500,7 +2500,7 @@ export const INSTITUTIONAL_REPORTS: Record<string, InstitutionalReport> = {
           {
             name: 'WBAL (West Bay Athletic League)',
             description:
-              'The primary athletic league for Sacred Heart Prep, comprising premier Peninsula independent schools including Menlo School, The Harker School, Castilleja School, and Crystal Springs Uplands for soccer, track & field, cross-country, basketball, volleyball, tennis, and golf [1, 28].',
+              'The primary athletic league for Sacred Heart Prep, comprising premier Peninsula independent schools including Menlo School, The Harker School, Woodside Priory School, and Crystal Springs Uplands for soccer, track & field, cross-country, basketball, volleyball, tennis, and golf [1, 28].',
           },
           {
             name: 'PAL (Peninsula Athletic League - Bay Division)',
