@@ -1895,5 +1895,1948 @@ export const INSTITUTIONAL_REPORTS: Record<string, InstitutionalReport> = {
       { id: 43, title: '2026 Best Middle Schools in San Mateo County - Niche', url: 'https://www.niche.com/k12/search/best-middle-schools/c/san-mateo-county-ca/' },
     ],
   },
+  'sunnyvale-middle': {
+    schoolId: 'sunnyvale-middle',
+    title: 'Institutional Evaluation of Sunnyvale Middle School: Academic Programs, Campus Culture, and Operational Structure',
+    subtitle: 'Comprehensive Profile: History, STEM Pipelines, VAL Athletics, Leadership, Measure GG Modernization, and Daily Life',
+    overview: {
+      leadParagraph:
+        'Sunnyvale Middle School (SMS) serves as one of two primary public middle schools within the Sunnyvale School District (SSD) in Sunnyvale, California [1]. Located at 1080 Mango Avenue in Silicon Valley, the campus educates students in grades six through eight [1]. The institution enrolls between 1,053 and 1,211 students annually, maintaining a student-to-teacher ratio of approximately 19:1 to 20:1 [1].',
+      metricsParagraph:
+        'Sunnyvale Middle School maintains an overall rating of 9 out of 10 on GreatSchools and an A- grade on Niche [1, 4]. Standardized testing data places the school in the top 11% of public middle schools statewide [7]. Students graduating from Sunnyvale Middle School primarily transition into the Fremont Union High School District (FUHSD), with most matriculating to Fremont High School [8].',
+      benchmarkTable: [
+        {
+          metric: 'Overall GreatSchools Rating',
+          schoolValue: '9 / 10 [1]',
+          districtValue: '8 / 10',
+          stateValue: '5 / 10 (Top 10%–20% Statewide)',
+        },
+        {
+          metric: 'Comprehensive Niche Grade',
+          schoolValue: 'A- [4]',
+          districtValue: 'A / A-',
+          stateValue: 'B / B+ (Top 11% in CA)',
+        },
+        {
+          metric: 'SchoolDigger Statewide Rank',
+          schoolValue: '89.3 Percentile (#295 of 2,761) [7]',
+          districtValue: 'Top Quartile',
+          stateValue: '50th Percentile',
+        },
+        {
+          metric: 'Mathematics Proficiency',
+          schoolValue: '57% – 61.5% [4]',
+          districtValue: '52.1%',
+          stateValue: '37.3% (CA Average)',
+        },
+        {
+          metric: 'Reading / ELA Proficiency',
+          schoolValue: '62% – 65.6% [4]',
+          districtValue: '58.5%',
+          stateValue: '48.8% (CA Average)',
+        },
+        {
+          metric: 'Total Student Enrollment',
+          schoolValue: '1,053 to 1,211 Students [1]',
+          districtValue: '~6,000 District Total [11]',
+          stateValue: 'N/A',
+        },
+        {
+          metric: 'Student-to-Teacher Ratio',
+          schoolValue: '19:1 to 20:1 [1]',
+          districtValue: '20:1',
+          stateValue: '22:1 (CA Standard)',
+        },
+        {
+          metric: 'Student Body Diversity',
+          schoolValue: '74% Minority Enrollment (Top 12% in CA) [4]',
+          districtValue: 'High Diversity',
+          stateValue: 'Diverse',
+        },
+      ],
+    },
+    academics: {
+      lead:
+        'Instructional delivery at Sunnyvale Middle School balances foundational literacy, elevated mathematics tracking, hands-on STEM exploration, and a growth-oriented standards-based grading framework [3, 4]. Teachers average high levels of experience, delivering coursework that significantly exceeds California state proficiency benchmarks in both ELA and mathematics [4, 7].',
+      teamingModel: {
+        title: 'Elevated Tracking, Standards-Based Grading & Subgroup Equity',
+        description:
+          'Mathematics instruction at SMS features differentiated "Elevated" math tracks starting in 6th and 7th grades, culminating in 8th-grade Algebra 1 and Geometry for advanced students [4, 18]. Core academic departments employ standards-based grading evaluated on a 1-to-4 rubric scale, allowing retakes to demonstrate mastery and reduce high-stakes testing anxiety [3]. Standardized testing data shows Multi-Racial (90.4th percentile, 5/5 stars), White (89.3rd percentile, 4/5 stars), and Asian cohorts (82.4th percentile, 4/5 stars) performing at high levels, while Hispanic (40.3rd percentile) and socioeconomically disadvantaged cohorts (54.9th percentile) highlight subgroup gaps that account for the 3/10 GreatSchools Equity rating [1, 7].',
+      },
+      mathProgression: {
+        title: 'Competitive Mathematics: MATHCOUNTS, AMC 8 & AIME Pathways',
+        description:
+          'SMS fields competitive mathematics teams participating in MATHCOUNTS and the American Mathematics Competitions 8 (AMC 8) administered by the Mathematical Association of America (MAA) [20, 24]. SMS student competitors routinely place in the top 25% statewide at the California MATHCOUNTS finals, record perfect scores on the national AMC 8 exam, and qualify early for high-school level AMC 10 and the American Invitational Mathematics Examination (AIME) [20, 24, 25].',
+      },
+      choiceProgram: {
+        name: 'Interscholastic STEM: Science Olympiad, Applied Robotics & Living Classrooms',
+        description:
+          'SMS hosts a multi-tiered STEM ecosystem that extends problem-solving and engineering inquiry beyond standard grade-level curricula [20, 22].',
+        pillars: [
+          {
+            title: 'Science Olympiad League',
+            description:
+              '23-event national STEM league structured like an academic track meet, covering structural bridge builds, rubber-band aircraft, chemistry, earth science, and physics lab investigations [22].',
+          },
+          {
+            title: 'Applied Engineering & Computer Graphics',
+            description:
+              'Elective courses and clubs in robotics, woodshop fabrication, computer graphic arts, mixed media, and culinary arts [48].',
+          },
+          {
+            title: 'Living Classroom School Gardens',
+            description:
+              'Standards-aligned outdoor biology and environmental ecology lessons conducted in campus garden beds [49].',
+          },
+          {
+            title: 'AVID & Student Leadership',
+            description:
+              'Advancement Via Individual Determination (AVID), Student Council, and Student Leadership commissions fostering civic agency [17].',
+          },
+        ],
+        governance: 'Coordinated by SSD STEM and elective faculty, with support from parent volunteers and community science grants [49].',
+      },
+      foundationFunding: {
+        name: 'Sunnyvale Education Foundation (SEF) & $100M Measure GG Bond Support',
+        description:
+          'Operating within the tech-rich Silicon Valley corridor, SMS benefits from voter-approved bond financing and community foundation endowments [14, 15, 49].',
+        initiatives: [
+          '$100M Measure GG Bond: Funded removal of portables and construction of a permanent 2-story, 35,000 sq. ft. classroom building [14, 15].',
+          'SEF Science Camp Scholarships: Fully subsidizes Walden West outdoor residential science camp tuition for qualifying families [49, 50].',
+          'Mental Health & Wellness Staffing: Provides funding for on-site Mental Health and Wellness Associates, social workers, and counselors [43, 45].',
+          'Living Classroom & Arts Grants: Underwrites garden educator stipends, musical instrument maintenance, and applied arts materials [48, 49, 52].',
+        ],
+      },
+    },
+    athletics: {
+      leagueArchitecture: {
+        title: 'Valley Athletic League (VAL) Conference',
+        leagues: [
+          {
+            name: 'Valley Athletic League (VAL)',
+            description:
+              'An 11-school interscholastic athletic conference spanning 4 adjacent Silicon Valley school districts: Sunnyvale School District (SMS, Columbia), Cupertino Union School District (Cupertino, Hyde, Lawson, Kennedy), Los Altos School District (Blach, Egan), and Mountain View-Whisman School District (Crittenden, Graham) [2, 27].',
+          },
+          {
+            name: 'Five 7-to-8 Week Athletic Seasons',
+            description:
+              'Organized into 5 distinct seasons across the school year (1 week tryouts, 5-6 weeks regular season, 1 week playoffs), with weekday matches running Mon–Thu between 3:45–4:00 PM to protect Friday study time [2, 30].',
+          },
+          {
+            name: 'Open-Enrollment "No-Cut" Sports',
+            description:
+              'VAL enforces a guaranteed participation "no-cut" policy for Cross Country, Wrestling, and Track & Field, ensuring all attendees compete in official meets [2].',
+          },
+          {
+            name: 'Fremont Union High School District (FUHSD) Feeder',
+            description:
+              'Graduates feed into FUHSD (primarily Fremont High School and Homestead High School), carrying strong athletic fundamentals into CIF varsity athletics [8, 29].',
+          },
+        ],
+      },
+      seasonalSchedule: [
+        {
+          season: 'Season 1 (Aug – Oct)',
+          sports: 'Cross Country (Grades 6-8, No Cuts), Girls Softball (Grade 8), Boys Basketball (Grades 6, 7, 8) [2]',
+          structure: 'Fall cross country trail meets; grade-level basketball tournament play [2].',
+        },
+        {
+          season: 'Season 2 (Oct – Dec)',
+          sports: 'Wrestling (Grades 6-8, No Cuts), Girls Volleyball (Grades 6, 7, 8) [2]',
+          structure: 'Wrestling multi-meet invitationals; volleyball division conference matches [2].',
+        },
+        {
+          season: 'Season 3 (Dec – Feb)',
+          sports: 'Boys Volleyball (Grades 6, 7, 8), Girls Soccer (6th/7th & 7th/8th Teams) [2]',
+          structure: 'Winter indoor volleyball; girls competitive soccer league matches [2].',
+        },
+        {
+          season: 'Season 4 (Feb – Apr)',
+          sports: 'Girls Basketball (Grades 6, 7, 8), Boys Soccer (6th/7th & 7th/8th Teams) [2]',
+          structure: 'Spring basketball playoffs; boys soccer league matches on campus and municipal fields [2, 32].',
+        },
+        {
+          season: 'Season 5 (Apr – May)',
+          sports: 'Track & Field (Grades 6-8, Open Enrollment No Cuts) [2]',
+          structure: 'Late-spring track & field meets across sprints, distance, hurdles, and field events [2, 30].',
+        },
+      ],
+      focusSportsAnalysis: [
+        {
+          title: 'Seasonal Soccer Program (Staggered Girls Season 3 / Boys Season 4)',
+          description:
+            'Soccer operates in separate seasonal blocks to maximize field utilization and coaching. Girls compete in Season 3 (Dec–Feb) and boys in Season 4 (Feb–Apr), each fielding 6th/7th combined and 7th/8th varsity squads playing on campus turf and Sunnyvale municipal fields [2, 32].',
+        },
+        {
+          title: 'Track & Field & On-Campus Aquatic Swimming Pool',
+          description:
+            'Track & Field is an open-enrollment spring sport attracting high student density across sprint races, distance, hurdles, shot put, long jump, and high jump, with meets hosted at Fremont High [2, 29, 30]. Additionally, SMS is the only public middle school in the immediate local area equipped with an active outdoor swimming pool, allowing PE faculty to integrate swimming and water safety directly into standard PE [4].',
+        },
+      ],
+    },
+    community: {
+      behavioralCharter: {
+        name: 'Spartan Spirit & "Where Everyone Belongs" (WEB) Culture',
+        motto: 'Respect, Responsibility, Integrity, and Inclusivity',
+        pillars: [
+          {
+            name: 'WEB Mentorship',
+            description:
+              '8th-grade student leaders mentor incoming 6th graders to foster community, reduce middle school transition anxiety, and guide locker navigation [21, 38].',
+          },
+          {
+            name: 'Respect & Campus Boundaries',
+            description:
+              'Clear behavioral expectations, anti-bullying education, and consistent enforcement of campus social guidelines [3, 46].',
+          },
+          {
+            name: 'Growth Mindset & Re-Assessment',
+            description:
+              'Standards-based rubric grading emphasizing feedback, revision, and mastery over point accumulation [3].',
+          },
+          {
+            name: 'Cultural & Demographic Inclusion',
+            description:
+              'A vibrant multicultural community with 74% minority enrollment, ranked among the top 12% most diverse middle schools in California [4].',
+          },
+        ],
+      },
+      communityEngagement: {
+        title: 'Community Communications, Parent Partnership & Transition Support',
+        description:
+          'Administration maintains open communication channels through weekly e-newsletters, parent orientation nights, and bilingual outreach [1, 16, 47].',
+        initiatives: [
+          'WEB Day (Where Everyone Belongs): Dedicated summer transition orientation pairing 6th graders with 8th grade student mentors [21, 38].',
+          'Weekly Administrative E-Newsletters & Principal Coffees: Consistent updates from Principal Edwards regarding school activities and safety [1, 17].',
+          'Bilingual Family Liaisons: On-site Spanish bilingual staff assisting with registration, translations, and family engagement [47].',
+        ],
+      },
+      academicClimateAndWellbeing: {
+        historicalContext:
+          'Located in central Silicon Valley, SMS balances high-achieving STEM pathways with foundational support for a diverse student population [4, 18]. While accelerated math tracks challenge advanced learners, parents note that pacing in general-level cohorts requires occasional home enrichment [18].',
+        investigationFindings:
+          'Official state educational metrics show post-pandemic chronic absenteeism rose from 11.2% in 2021–2022 to 24.9% in 2022–2023, mirroring regional trends across public middle schools [7].',
+        countermeasures: [
+          'Expanded Mental Health Associates: On-campus licensed wellness associates, counselors, and social workers delivering individual triage and SEL support [43, 45].',
+          'Kids Learning After School (KLAS): District-sponsored after-school care providing structured homework help, tutoring, and enrichment [42].',
+          'Positive Behavior & Wellness Outreach: Multi-tiered interventions tracking student attendance, engagement, and anti-bullying awareness [45, 46].',
+        ],
+      },
+    },
+    facilities: {
+      architecturalHeritage: {
+        architects: 'Quattrocchi Kwok Architects (QKA), Blach Construction, and LPA, Inc.',
+        year: 1961,
+        history:
+          'Constructed in 1961 as Sunnyvale Junior High School to support post-war suburban growth, the campus was renamed Sunnyvale Middle School in 1990 [13, 14]. Supported by the $100M Measure GG bond, the district partnered with Blach Construction, QKA, and LPA to replace aging portables with an energy-efficient, two-story 35,000 sq. ft. building utilizing modern "Folia" prefabricated construction [14, 15].',
+      },
+      keyFacilities: [
+        {
+          name: 'Two-Story Classroom Wing (Measure GG)',
+          category: 'Classrooms & Breakouts',
+          description:
+            'A 35,000 sq. ft. permanent building featuring 23 adaptable classrooms, 5 breakout collaboration rooms, and a faculty collaboration suite housing 7th and 8th graders [14].',
+        },
+        {
+          name: 'Outdoor Aquatic Swimming Pool',
+          category: 'Aquatics & PE',
+          description:
+            'Full outdoor swimming pool facility—the only public middle school pool in the immediate local area—integrating aquatics and water safety into the PE curriculum [4].',
+        },
+        {
+          name: 'Spartan Square & Landscaped Courtyard',
+          category: 'Outdoor Learning & Gathering',
+          description:
+            'A 23,000 sq. ft. central landscaped courtyard connecting indoor learning spaces directly to Spartan Square for outdoor assemblies and lunches [14].',
+        },
+        {
+          name: 'Visual Arts & Applied Fabrication Studios',
+          category: 'Arts & STEM',
+          description:
+            'Dedicated visual arts studio, woodshop fabrication room, computer graphic arts lab, and culinary arts teaching stations [14, 48].',
+        },
+        {
+          name: 'Spartan Athletic Grounds & Soccer Fields',
+          category: 'Athletics & PE',
+          description:
+            'Expansive grass athletic complex featuring regulation soccer fields, multi-lane running track, and outdoor basketball courts [14, 32].',
+        },
+      ],
+    },
+    logistics: {
+      counselingModel: {
+        name: 'Comprehensive Guidance & Wellness Support Staff',
+        description:
+          'Site counselors, Mental Health and Wellness Associates, and school social workers coordinate academic schedules, high school transition planning, and social-emotional counseling [43, 45].',
+      },
+      academicInterventions: {
+        name: 'Kids Learning After School (KLAS) & Advisory',
+        description:
+          'District-sponsored KLAS program provides structured after-school care, daily homework assistance, academic tutoring, and enrichment through early evening [42].',
+      },
+      safetyAndTransit: {
+        title: 'Daily Bell Schedule, Transit & Work Proximity',
+        points: [
+          'Standard Schedule (M/T/Th/F): 8:25 AM to 3:10 PM with 6 instructional periods, morning brunch, and lunch [38].',
+          'Wednesday Late Start: 9:36 AM to 3:10 PM, providing weekly teacher professional development and collaborative planning time [38].',
+          'Workplace Proximity: Situated at 1080 Mango Ave, just 5–8 minutes from MP4 Sunnyvale workplace [1].',
+          'Front Office Hours: Open 7:30 AM to 3:30 PM (8:30 AM to 3:30 PM Wednesdays) with bilingual Spanish support [39, 47].',
+        ],
+      },
+    },
+    extracurriculars: {
+      stemCompetitions: [
+        {
+          category: 'Mathematics',
+          name: 'MATHCOUNTS & AMC 8 Competition Teams',
+          description:
+            'Extracurricular competition teams tackling creative logic, geometry, and proof-based math; students achieve top 25% state finishes and AMC 8 perfect scores [20, 24, 25].',
+        },
+        {
+          category: 'Science Olympiad',
+          name: 'Science Olympiad Interscholastic League',
+          description:
+            '23-event STEM league spanning structural engineering bridge builds, rubber-band aircraft, chemistry, biology, and experimental design [22].',
+        },
+        {
+          category: 'Applied Robotics',
+          name: 'FIRST Lego League & Computer Graphics',
+          description:
+            'Student clubs and electives exploring Lego robotics, autonomous algorithmic programming, digital media, and 3D modeling [19, 48].',
+        },
+      ],
+      outdoorAndMedia: [
+        {
+          name: 'Walden West Outdoor Science Camp',
+          grade: 'Grades 5 & 6 (Residential)',
+          description:
+            'Week-long residential science camp in the Santa Cruz Mountains operated with SCCOE, exploring forest ecology, water conservation, and team building; tuition subsidized by SEF [49, 50, 51].',
+        },
+        {
+          name: 'Living Classroom School Garden Program',
+          grade: 'Grades 6–8',
+          description:
+            'Standards-aligned hands-on lessons in campus gardens focusing on plant biology, soil chemistry, composting, and environmental stewardship [49].',
+        },
+        {
+          name: 'Instrumental Music, Choral & Drama Electives',
+          grade: 'Grades 6–8',
+          description:
+            'Sequential concert band, orchestra, choir, and drama productions showcasing student talent at school showcases and district festivals [48].',
+        },
+      ],
+      dayInTheLife: [
+        {
+          time: '8:15 AM',
+          activity: 'Campus Ingress & Spartan Square Meetup',
+          description: 'Students arrive along Mango Ave, park bikes in secure racks, and meet friends in Spartan Square courtyard [1, 14, 38].',
+        },
+        {
+          time: '8:25 AM – 10:15 AM',
+          activity: 'Periods 1 & 2: Core ELA & Elevated Mathematics',
+          description: 'Engaging in reading/writing seminars and advanced Algebra 1 or Math 7/8 Elevated problem-solving [4, 18, 38].',
+        },
+        {
+          time: '10:15 AM – 10:30 AM',
+          activity: 'Morning Brunch & Spartan Courtyard Break',
+          description: 'Morning snack, socializing with peers across the 23,000 sq. ft. landscaped courtyard [14, 38].',
+        },
+        {
+          time: '10:35 AM – 12:25 PM',
+          activity: 'Periods 3 & 4: Science Lab & Social Studies',
+          description: 'Hands-on laboratory investigations in modern science rooms and World History interdisciplinary units [14, 38].',
+        },
+        {
+          time: '12:25 PM – 1:05 PM',
+          activity: 'Lunch, Field Recreation & Outdoor Quad Break',
+          description: 'Lunch in the cafeteria or quad followed by touch football, soccer, or basketball on campus athletic courts [4, 14, 38].',
+        },
+        {
+          time: '1:10 PM – 3:10 PM',
+          activity: 'Periods 5 & 6: PE Aquatics/Conditioning & Elective Wheel',
+          description: 'Swimming instruction in the on-campus pool or track conditioning, followed by Band, Woodshop, or Computer Graphic Arts [4, 48].',
+        },
+        {
+          time: '3:15 PM – 5:00 PM',
+          activity: 'After-School VAL Athletics & KLAS Study Hall',
+          description: 'VAL soccer/track/basketball team practice or structured homework support in the Kids Learning After School (KLAS) center [2, 42].',
+        },
+      ],
+    },
+    historyAndLeadership: {
+      historicalChronology: [
+        '1899: Encina School founded as a one-room schoolhouse on Washington Avenue with a single teacher [12].',
+        '1904: Sunnyvale School District formally chartered amidst agricultural regional expansion [12].',
+        '1961: Sunnyvale Junior High School constructed to accommodate post-WWII Silicon Valley population growth [13, 14].',
+        '1990: Renamed Sunnyvale Middle School to align with contemporary middle school educational models [13].',
+        '1999: Awarded California Distinguished School recognition for academic excellence [3].',
+        '2018–2024: $100M Measure GG bond financed construction of the 2-story, 35,000 sq. ft. classroom building and modernized courtyard [14, 15].',
+        '2024: Sunnyvale School District celebrated its 125th anniversary [11].',
+      ],
+      namesakeBackground:
+        'Named for the City of Sunnyvale and the Sunnyvale School District, honoring 125 years of public education history in Santa Clara County [11, 12].',
+      leadershipCohort: [
+        {
+          gradeOrRole: 'Principal',
+          administrator: 'Shamar Edwards (B.A./M.A. USC, M.A. UC Berkeley PLI, 15+ years site admin, former Capuchino High Principal) [17]',
+          counselor: 'Site Guidance Counselors [43]',
+        },
+        {
+          gradeOrRole: 'Assistant Principal',
+          administrator: 'Roopali Bali (M.A. Santa Clara University, former district literacy, ELD & equity coach) [17]',
+          counselor: 'Mental Health & Wellness Associates [43, 45]',
+        },
+        {
+          gradeOrRole: 'Assistant Principal',
+          administrator: 'Dr. Angela Guzmán (B.A. UC Berkeley, M.A. UCLA, Ed.D. San Jose State, SMS Alumna & former SSD Curriculum Coordinator) [16]',
+          counselor: 'School Social Workers & Triage Staff [43, 45]',
+        },
+        {
+          gradeOrRole: 'Site Administrator',
+          administrator: 'Vince Iwasaki (B.S. Stanford Mechanical Engineering, M.A. San Jose State, 10+ years admin) [16]',
+          counselor: 'Bilingual Family Outreach Coordinators [47]',
+        },
+      ],
+      mediaAnalysis: {
+        positive:
+          'Local press and architectural showcases highlight the $100M Measure GG modernizations, including the prefabricated "Folia" two-story classroom wing, visual arts studios, and 23,000 sq. ft. landscaped courtyard [14, 37]. Academic reports spotlight California Distinguished School honors, strong MATHCOUNTS/AMC 8 competitive results, and the unique on-campus outdoor swimming pool facility [3, 4, 20].',
+        neutral:
+          'Reviews describe a large, highly diverse campus (74% minority enrollment) balancing elevated honors math pathways with foundational learning, evaluated under a 1-to-4 standards-based grading rubric [1, 3, 4].',
+        critical: {
+          incidentSummary:
+            'Subgroup academic gaps result in a 3/10 GreatSchools Equity rating despite high overall marks [1, 7]. Student commentaries note strict PDA/discipline enforcement and standard institutional cafeteria food, while district reports document post-pandemic chronic absenteeism rising to 24.9% [3, 4, 7].',
+          reforms: [
+            'Expanded on-site mental health associates, school social workers, and counseling wellness staff [43, 45].',
+            'Implemented standards-based retake and mastery protocols to support conceptual growth and reduce test stress [3].',
+            'Integrated the Where Everyone Belongs (WEB) 8th-grade peer mentorship program to strengthen student belonging and attendance [21, 38].',
+          ],
+        },
+      },
+    },
+    prospectiveFamilySynthesis: {
+      summary:
+        'For a prospective parent evaluating Sunnyvale Middle School, the campus offers an unbeatable 5–8 minute commute to the Sunnyvale workplace, $100M modern bond facilities, accelerated math tracks into Algebra and Geometry, 5-season VAL athletics with an on-campus pool, and subsidized Walden West outdoor education [1, 2, 4, 14, 18, 49].',
+      keyTakeaways: [
+        'Unmatched Proximity & Convenience: Located at 1080 Mango Ave, just 5–8 minutes from MP4 Sunnyvale workplace, simplifying morning drop-offs and after-school pickups [1].',
+        'Accelerated Math & Competitive STEM: Elevated math pathways into 8th-grade Algebra 1 and Geometry, active MATHCOUNTS/AMC 8 teams (top 25% state finish, perfect scores), and Science Olympiad [4, 18, 20, 22].',
+        '$100M Modernized Campus & Aquatic Pool: Brand new 35,000 sq. ft. 2-story classroom wing with 23 flexible rooms, visual arts studios, Spartan Square courtyard, and the only middle school swimming pool in the local area [4, 14].',
+        'Five-Season VAL Athletics & Walden West Camp: Interscholastic league with no-cut options in Cross Country, Wrestling, and Track & Field, plus fully subsidized Walden West outdoor residential science camp [2, 49, 50].',
+      ],
+    },
+    worksCited: [
+      { id: 1, title: 'Sunnyvale Middle School - Trulia', url: 'https://www.trulia.com/schools/CA-sunnyvale-sunnyvale_middle_school-129060' },
+      { id: 2, title: 'Valley Athletic League', url: 'https://www.valleyal.org/' },
+      { id: 3, title: 'Sunnyvale Middle School - Realtor.com', url: 'https://www.realtor.com/local/schools/Sunnyvale-Middle-School-078652951' },
+      { id: 4, title: 'Sunnyvale Middle School - Niche', url: 'https://www.niche.com/k12/sunnyvale-middle-school-sunnyvale-ca/' },
+      { id: 5, title: 'Sunnyvale Middle School - myTheo', url: 'https://jinamarieellsworth.mytheo.com/schools/94292de1-a871-4ccc-9034-618325da888b' },
+      { id: 6, title: 'Sunnyvale Middle School - Homes.com', url: 'https://www.homes.com/school/sunnyvale-ca/sunnyvale-middle-school/wjcq19vstzrhb/' },
+      { id: 7, title: 'Sunnyvale Middle - SchoolDigger', url: 'https://www.schooldigger.com/go/CA/schools/3846006465/school.aspx' },
+      { id: 8, title: 'Best schools in Sunnyvale, CA - GreatSchools', url: 'https://www.greatschools.org/best-schools/california/sunnyvale/' },
+      { id: 9, title: 'From the Supreme Court to FUHSD: affirmative action affects - HHS Epitaph', url: 'https://hhsepitaph.com/14353/news/from-the-supreme-court-to-fuhsd-affirmative-action-affects-applications/' },
+      { id: 10, title: 'Sunnyvale Middle School vs. Cupertino Middle School - Public School Review', url: 'https://www.publicschoolreview.com/popular-comparisons/sunnyvale-middle-school-vs-cupertino-middle-school/12734/6631' },
+      { id: 11, title: 'Celebrating 125 Years - Sunnyvale School District', url: 'https://www.sesd.org/about-usnew/celebrating-125-years' },
+      { id: 12, title: 'A Sunny Start (1889-1909) - Sunnyvale School District', url: 'https://www.sesd.org/about-usnew/celebrating-125-years/a-sunny-start-1889-1909' },
+      { id: 13, title: 'Partnering with a Purpose (1990s-today) - Sunnyvale School District', url: 'https://www.sesd.org/about-usnew/celebrating-125-years/partnering-with-a-purpose-1990s-today' },
+      { id: 14, title: 'Sunnyvale School District Unveils New Classroom Wing at SMS - Blach Construction', url: 'https://www.blach.com/news/sunnyvale-school-district-unveils-new-classroom-wing-at-sunnyvale-middle-school/' },
+      { id: 15, title: 'Measure GG - Sunnyvale School District', url: 'https://www.sesd.org/about-usnew/bond-program/measure-gg' },
+      { id: 16, title: 'Administrators - Sunnyvale Middle', url: 'https://sunnyvale.sesd.org/about-us/who-we-are/administrators' },
+      { id: 17, title: 'SSD welcomes new leadership at Cherry Chase, Cumberland & Sunnyvale Middle', url: 'https://sesd-district-digest.org/ssd-welcomes-new-leadership-at-cherry-chase-cumberland-lakewood-san-miguel-and-sunnyvale-middle/' },
+      { id: 18, title: 'Sunnyvale Middle School, Sunnyvale, CA, 6-8 Grade, 19 Reviews - Movoto', url: 'https://www.movoto.com/schools/sunnyvale-ca/sunnyvale-middle-school-063846006465/' },
+      { id: 19, title: 'Sunnyvale Middle School Reviews - Niche', url: 'https://www.niche.com/k12/sunnyvale-middle-school-sunnyvale-ca/reviews/' },
+      { id: 20, title: 'News Archives - MATHCOUNTS of California', url: 'https://cspeef.org/category/news/' },
+      { id: 21, title: 'Miller Middle School - Where Everyone Belongs Program', url: 'https://en-academic.com/dic.nsf/enwiki/11745002' },
+      { id: 22, title: 'K-12 School Ratings and Statistics - Niche', url: 'https://www.niche.com/k12/search/best-schools/?page=200' },
+      { id: 23, title: 'News for Coordinators - MATHCOUNTS of California', url: 'https://cspeef.org/coordinator-resources/news-for-mathcounts-competition-coordinators/' },
+      { id: 24, title: 'AMC10 - Silicon Valley Youth', url: 'https://www.siliconvalleyyouth.com/classes/2017/fall/amc10.html' },
+      { id: 25, title: '2017 AMC 8 Perfect Scores - Ivy League Education Center', url: 'https://ivyleaguecenter.org/wp-content/uploads/2017/12/2017amc8perfectscores.pdf' },
+      { id: 26, title: '2008 MAA AMC 8 Results & Awards - Mathematical Association of America', url: 'https://studylib.net/doc/8198989/maa-amc-8---mathematical-association-of-america' },
+      { id: 27, title: 'Schools - Valley Athletic League', url: 'https://www.valleyal.org/content/8260/Schools' },
+      { id: 28, title: 'Egan Junior High Sports Handbook - Valley Athletic League', url: 'http://www.dancingsun.com/eganweb/egan2/afterschool_sports/pdf/sports_handbook_2006_07.pdf' },
+      { id: 29, title: 'Locations - Valley Athletic League', url: 'https://valleyal.org/locations' },
+      { id: 30, title: 'Valley Junior High School Athletic League Handbook', url: 'http://d2jqoimos5um40.cloudfront.net/site_0687/11ce59.pdf' },
+      { id: 31, title: 'Sunnyvale - Middle School Track and Field Outdoor 2026 - Athletic.net', url: 'https://www.athletic.net/team/71544/track-and-field-outdoor' },
+      { id: 32, title: 'SASC Fields Information - Sunnyvale Alliance Soccer Club', url: 'https://www.sunnyvalesoccer.org/general/fields.shtml' },
+      { id: 33, title: 'Activity Providers in Sunnyvale, CA - Little Explorers', url: 'https://www.littleexplorers.help/cities/sunnyvale-ca-usa' },
+      { id: 34, title: 'North Sunnyvale to get a long-awaited library - San José Spotlight', url: 'https://sanjosespotlight.com/north-sunnyvale-to-get-a-long-awaited-library/' },
+      { id: 35, title: 'NATO DIANA Awards Defense Innovation Contracts - Govly', url: 'https://app.govly.com/public/signals/105584' },
+      { id: 36, title: 'Capturing the Saratogans - Metro Silicon Valley', url: 'http://www.metroactive.com/papers/metro/02.19.04/saratoga-0408.html' },
+      { id: 37, title: 'Sunnyvale Middle School Tops Out Two New Classroom Buildings - Architizer', url: 'https://architizer.com/projects/sunnyvale-middle-school-tops-out-two-new-classroom-buildings/' },
+      { id: 38, title: 'Incoming 6th Grade Bell Schedule & Orientation Presentation - SESD', url: 'https://resources.finalsite.net/images/v1778275421/sesdorg/blmdpejycqedrz41ezfp/26-27Incoming6thGradePresentation.pdf' },
+      { id: 39, title: 'Attendance, Bell Schedule, and Policies - Sunnyvale Middle', url: 'https://sunnyvale.sesd.org/about-us/attendance-bell-schedule-and-policies' },
+      { id: 40, title: 'Calendar - Sunnyvale Middle', url: 'https://sunnyvale.sesd.org/about-us/sunnyvale-calendar' },
+      { id: 41, title: 'Calendar - Sunnyvale School District', url: 'https://www.sesd.org/about-usnew/calendar-81' },
+      { id: 42, title: 'Kids Learning After School (KLAS) Site Map - Sunnyvale Middle', url: 'https://sunnyvale.sesd.org/site-map' },
+      { id: 43, title: 'Job Descriptions & Staffing Schedules - Sunnyvale School District', url: 'https://www.sesd.org/about-usnew/departments/human-resources/job-descriptionssalary-schedules' },
+      { id: 44, title: 'Measure C Bond Overview - Sunnyvale School District', url: 'https://www.sesd.org/about-usnew/bond-program/measure-c' },
+      { id: 45, title: 'Health & Wellness School Based Services - Sunnyvale School District', url: 'https://www.sesd.org/about-usnew/departments/teaching-and-learning-department/student-services/health-services/student-health-and-mental-health-information' },
+      { id: 46, title: 'Bullying Prevention Policy - Sunnyvale School District', url: 'https://www.sesd.org/about-usnew/district-policies/bullying-policy' },
+      { id: 47, title: 'Office Staff & Bilingual Services - Sunnyvale Middle', url: 'https://sunnyvale.sesd.org/about-us/who-we-are/office-staff' },
+      { id: 48, title: 'Curriculum & Electives Guide - Sunnyvale School District', url: 'https://www.sesd.org/about-usnew/departments/teaching-and-learning-department/curriculum' },
+      { id: 49, title: 'Events & Science Camp Funding | Sunnyvale Education Foundation', url: 'https://www.sunnyvaleeducationfoundation.org/category/events/' },
+      { id: 50, title: 'Q&A on District Programs - Bridget Watson for SSD', url: 'https://bridget4ssd.org/q-n-a/' },
+      { id: 51, title: 'Public Schools Directory - Santa Clara County Office of Education', url: 'https://publicschooldirectory.sccoe.org/PrintDirectory.aspx' },
+      { id: 52, title: 'A World of Wonder: SEF-Funded Programs Inspire Young Minds', url: 'https://sesd-district-digest.org/a-world-of-wonder-sunnyvale-education-foundation-funded-programs-inspire-young-minds/' },
+      { id: 53, title: 'Teacher Recognitions & Awards - Sunnyvale Education Digest', url: 'https://www.sunnyvaleisd.com/article/2252699' },
+      { id: 54, title: 'Latest News & Community Impact | Sunnyvale Education Foundation', url: 'https://www.sunnyvaleeducationfoundation.org/news/page/6/' },
+    ],
+  },
+  'sacred-heart-schools': {
+    schoolId: 'sacred-heart-schools',
+    title: 'Institutional Assessment of Sacred Heart Schools, Atherton',
+    subtitle: 'Comprehensive Profile: History, Academic & STEM Infrastructure, Athletics (WBAL/WCAL/PAL), Leadership, 63-Acre Campus, and Strategic Synthesis',
+    overview: {
+      leadParagraph:
+        'Sacred Heart Schools, Atherton (SHS) is an independent, Roman Catholic, co-educational college-preparatory institution situated on a 63-acre campus in Atherton, California [1]. Founded in 1898 by the Society of the Sacred Heart (Religieuses du Sacré-Cœur de Jésus, or RSCJ), the institution serves approximately 1,180 students across four academic divisions spanning Pre-Kindergarten through 12th Grade [1].',
+      metricsParagraph:
+        'The middle school division (Grades 6–8) and the high school division, known as Sacred Heart Preparatory (SHP, Grades 9–12), represent the secondary educational pathway on campus [1]. The institution operates under the governance of an independent Board of Trustees while maintaining its philosophical affiliation with the international Sacred Heart network and its foundational Goals and Criteria [1]. On GreatSchools, SHS is designated as "Unrated" (standard for independent private schools that do not take public state CAASPP testing), while maintaining an overall grade of A+ on Niche [14, 17, 32].',
+      benchmarkTable: [
+        {
+          metric: 'Year Established',
+          schoolValue: '1898 [1]',
+          districtValue: 'Independent',
+          stateValue: 'Historic Foundation',
+        },
+        {
+          metric: 'Campus Size & Location',
+          schoolValue: '63 Acres; Atherton, San Mateo County, CA [1]',
+          districtValue: 'Atherton Enclave',
+          stateValue: 'Suburban Campus',
+        },
+        {
+          metric: 'Religious Affiliation',
+          schoolValue: 'Roman Catholic (Society of the Sacred Heart / RSCJ) [1]',
+          districtValue: 'Ecumenical (24+ Faiths) [1]',
+          stateValue: 'Independent Catholic',
+        },
+        {
+          metric: 'Governance Structure',
+          schoolValue: 'Independent Board of Trustees (Lay Leadership) [1]',
+          districtValue: 'Non-Profit 501(c)(3)',
+          stateValue: 'Self-Governing',
+        },
+        {
+          metric: 'Total Enrollment (PK–12)',
+          schoolValue: '~1,170 – 1,200 Students [1]',
+          districtValue: 'PK–12 Continuous [1]',
+          stateValue: 'N/A',
+        },
+        {
+          metric: 'Middle School Enrollment (6–8)',
+          schoolValue: '~220 Students (~18:1 ratio, 18 per section) [4]',
+          districtValue: 'Dedicated MS Division',
+          stateValue: '22:1 (CA Standard)',
+        },
+        {
+          metric: 'High School Division',
+          schoolValue: 'Sacred Heart Preparatory (SHP, Grades 9–12) [1]',
+          districtValue: 'Internal Feeder [10]',
+          stateValue: 'High School',
+        },
+        {
+          metric: 'Accreditations & Honors',
+          schoolValue: 'CAIS, WASC, WCEA; Niche A+ [1, 14]',
+          districtValue: 'Top Independent Tier',
+          stateValue: 'Regional Benchmark',
+        },
+      ],
+    },
+    academics: {
+      lead:
+        'Sacred Heart Schools utilizes an academic structure designed to combine rigorous college preparation with character formation and executive functioning development [2, 4]. Class sizes in the Middle School average 18 students per section, operating on a 75-minute block schedule that incorporates core disciplines, advisory periods, and experiential electives [4].',
+      teamingModel: {
+        title: 'Middle School 101, Advisory & High School Placement Pathways',
+        description:
+          'The Middle School curriculum (Grades 6–8) emphasizes executive functioning, critical thinking, and digital literacy through a structured "Middle School 101" foundational program [4]. Core disciplines—mathematics, physical and life sciences, humanities, world languages (French, Spanish, Mandarin), and theology—are complemented by specialized electives [4]. Eighth graders transitioning into Sacred Heart Preparatory complete placement evaluations in mathematics, science, and world languages to determine appropriate honors and AP course sequences [10].',
+      },
+      mathProgression: {
+        title: 'Mathematical Talents: AMC 10/12, AIME & Regional Distinctions',
+        description:
+          'Mathematical talent pipelines at SHS operate through rigorous national contest frameworks sponsored by the Mathematical Association of America (MAA) [22]. Sacred Heart Prep actively enters students into the American Mathematics Competitions (AMC 10 and AMC 12), with high-scoring competitors regularly qualifying for the American Invitational Mathematics Examination (AIME) and earning honors such as the regional Two Sigma AMC Award [22].',
+      },
+      choiceProgram: {
+        name: 'Creative Inquiry (CI), DREAM Lab & Robotics Ecosystem',
+        description:
+          'SHS provides advanced fabrication, engineering inquiry, and project-based learning across multiple dedicated labs [24, 25].',
+        pillars: [
+          {
+            title: 'Creative Inquiry (CI) & DREAM Lab Fabrication',
+            description:
+              'Students learn manual and digital manufacturing disciplines including blacksmithing, CNC machining, welding, 3D printing, and CAD design; capstone projects include building a vintage Shelby Cobra automobile from raw chassis components, surfboards, 3D-printed prosthetic limbs, and oceanographic ROVs [24].',
+          },
+          {
+            title: 'Lower & Middle School Robotics (VEX IQ & FTC)',
+            description:
+              'Fifth-grade teams (e.g., Betabotz) compete in VEX IQ, earning invitations to the VEX IQ World Championships; 8th graders take FIRST Tech Challenge (FTC) as a formal elective with competitive teams like Monké, Milk, and Wall-e winning regional Control and Design awards [25, 26, 27].',
+          },
+          {
+            title: 'SHP High School Robotics (FTC & FRC)',
+            description:
+              'High school engineering squads operate out of the DREAM Lab, regularly advancing to Northern California FTC Regional semifinals and hosting an annual home tournament [22, 24].',
+          },
+          {
+            title: 'Middle School Science Fair Club',
+            description:
+              'Students design independent empirical research projects and regularly compete at the San Mateo County Office of Education STEM Fair, earning regional distinctions [23].',
+          },
+        ],
+        governance: 'Led by Creative Inquiry directors, science faculty, and professional engineering mentors [24, 25].',
+      },
+      foundationFunding: {
+        name: 'Endowment, Capital Campaigns & Tuition Assistance',
+        description:
+          'Sacred Heart Schools maintains a substantial institutional endowment and active capital campaign infrastructure directed by the Board of Trustees [2, 6].',
+        initiatives: [
+          'Tuition & Need-Based Aid: High school tuition spans $40,000 to $52,000+ annually, supported by a comprehensive need-based financial aid program directed by Wendy Quattlebaum [6, 19].',
+          'Campbell Arts & Academics Facility: Multimillion-dollar academic building housing humanities classrooms, fine arts studios, and digital media labs [25].',
+          'DREAM Lab & Creativity Hub: Cutting-edge equipment including CNC mills, blacksmith forges, laser cutters, and 3D printing farms [24, 25].',
+          'Athletic & Aquatics Complexes: Gator Nation stadium, all-weather running track, and regulation competitive water polo pools [1].',
+        ],
+      },
+    },
+    athletics: {
+      leagueArchitecture: {
+        title: 'Interscholastic Athletic League Framework (WBAL / PAL / WCAL / CIF CCS)',
+        leagues: [
+          {
+            name: 'WBAL (West Bay Athletic League)',
+            description:
+              'The primary athletic league for Sacred Heart Prep, comprising premier Peninsula independent schools including Menlo School, The Harker School, Castilleja School, and Crystal Springs Uplands for soccer, track & field, cross-country, basketball, volleyball, tennis, and golf [1, 28].',
+          },
+          {
+            name: 'PAL (Peninsula Athletic League - Bay Division)',
+            description:
+              'A public-private composite league where SHP places its football and baseball teams to ensure top-tier divisional competition, winning 6 CCS championships and the 2021 CIF State Championship in football [1].',
+          },
+          {
+            name: 'WCAL (West Catholic Athletic League)',
+            description:
+              'A premier Catholic high school athletic conference in Northern California where SHP affiliates specifically for aquatics (boys\' and girls\' water polo, winning 22 combined CCS titles) and boys\' lacrosse [1].',
+          },
+          {
+            name: 'Middle School "No-Cut" Philosophy',
+            description:
+              'Middle School athletics operate under an inclusive "no-cut" participation policy that encourages every 6th–8th grader to build athletic literacy and team habits [1, 4].',
+          },
+        ],
+      },
+      seasonalSchedule: [
+        {
+          season: 'Fall (Aug – Nov)',
+          sports: 'Cross Country, Football (PAL Bay), Girls Volleyball (WBAL), Boys & Girls Water Polo (WCAL), Girls Golf [1]',
+          structure: 'League meets and invitationals; CIF Central Coast Section (CCS) playoff tournaments [1].',
+        },
+        {
+          season: 'Winter (Nov – Feb)',
+          sports: 'Boys Soccer (WBAL Foothill), Girls Soccer (WBAL), Boys Basketball (WBAL), Girls Basketball (WBAL) [1, 29]',
+          structure: 'Intensive league fixtures, cross-town Menlo rivalry matches, and CCS championships [1, 29].',
+        },
+        {
+          season: 'Spring (Feb – May)',
+          sports: 'Track & Field (WBAL), Baseball (PAL), Boys & Girls Lacrosse (WCAL), Boys Tennis, Boys Golf, Swimming [1]',
+          structure: 'Track & field invitationals, sectional trials, and CIF State Championship qualifications [1].',
+        },
+      ],
+      focusSportsAnalysis: [
+        {
+          title: 'Boys\' & Girls\' Soccer Programs (15 Combined CCS Section Championships)',
+          description:
+            'Sacred Heart maintains one of the most decorated soccer programs in Northern California. The boys\' program has captured 10 CCS Section Championships (1988, 1991, 2000, 2001, 2002, 2004, 2006, 2013, 2021, and 2022) [1]. The girls\' program has captured 5 CCS Section Championships (2009, 2014, 2015, 2019, and 2020) and maintains an intense rivalry with Menlo School [1, 29]. Notably, alumna Tierna Davidson (SHP \'16) starred for Sacred Heart Prep before playing for Stanford, winning a FIFA Women\'s World Cup with the USWNT, and earning US Soccer Young Female Player of the Year [31].',
+        },
+        {
+          title: 'Track & Field, Cross Country & Championship Aquatics',
+          description:
+            'Track & Field and Cross Country operate year-round on campus all-weather track and trail facilities, capturing CCS championships (Boys XC 2006, Girls XC 2000) and competing across sprinting, distance, hurdles, and all field disciplines [1]. In aquatics, the boys\' water polo team secured 12 CCS Championships (including a historic 2011–2019 streak), while girls\' water polo has won 10 CCS Championships [1].',
+        },
+      ],
+    },
+    community: {
+      behavioralCharter: {
+        name: 'Sacred Heart Ethos & "Code of the Heart"',
+        motto: 'Cor Unum et Anima Una in Corde Jesu (One Heart and One Mind in the Heart of Jesus)',
+        pillars: [
+          {
+            name: 'Goal 1: Personal & Active Faith in God',
+            description:
+              'Fostering spiritual growth and reflection across an ecumenical student body representing over 24 faith traditions [1, 2].',
+          },
+          {
+            name: 'Goal 2: Deep Respect for Intellectual Values',
+            description:
+              'Rigorous academic inquiry, creative critical thinking, and intellectual exploration in seminar and lab settings [2].',
+          },
+          {
+            name: 'Goal 3: Social Awareness Which Impels to Action',
+            description:
+              'Direct community engagement, service-learning immersions, and global justice projects across North America [2, 3].',
+          },
+          {
+            name: 'Goal 4: Community Building as a Christian Value',
+            description:
+              'Inclusive fellowship, "Code of the Heart" norms (Ready, Responsible, Respectful, Caring), and the middle-lower school Buddy Program [2, 3].',
+          },
+          {
+            name: 'Goal 5: Personal Growth in Wise Freedom',
+            description:
+              'Cultivating self-discipline, ethical decision-making, and emotional resilience in a supportive atmosphere [2].',
+          },
+        ],
+      },
+      communityEngagement: {
+        title: 'All-School Assemblies, Goûter Traditions & Buddy Program',
+        description:
+          'Campus culture is anchored by century-old Sacred Heart traditions that connect students across all four divisions [3].',
+        initiatives: [
+          'Weekly Assemblies & Goûter: Student Council-led gatherings featuring musical performances, presentations, and the French tradition of goûter (a shared community snack) [3].',
+          'Cross-Divisional Buddy Program: Middle schoolers mentor lower school students through paired reading sessions, joint picnics, and campus activities [3].',
+          'Parent Partnership & Gala: Active parent volunteer guilds, Athletic Boosters, and annual community benefit galas supporting school programs and financial aid [1, 6].',
+        ],
+      },
+      academicClimateAndWellbeing: {
+        historicalContext:
+          'Situated in the exclusive residential enclave of Atherton, SHS balances high academic standards with deliberate social-emotional scaffolding [4, 12]. More than 30% of local Atherton families opt out of public high schools (like Menlo-Atherton) to matriculate into SHP and Menlo School [12].',
+        investigationFindings:
+          'Media analysis reflects strong praise for athletic, robotics, and academic accomplishments, while monitoring independent Catholic schools regarding DEIB integration and institutional theological balance [11, 22, 36].',
+        countermeasures: [
+          'Dedicated Middle School Advisory: Daily advisory blocks led by faculty mentors focusing on SEL, organization, and wellness [4].',
+          'On-Site Mental Health & Learning Specialists: Registered nurses, socio-emotional counselors, and learning specialists providing targeted support [10, 40].',
+          'Camp Gator & Extended Care: Structured after-school study halls, athletic clinics, and summer enrichment workshops [10, 42].',
+        ],
+      },
+    },
+    facilities: {
+      architecturalHeritage: {
+        architects: 'Historic RSCJ Architecture, Blach Construction, and Modern Educational Design',
+        year: 1898,
+        history:
+          'Founded in 1898 by Rev. Mother Jane Fox on Valparaiso Avenue, the campus expanded over 125 years into a world-class 63-acre master-planned educational environment integrating historic chapels with modern engineering and athletic centers [1, 5].',
+      },
+      keyFacilities: [
+        {
+          name: 'William C. Campbell Arts & Academics Building',
+          category: 'Classrooms & Studios',
+          description:
+            'Flagship academic building housing humanities seminar rooms, visual fine arts studios, performing arts spaces, and digital media production labs [25].',
+        },
+        {
+          name: 'DREAM Lab & Robotics Studio',
+          category: 'STEM & Engineering',
+          description:
+            'Advanced fabrication facility in the Campbell building basement equipped with 3D printers, CNC mills, laser cutters, welding rigs, and blacksmithing forges [24].',
+        },
+        {
+          name: 'Creativity Hub (P–8 Design Lab)',
+          category: 'STEM & Maker',
+          description:
+            'Dedicated design and prototyping studio for Lower and Middle School students supporting VEX IQ robotics and introductory computer science [25].',
+        },
+        {
+          name: 'Aquatics Complex & Water Polo Pools',
+          category: 'Athletics & PE',
+          description:
+            'Championship outdoor aquatics center home to the Gators water polo teams (22 CCS titles) and competitive swim programs [1].',
+        },
+        {
+          name: 'Gator Nation Stadium, Track & Sports Diamonds',
+          category: 'Athletics & PE',
+          description:
+            'All-weather football/soccer stadium with synthetic turf, regulation 400m track, baseball/softball diamonds, and tennis courts [1].',
+        },
+        {
+          name: 'Stevens Family Library & Conway Court',
+          category: 'Research & Gathering',
+          description:
+            'Central research library with extensive digital resources, quiet study pods, and Conway Court outdoor plaza for school liturgies and ceremonies [22, 39].',
+        },
+      ],
+    },
+    logistics: {
+      counselingModel: {
+        name: 'Middle School Advisory & Multi-Tiered Student Support',
+        description:
+          'Faculty advisory cohorts meet daily for SEL lessons, organizational coaching, and academic monitoring, supported by full-time counselors and learning specialists [4, 10, 40].',
+      },
+      academicInterventions: {
+        name: 'Middle School 101 & Supervised Study Halls',
+        description:
+          'Structured foundational study skills program and after-school supervised study halls ensuring homework is completed efficiently on campus [4, 10].',
+      },
+      safetyAndTransit: {
+        title: 'Campus Ingress, Transit & Atherton Enclave Location',
+        points: [
+          'Location: 150 Valparaiso Ave, Atherton, CA, ~15–18 minutes from MP4 Sunnyvale workplace [1].',
+          'Gated 63-Acre Campus: Private campus security, perimeter access control, and dedicated parent carpool loops [1, 12].',
+          'Block Schedule: 75-minute instructional blocks with embedded advisory, morning break, goûter, and after-school athletic time [3, 4].',
+          'Busing & Transit: Dedicated private bus routes connecting Peninsula communities from San Francisco to South Bay [1].',
+        ],
+      },
+    },
+    extracurriculars: {
+      stemCompetitions: [
+        {
+          category: 'Mathematics',
+          name: 'AMC 10 / 12 & AIME Contest Teams',
+          description:
+            'Competitive math sequence administered through the MAA; students regularly achieve AIME qualification and regional honors such as the Two Sigma AMC Award [22].',
+        },
+        {
+          category: 'Robotics',
+          name: 'VEX IQ & FIRST Tech Challenge (FTC) Teams',
+          description:
+            'Over 100 students participating in robotics across divisions: VEX IQ World Championship qualifiers (Betabotz) and 8th-grade FTC elective teams (Monké, Milk, Wall-e) [25, 26, 27].',
+        },
+        {
+          category: 'Applied Engineering',
+          name: 'DREAM Lab Capstone Inventions & Blacksmithing Guild',
+          description:
+            'Hands-on student engineering builds including Shelby Cobra replica cars, surfboards, 3D printed prosthetics, and marine research ROVs [24].',
+        },
+        {
+          category: 'Science Fair',
+          name: 'Middle School Science Fair Club',
+          description:
+            'Independent empirical research investigations competing at the San Mateo County STEM Fair [23].',
+        },
+      ],
+      outdoorAndMedia: [
+        {
+          name: '6th Grade Orientation Outdoor Expedition',
+          grade: 'Grade 6',
+          description:
+            'Fall outdoor survival and team-building trip featuring ropes courses, environmental science field lessons, and community bonding [3].',
+        },
+        {
+          name: 'Sacred Heart Network National Service Projects',
+          grade: 'Grades 7–12',
+          description:
+            'Domestic service immersions including organic farming at Sprout Creek Farm in New York and food distribution initiatives in Detroit [3].',
+        },
+        {
+          name: 'Performing Arts, Symphony & One-Act Plays',
+          grade: 'Grades 6–12',
+          description:
+            'Comprehensive musical theater, symphony orchestra, jazz ensemble, and student-directed one-act drama productions [3, 8].',
+        },
+      ],
+      dayInTheLife: [
+        {
+          time: '8:00 AM – 8:15 AM',
+          activity: 'Campus Arrival & Valparaiso Quad Gathering',
+          description: 'Students arrive at the 63-acre Atherton campus, organize lockers, and meet classmates in Conway Court [1, 39].',
+        },
+        {
+          time: '8:20 AM – 8:45 AM',
+          activity: 'Morning Advisory & SEL Check-In',
+          description: 'Faculty-led advisory block focusing on "Middle School 101" organizational habits, Goal reflections, and daily planning [4].',
+        },
+        {
+          time: '8:50 AM – 10:05 AM',
+          activity: 'Block 1: Accelerated Mathematics / AMC Problem Solving',
+          description: '75-minute intensive math seminar exploring non-routine algebraic proofs and geometric reasoning [4, 22].',
+        },
+        {
+          time: '10:05 AM – 10:25 AM',
+          activity: 'All-School Assembly & Goûter Snack Break',
+          description: 'Weekly student-led assembly in the Campbell auditorium followed by the traditional French goûter snack break [3, 25].',
+        },
+        {
+          time: '10:30 AM – 11:45 AM',
+          activity: 'Block 2: Physical & Life Science Laboratory',
+          description: 'Hands-on lab investigations and independent Science Fair empirical experiments [4, 23].',
+        },
+        {
+          time: '11:50 AM – 12:40 PM',
+          activity: 'Lunch, Conway Court Recreation & Buddy Time',
+          description: 'Lunch on the plaza, intramural quad games, or reading mentoring with lower school buddies [3].',
+        },
+        {
+          time: '12:45 PM – 2:00 PM',
+          activity: 'Block 3: Humanities Seminar & World Languages',
+          description: 'Interactive literature discussion, analytical writing coaching, or French/Spanish/Mandarin immersion [4].',
+        },
+        {
+          time: '2:05 PM – 3:20 PM',
+          activity: 'Block 4: DREAM Lab Creative Inquiry or FTC Robotics',
+          description: 'Digital fabrication, 3D printing, CAD design, or FIRST Tech Challenge robot programming [24, 25].',
+        },
+        {
+          time: '3:30 PM – 5:00 PM',
+          activity: 'After-School Gators Athletics (No-Cut Soccer/Track)',
+          description: 'Middle school soccer match, track practice, or water polo conditioning under the inclusive no-cut athletic policy [1, 4].',
+        },
+      ],
+    },
+    historyAndLeadership: {
+      historicalChronology: [
+        '1898: Founded on Valparaiso Avenue by the Society of the Sacred Heart under Rev. Mother Jane Fox [1, 5].',
+        '1971: Administrative title of "Head of Schools" instituted under Sr. Nancy Morris, RSCJ [6].',
+        '1995: Board of Trustees appoints Dr. Milt Werner as the first lay Director of Schools [1].',
+        '2000: Joe Ciancaglini appointed Director of Schools, continuing modern facility expansion [5].',
+        '2007: Richard A. Dioli appointed third lay Director of Schools, leading major campus capital campaigns [2].',
+        '2015: Francesca Brake appointed Principal of Preschool through Grade 8 [5].',
+        'Present: A 1,180-student PK-12 premier institution celebrating over 125 years of educational heritage [1].',
+      ],
+      namesakeBackground:
+        'Founded by the Society of the Sacred Heart, established in France by St. Madeleine Sophie Barat in 1800 and brought to North America by St. Rose Philippine Duchesne [1, 2].',
+      leadershipCohort: [
+        {
+          gradeOrRole: 'Director of Schools',
+          administrator: 'Richard A. Dioli (36+ years at SHS, Santa Clara Univ, former SHP Principal) [2]',
+          counselor: 'Wendy Quattlebaum (Director of Financial Aid) [6]',
+        },
+        {
+          gradeOrRole: 'Principal, Preschool – Grade 8',
+          administrator: 'Francesca Brake (P-8 Principal since 2015) [5]',
+          counselor: 'Kyle Kalmbach (P-8 Assistant Principal of Academics) [5]',
+        },
+        {
+          gradeOrRole: 'Interim Principal, Sacred Heart Prep',
+          administrator: 'Brian Bell (Veteran SHP educator & administrator) [5, 9]',
+          counselor: 'Sharon Sikora (Middle School Curriculum Director) [5]',
+        },
+        {
+          gradeOrRole: 'Director of Mission & Culture',
+          administrator: 'Brisa Diaz (DEIB leadership & outdoor education) [11]',
+          counselor: 'Campus Health & Socio-Emotional Counseling Staff [10, 40]',
+        },
+      ],
+      mediaAnalysis: {
+        positive:
+          'Regional press (Palo Alto Online, The Almanac, San Mateo Daily Journal) frequently spotlights SHS for athletic championships (15 soccer CCS titles, 22 water polo CCS titles), elite robotics tournament placements, and notable alumni like USWNT World Cup champion Tierna Davidson [1, 22, 31].',
+        neutral:
+          'Real estate and education publications discuss SHS within the affluent Atherton landscape ($7M–$8M median home values), highlighting the choice of private PK-12 continuity over public high school feeder paths [12, 13].',
+        critical: {
+          incidentSummary:
+            'Independent Catholic identity draws occasional critique from conservative Catholic commentators regarding institutional alignment with modern inclusive theology, while secular observers highlight the demographic affluence of Atherton [11, 13, 36].',
+          reforms: [
+            'Maintained adherence to the five foundational Sacred Heart Goals and Criteria with broad ecumenical inclusion across 24+ faith traditions [1, 2].',
+            'Expanded need-based tuition assistance to broaden socioeconomic access across all four divisions [6, 19].',
+            'Implemented the "Code of the Heart" and dedicated Middle School Advisory to anchor daily student wellbeing [3, 4].',
+          ],
+        },
+      },
+    },
+    prospectiveFamilySynthesis: {
+      summary:
+        'For a prospective parent evaluating Sacred Heart Schools Atherton, the campus provides a seamless PK–12 college-preparatory continuum on an extraordinary 63-acre campus, world-class DREAM Lab engineering and robotics, a no-cut middle school athletic program, and a 15–18 minute commute to the Sunnyvale workplace [1, 4, 24].',
+      keyTakeaways: [
+        'Continuous PK–12 Pathway: Seamless progression into Sacred Heart Preparatory eliminates high school admissions anxiety at the end of 8th grade [1, 10].',
+        'State-of-the-Art STEM & DREAM Lab: Exceptional hands-on engineering, blacksmithing, CNC machining, VEX IQ/FTC robotics (100+ students), and AMC/AIME math contest pipelines [22, 24, 25].',
+        'Championship Athletics & No-Cut Middle School: Inclusive middle school sports policy feeding into a high school program with 15 CCS soccer championships and Tierna Davidson legacy [1, 4, 31].',
+        'Nurturing Advisory & Values Framework: Daily faculty advisory, "Middle School 101" executive functioning, weekly goûter tradition, and cross-grade buddy mentorship [3, 4].',
+      ],
+    },
+    worksCited: [
+      { id: 1, title: 'Sacred Heart Schools, Atherton - Wikipedia', url: 'https://en.wikipedia.org/wiki/Sacred_Heart_Schools,_Atherton' },
+      { id: 2, title: 'Meet Our Director of Schools | Sacred Heart Schools Atherton', url: 'https://www.shschools.org/about/leadership/director-of-schools' },
+      { id: 3, title: 'Student Clubs & Campus Life | Sacred Heart Schools Atherton', url: 'https://www.shschools.org/campus-life/clubs-and-activities' },
+      { id: 4, title: 'Middle School Curriculum & Admissions | Sacred Heart Schools', url: 'https://www.shschools.org/admission/middle-school' },
+      { id: 5, title: 'Loyal Leaders & History - Sacred Heart Schools Atherton', url: 'https://www.shschools.org/about/history-and-heritage/loyal-leaders' },
+      { id: 6, title: 'Leadership Team & Board of Trustees | Sacred Heart Schools', url: 'https://www.shschools.org/about/leadership' },
+      { id: 7, title: 'SHS Lower School Curriculum | Sacred Heart Schools Atherton', url: 'https://www.shschools.org/academics/lower-school-k-5' },
+      { id: 8, title: 'SHS Middle School Curriculum - Sacred Heart Schools Atherton', url: 'https://www.shschools.org/academics/middle-school-6-8' },
+      { id: 9, title: 'Ella Woodhead (SHP \'22) Leads Team USA Back to Dunlevie', url: 'https://www.shschools.org/z-2021-hpr-news-detail?pk=1427487' },
+      { id: 10, title: 'Welcome Gators Admissions Guide | Sacred Heart Schools', url: 'https://www.shschools.org/welcome-gators' },
+      { id: 11, title: 'Educator Advisory Board - Teach AAPI & Mission Integration', url: 'https://teachaapi.org/educator-advisory-board/' },
+      { id: 12, title: 'Hillsborough vs Atherton School Districts — Side-by-side Study', url: 'https://bayareaschoolguide.com/en/compare/hillsborough-vs-atherton' },
+      { id: 13, title: 'Atherton vs Palo Alto School Districts — Side-by-side Study', url: 'https://bayareaschoolguide.com/en/compare/atherton-vs-palo-alto' },
+      { id: 14, title: 'Las Lomitas Elementary School, Atherton, CA - Review Profile', url: 'https://www.movoto.com/schools/atherton-ca/las-lomitas-elementary-school-062238002675/' },
+      { id: 15, title: 'Private vs Independent Schools in the Bay Area - Quora Insights', url: 'https://www.quora.com/What-is-a-good-private-school-in-the-Bay-Area' },
+      { id: 16, title: 'Synapse School, Menlo Park, CA - Profile & Community Reviews', url: 'https://www.movoto.com/schools/menlo-park-ca/synapse-school-a1100355/' },
+      { id: 17, title: 'Best Elementary & Middle Schools in Atherton, CA - Homes.com', url: 'https://www.homes.com/school-search/atherton-ca/elementary-schools/' },
+      { id: 18, title: '2026 Best Schools in the San Francisco Bay Area - Niche', url: 'https://www.niche.com/k12/search/best-schools/m/san-francisco-metro-area/' },
+      { id: 19, title: 'Menlo Park & Atherton Real Estate Trends & School Profiles', url: 'https://xavierwilliams.com/areas/menlo-park/' },
+      { id: 20, title: 'Private vs Public School in Silicon Valley — A Decision Framework', url: 'https://mkbayarea.com/en/knowledge/private-vs-public-school-silicon-valley' },
+      { id: 21, title: 'SHP Academic Departments & Capstones | Sacred Heart Schools', url: 'https://www.shschools.org/academics/preparatory-9-12/departments' },
+      { id: 22, title: 'Accolades Abound: AMC 10/12 & Robotics News | Sacred Heart Schools', url: 'https://www.shschools.org/z-2021-hpr-news-detail?pk=1393282' },
+      { id: 23, title: 'Sacred Heart Students Receive Top STEM & Science Fair Awards', url: 'https://www.shschools.org/z-2021-hpr-news-detail?pk=1277788' },
+      { id: 24, title: 'Creative Inquiry & DREAM Lab at Sacred Heart Schools Atherton', url: 'https://www.shschools.org/academics/preparatory-9-12/departments/creative-inquiry' },
+      { id: 25, title: 'Robotics Program at SHS | Sacred Heart Schools Atherton', url: 'https://www.shschools.org/campus-life/clubs-and-activities/robotics' },
+      { id: 26, title: 'SHS Students Receive Top Robotics Awards & VEX World Honors', url: 'https://www.shschools.org/z-2021-hpr-news-detail?pk=1338888' },
+      { id: 27, title: 'Middle School Robotics Wins Tournament - Sacred Heart Schools', url: 'https://www.shschools.org/z-2021-hpr-news-detail?pk=1270014' },
+      { id: 28, title: 'West Bay Athletic League (WBAL) Overview — Grokipedia', url: 'https://grokipedia.com/page/west_bay_athletic_league' },
+      { id: 29, title: 'Menlo Girls Spoil Sacred Heart Prep\'s WBAL Soccer Party', url: 'https://www.shschools.org/news-detail?pk=868533' },
+      { id: 30, title: 'Prep Report: Sacred Heart Prep Seniors Go Out With a Win', url: 'https://shschools.myschoolapp.com/page/copy-of-news-detail?pk=880927&siteId=878&ssl=1' },
+      { id: 31, title: 'SHP Athletics News: Tierna Davidson World Cup & Collegiate Legacy', url: 'https://www.shschools.org/shp-athletics-news?YearNumber=2018&MonthNumber=' },
+      { id: 32, title: 'San Mateo County Private School Standardized Testing Profiles', url: 'https://www.apartments.com/2350-alameda-de-las-pulgas-redwood-city-ca/bb944hc/' },
+      { id: 33, title: 'Redwood City & Atherton School Corridor Data | HotPads', url: 'https://hotpads.com/88-southgate-st-redwood-city-ca-94062-1m77rfs/pad' },
+      { id: 34, title: 'Sacred Heart Schools, Atherton - GreatSchools & Homes.com Profile', url: 'https://www.homes.com/school/atherton-ca/sacred-heart-schools-atherton-school/nf5peyxp0dfsq/' },
+      { id: 35, title: 'SHP Athletics Championships Archive - Sacred Heart Schools', url: 'https://www.shschools.org/shp-athletics-news?YearNumber=2017&MonthNumber=' },
+      { id: 36, title: 'Catholic School Discourse & Theological Commentary in Northern CA', url: 'https://www.cal-catholic.com/gay-totalitarianism-at-schools-of-the-sacred-heart-san-francisco/' },
+      { id: 37, title: 'The Experience of Catholic Secondary Schools in California - USFCA', url: 'https://repository.usfca.edu/cgi/viewcontent.cgi?article=1376&context=diss' },
+      { id: 38, title: 'SHS Calendar of Events & Liturgies - Sacred Heart Schools', url: 'https://www.shschools.org/about/calendar?sDate=20240501&eDate=20240531' },
+      { id: 39, title: 'SHS Honors Four at 2021 St. Madeleine Sophie Award Ceremony', url: 'https://www.shschools.org/z-2021-hpr-news-detail?pk=1191721' },
+      { id: 40, title: 'Health & Wellness Services | Sacred Heart Schools Atherton', url: 'https://www.shschools.org/campus-life/health-and-wellness/health-services' },
+      { id: 41, title: 'Axel de Vernou - Sacred Heart Schools | TEDx Event', url: 'https://tedx.shschools.org/news-detail?pk=1142800' },
+      { id: 42, title: 'Camp Gator & Multi-Activity Summer Camps | Bay Camps', url: 'https://www.baycamps.org/category/multi' },
+      { id: 43, title: 'Bay Area Parents Relocation & Atherton School Guide - College Confidential', url: 'https://talk.collegeconfidential.com/t/bay-area-parents-relocation-help/1468625' },
+    ],
+  },
+  'menlo-school': {
+    schoolId: 'menlo-school',
+    title: 'Institutional Evaluation and Research Report: Menlo School',
+    subtitle: 'Comprehensive Profile: Academic & Mathematical Pedagogy, 100% Middle School Athletics Integration, Leadership, 62-Acre Campus, and Strategic Synthesis',
+    overview: {
+      leadParagraph:
+        'Menlo School is an independent, co-educational college-preparatory day school located at 50 Valparaiso Avenue on the border of Atherton and Menlo Park in San Mateo County, California [1]. The institution serves approximately 795 to 796 students across two primary operational divisions: the Middle School, encompassing grades 6 through 8, and the Upper School, encompassing grades 9 through 12 [2]. Operating on a 62-acre campus that it historically shares with Menlo College, the school maintains a low student-to-teacher ratio of 7:1 and an average class size of 18 students [1, 2, 3].',
+      metricsParagraph:
+        'In the regional educational environment, Menlo School operates as an independent non-profit entity governed by its own Board of Trustees, unattached to public district boundaries or state funding constraints [1]. It commands premier academic outcomes including an average SAT score of 1450 (730 Math, 720 Verbal), an average ACT score of 33, a 96% 4-year college matriculation rate, and an overall Niche grade of A+ (#2 Best Private High School in San Mateo County) [2, 4].',
+      benchmarkTable: [
+        {
+          metric: 'Grades Served',
+          schoolValue: 'Grades 6–12 (MS: 6–8; US: 9–12) [2]',
+          districtValue: 'Independent Secondary',
+          stateValue: 'California Standard',
+        },
+        {
+          metric: 'Total Enrollment',
+          schoolValue: '~795–796 Students [2]',
+          districtValue: 'Dedicated 6–12',
+          stateValue: 'Middle/High Combined',
+        },
+        {
+          metric: 'Student-Teacher Ratio',
+          schoolValue: '7:1 [2]',
+          districtValue: 'Independent Benchmark',
+          stateValue: '22:1 (CA Public Avg)',
+        },
+        {
+          metric: 'Average Class Size',
+          schoolValue: '18 Students [3]',
+          districtValue: 'Small Seminar Model',
+          stateValue: '28 Students',
+        },
+        {
+          metric: 'Tuition (Upper / MS)',
+          schoolValue: '$58,700 – $67,792 annually [4]',
+          districtValue: 'Need-Based Aid Available [1]',
+          stateValue: 'Independent Private',
+        },
+        {
+          metric: 'Standardized Testing Benchmark',
+          schoolValue: 'Avg SAT 1450 | Avg ACT 33 [2]',
+          districtValue: 'Top Tier College Prep',
+          stateValue: 'National Benchmark',
+        },
+        {
+          metric: '4-Year College Matriculation',
+          schoolValue: '96% Matriculation Rate [2]',
+          districtValue: 'Top 1% Independent',
+          stateValue: '65% CA Public Avg',
+        },
+        {
+          metric: 'Campus Footprint',
+          schoolValue: '62 Acres (Atherton / Menlo Park border) [1]',
+          districtValue: 'Arrillaga MS Campus [1]',
+          stateValue: 'Suburban Campus',
+        },
+      ],
+    },
+    academics: {
+      lead:
+        'The Middle School academic program for grades 6 through 8 is grounded in core foundational standards known as the "Habits of Heart and Mind" and "Habits of Learning" [3]. The daily timetable integrates traditional core disciplines with specialized applied learning and rotating creative arts modules [19].',
+      teamingModel: {
+        title: '6th–8th Grade Curriculum Architecture & Rotating Explorations',
+        description:
+          'All 6th-grade students complete a mandatory curriculum comprising English, Mathematics, Science, Social Sciences, Human Skills/Learning Seminar, Innovation Lab (iLab), and Physical Education [19]. Sixth graders select one World Language (French, Latin, Mandarin, or Spanish) and rotate quarterly through four Creative Arts modules: visual art, dance, drama, and music [19]. In 7th and 8th grades, students maintain their core academic and language tracks while choosing specialized visual and performing arts electives (digital arts, drawing, mixed media, musical theater, and band) [19].',
+      },
+      mathProgression: {
+        title: 'Conceptual Mathematics: Reasoning, Proofs & Depth Over Acceleration',
+        description:
+          'Menlo’s mathematics department operates under an explicit pedagogical philosophy prioritizing depth of understanding over acceleration, conceptual reasoning over rote memorization, and collaborative whiteboard problem-solving over individual speed drills [20]. Standard and enriched tracks span Math 6 (integrated enrichment), Pre-Algebra 7 / Pre-Algebra (E) 7, and Algebra 8 / Algebra (E) 8 [20].',
+      },
+      choiceProgram: {
+        name: 'MTerm, Whitaker Lab Applied Science & Experiential Pathways',
+        description:
+          'Menlo blends advanced STEM engineering facilities with intensive experiential learning programs [14, 21, 23].',
+        pillars: [
+          {
+            title: 'MTerm (May Term) Experiential Learning',
+            description:
+              'A mandatory two-week program where regular classes pause: Freshmen study California ecological systems; Sophomores examine local civic structures, affordable housing, and criminal justice; Juniors complete independent Junior Projects (JP) or corporate/non-profit internships [14, 22].',
+          },
+          {
+            title: 'Arthur Allen Whitaker Lab (40,000 sq. ft.)',
+            description:
+              'Advanced facility dedicated to robotics, applied physics, biotechnology, and design engineering, equipped with micro-controllers, CAD modeling, precision fabrication, and rapid prototyping tools [1, 23].',
+          },
+          {
+            title: 'Inquiry-Driven Middle School Science',
+            description:
+              'Hands-on engineering challenges including Thermal Energy Engineering (designing insulated structures to save "the penguin"), carbon cycle computer modeling, Whitaker Lab garden trellis fabrication with CAD and power tools, and sheep heart/lung exercise physiology dissections [21].',
+          },
+          {
+            title: 'Menlo IP & Silicon Valley Research Internships',
+            description:
+              'Upper School research pathways connecting students with Silicon Valley research institutions, technology partners, and civic non-profits [3].',
+          },
+        ],
+        governance: 'Directed by Upper School Director John Schafer and Middle School Director La Vina Lowery [9, 12].',
+      },
+      foundationFunding: {
+        name: 'Endowment, Campus Capital Projects & Financial Aid',
+        description:
+          'Substantial institutional philanthropy, alumni support, and board-governed financial aid programs [1, 4].',
+        initiatives: [
+          'Financial Aid: Comprehensive need-based financial aid program ensuring equitable access across tuition, books, and trip expenses [1, 4].',
+          'Modern Capital Facilities: Arrillaga Middle School Campus, 54,000 sq. ft. Athletic Center, Creative Arts & Design Center, Whitaker Lab, Menlo Commons dining hall, and Spieker Center for the Arts [1].',
+          'Whitaker Lab & STEM Technology: Ongoing investment in robotics labs, rapid prototyping gear, biotechnology equipment, and safety tooling [1, 23].',
+          'Cartan Field & Gates Pool: State-of-the-art synthetic/grass turf athletic complex, all-weather track, tennis courts, and aquatics facilities [1, 35].',
+        ],
+      },
+    },
+    athletics: {
+      leagueArchitecture: {
+        title: 'Athletic Architecture & 100% Middle School In-Day Integration (WBAL / PAL / CCS)',
+        leagues: [
+          {
+            name: '100% Middle School PE & Sports Integration',
+            description:
+              'Interscholastic sports and physical training serve as the division’s PE curriculum; all team practices are embedded directly into the regular school day schedule during PE blocks, eliminating late-afternoon practice sessions [18, 24].',
+          },
+          {
+            name: '"A" and "B" Developmental & Competitive Teams',
+            description:
+              'Menlo Middle School fields both "A" and "B" competitive teams across four seasonal divisions each year, paired with certified strength and conditioning coaches from Performance & Wellness [24, 36].',
+          },
+          {
+            name: 'WBAL (West Bay Athletic League)',
+            description:
+              'The primary athletic league for Peninsula private schools; Menlo competes in the WBAL for regular season matches with provided weekday bus transportation [24].',
+          },
+          {
+            name: 'CIF Central Coast Section (CCS) & NorCal Tournaments',
+            description:
+              'Postseason championship circuits across public and private schools; Upper School fields 46 teams with 84% participation, regularly sending graduates to NCAA Division I, II, and III collegiate rosters [18].',
+          },
+        ],
+      },
+      seasonalSchedule: [
+        {
+          season: 'Fall Season',
+          sports: 'Cross Country, Girls Volleyball, Flag Football, Girls Tennis, Boys Water Polo [18, 24]',
+          structure: 'In-school PE practice blocks, afternoon WBAL matches, and Grade-level overnight retreats [24, 44].',
+        },
+        {
+          season: 'Winter Season',
+          sports: 'Boys Soccer, Girls Soccer, Boys Basketball, Girls Basketball [18, 24, 35]',
+          structure: 'Cartan Field turf and Athletic Center indoor courts; tactical training and WBAL league games [24, 35].',
+        },
+        {
+          season: 'Spring Season',
+          sports: 'Track & Field, Baseball, Boys & Girls Lacrosse, Boys Tennis, Boys Golf, Swimming & Diving [18, 24]',
+          structure: 'Cartan Track meets, invitationals, CIF State Trials, and MTerm experiential weeks [14, 18].',
+        },
+      ],
+      focusSportsAnalysis: [
+        {
+          title: 'Soccer Program: Performance Analytics & WBAL Postseason Play',
+          description:
+            'Headed by Director of Performance & Wellness Daniel Hicker (Boys Varsity) and Ross Ireland (Girls Varsity), soccer squads train on Cartan Field’s turf installations, combining tactical field sessions with sport-specific strength training and performance analytics to routinely qualify for regional postseason play [18, 35].',
+        },
+        {
+          title: 'Track & Field and Cross Country (CIF State Records & All-American Honors)',
+          description:
+            'Led by Head Coach John Dagata from the Cartan Field Track, the program regularly qualifies athletes for the CIF State Championships and national meets, breaking the CCS meet record in the Boys\' 4x400-meter relay, earning CIF State podium finishes in the 1600m and 300m hurdles, and securing All-American honors at Nike Outdoor Nationals [18, 35].',
+        },
+      ],
+    },
+    community: {
+      behavioralCharter: {
+        name: 'Habits of Heart and Mind & Human Skills Curriculum',
+        motto: 'Cultivating intellect, character, ethical leadership, and mutual respect',
+        pillars: [
+          {
+            name: 'Habits of Mind (Intellectual Virtues)',
+            description:
+              'Critical thinking, abstract reasoning, inquiry-driven problem solving, and intellectual resilience [3, 20].',
+          },
+          {
+            name: 'Habits of Heart (Ethical Character)',
+            description:
+              'Empathy, integrity, ethical decision-making, and compassionate community responsibility [3, 10].',
+          },
+          {
+            name: 'Human Skills Social-Emotional Framework',
+            description:
+              'Integrated 6th–8th grade course addressing digital citizenship, peer conflict resolution, stress reduction, and self-advocacy [12].',
+          },
+          {
+            name: 'Historic House System Mentorship',
+            description:
+              'Douglass (green/otter), Halverson (red/bear), and Warren (yellow/panther) Houses competing for the House Cup and fostering cross-grade camaraderie [40].',
+          },
+        ],
+      },
+      communityEngagement: {
+        title: 'Advisory Check-Ins, House Traditions & Elementary Buddy Service',
+        description:
+          'Close-knit advisory system and student-directed traditions connecting students across Middle and Upper divisions [15, 40].',
+        initiatives: [
+          'Daily Small-Group Advisory: Faculty advisors lead check-ins, monitor academic progress, and act as primary parent liaisons [15].',
+          'Middle School Student Council & Garage Gatherings: Morning division meetings in the MS Garage and student-led initiatives [40, 42].',
+          'Community Service Weeks: Middle schoolers support buddy reading at local elementary schools, garden planting, and non-profit partner events [46].',
+        ],
+      },
+      academicClimateAndWellbeing: {
+        historicalContext:
+          'Situated in the affluent enclave of Atherton, Menlo balances high academic expectations with deliberate student wellness and schedule reforms led by Head of School Than Healy [10, 13].',
+        investigationFindings:
+          'Reviews on Niche and FindingSchool highlight exceptional faculty mentorship, writing mastery, and college prep, alongside discussions about the fast-paced Silicon Valley environment and affluent peer demographics [2, 4, 8, 37].',
+        countermeasures: [
+          'Schedule Redesigns & Homework Protocols: Daily timetable restructured to reduce homework stress and integrate PE/sports into the school day [10, 24].',
+          'Dedicated Middle School Learning Specialists: Specialists like Frankie Machado coach students in executive functioning, organization, and tailored accommodations [17].',
+          'Comprehensive Sports Medicine: Full-time Athletic Trainers and Health Office staff administering baseline Sway cognitive/concussion testing [35].',
+        ],
+      },
+    },
+    facilities: {
+      architecturalHeritage: {
+        architects: 'Historic Douglass Estate (1913/1946) & Modern Master Plan Additions',
+        year: 1915,
+        history:
+          'Founded in 1915 as William Warren School, relocated to the 55-acre Douglass estate on Valparaiso Ave in 1946; legally separated from Menlo College in 1994 and modernized with dedicated Middle School campus, arts centers, and athletic complexes [1].',
+      },
+      keyFacilities: [
+        {
+          name: 'Arrillaga Family Campus (Middle School)',
+          category: 'Classrooms & Quad',
+          description:
+            'Dedicated Middle School complex opened in 1999, housing 6th–8th grade classrooms, advisory rooms, and a private landscaped quadrangle [1].',
+        },
+        {
+          name: 'Arthur Allen Whitaker Lab (40,000 sq. ft.)',
+          category: 'STEM & Engineering',
+          description:
+            'Advanced applied science facility equipped for robotics, microcontroller programming, design engineering, woodworking, and biotechnology [1, 23].',
+        },
+        {
+          name: 'Athletic Center (54,000 sq. ft.)',
+          category: 'Athletics & PE',
+          description:
+            'State-of-the-art facility featuring two full-size indoor basketball/volleyball courts, performance training center, cardio rooms, and dance studios [1].',
+        },
+        {
+          name: 'Spieker Center for the Arts',
+          category: 'Performing Arts',
+          description:
+            '380-seat proscenium theater and performing arts venue for dramatic productions, orchestral concerts, and all-school assemblies [1].',
+        },
+        {
+          name: 'Creative Arts & Design Center (40,000 sq. ft.)',
+          category: 'Fine Arts & Design',
+          description:
+            'Opened in 2012 with 12 specialized teaching studios, digital media suites, photography darkrooms, and a central exhibition art gallery [1].',
+        },
+        {
+          name: 'Menlo School Commons & Douglass Hall',
+          category: 'Dining & Administration',
+          description:
+            'Modern dining hall providing daily hot entrees and salad bars, alongside historic 1913 Douglass Hall administrative mansion and library [1].',
+        },
+      ],
+    },
+    logistics: {
+      counselingModel: {
+        name: 'Faculty Advisory & Middle School Learning Specialists',
+        description:
+          'Small-group advisory cohorts, dedicated learning specialists (Frankie Machado), and Human Skills educators providing comprehensive emotional and academic guidance [12, 15, 17].',
+      },
+      academicInterventions: {
+        name: 'Executive Functioning Coaching & Learning Seminars',
+        description:
+          '6th-grade Learning Seminar and embedded organizational coaching helping students transition smoothly into departmentalized middle school academics [17, 19].',
+      },
+      safetyAndTransit: {
+        title: 'Daily Schedule, Commuter Bus Routes & Atherton Location',
+        points: [
+          'Location: 50 Valparaiso Ave, Atherton, CA (Atherton / Menlo Park border), ~15–18 min drive to MP4 Sunnyvale workplace [1].',
+          'Middle School Timetable: Starts at 8:35 AM with MS Garage gathering, 7-day rotating block schedule, concludes at 2:50 PM (Day 1) or 3:15 PM [42].',
+          'In-Day PE Sports Blocks: Team practices occur during the academic day; school buses transport athletes to away matches before 5:00 PM [24].',
+          'Commuter Busing: Dedicated private bus routes serving families across Peninsula communities [1, 24].',
+        ],
+      },
+    },
+    extracurriculars: {
+      stemCompetitions: [
+        {
+          category: 'Mathematics',
+          name: 'AMC 8, AMC 10/12 & Interstellar Math Tournament',
+          description:
+            'Administered through "The Neighborhood" Math & CS Club; students compete in MAA AMC 8/10/12 contests and the Interstellar Math online logic competition [25, 28, 29].',
+        },
+        {
+          category: 'Robotics',
+          name: 'FIRST Tech Challenge (FTC) & Botball Robotics',
+          description:
+            'Championship robotics teams: 2nd place overall at FTC World Championships, NorCal FTC Champions, and 2nd place internationally in Botball at GCER [30, 31].',
+        },
+        {
+          category: 'Advanced Research',
+          name: 'Regeneron Science Talent Search Finalists',
+          description:
+            'Upper School biotechnology researchers in the Whitaker Lab regularly publish original papers and earn national finalist honors [32].',
+        },
+        {
+          category: 'Applied Design',
+          name: 'Innovation Lab (iLab) & Whitaker Prototyping',
+          description:
+            'Middle school design and engineering challenges utilizing CNC machinery, laser cutters, CAD software, and woodworking tools [19, 21].',
+        },
+      ],
+      outdoorAndMedia: [
+        {
+          name: '6th Grade Redwood Glen Outdoor Retreat',
+          grade: 'Grade 6',
+          description:
+            'Two-day start-of-year overnight in the Santa Cruz Mountains featuring team-building, naturalist hikes, swimming, and campfire bonding [44].',
+        },
+        {
+          name: '7th Grade Camp Arroyo & 8th Grade Kayaking / D.C.',
+          grade: 'Grades 7–8',
+          description:
+            'Ropes courses at Camp Arroyo (7th) and autumn environmental kayaking followed by a week-long spring Washington D.C. civics tour (8th) [40, 44].',
+        },
+        {
+          name: 'Mock Trial, Student Publications & Spieker Drama',
+          grade: 'Grades 6–12',
+          description:
+            'Nationally ranked Mock Trial teams, The Coat of Arms student newspaper, jazz ensemble, and theatrical stage productions [1, 31, 40].',
+        },
+      ],
+      dayInTheLife: [
+        {
+          time: '8:15 AM – 8:30 AM',
+          activity: 'Arrival & Middle School Quad Check-In',
+          description: 'Students arrive at the Arrillaga Middle School campus and gather with friends in the private courtyard [16].',
+        },
+        {
+          time: '8:35 AM – 8:55 AM',
+          activity: 'Morning Assembly in Middle School Garage',
+          description: 'Division gathering for community announcements, student presentations, and day orientation [42].',
+        },
+        {
+          time: '9:00 AM – 10:10 AM',
+          activity: 'Block 1: Collaborative Mathematics 6',
+          description: 'Whiteboard problem-solving, abstract reasoning, and conceptual logic puzzles facilitated by math faculty [20].',
+        },
+        {
+          time: '10:15 AM – 11:25 AM',
+          activity: 'Block 2: Science 6 in Whitaker Lab',
+          description: 'Hands-on engineering in the Whitaker Lab, putting on safety glasses to assemble wooden garden trellises [21].',
+        },
+        {
+          time: '11:30 AM – 12:00 PM',
+          activity: 'Advisory Cohort & Human Skills Discussion',
+          description: 'Small-group advisory meeting with faculty mentor to discuss study habits, wellness, and upcoming events [15].',
+        },
+        {
+          time: '12:05 PM – 12:50 PM',
+          activity: 'Lunch at Menlo School Commons',
+          description: 'Hot entrees, deli sandwiches, and salad bar lunch with friends in the central dining commons [1].',
+        },
+        {
+          time: '1:00 PM – 2:10 PM',
+          activity: 'Block 3: Integrated PE & Sports Movement Training',
+          description: 'Movement mechanics with Performance & Wellness coaches in the Athletic Center, followed by soccer practice on Cartan Field [24].',
+        },
+        {
+          time: '2:15 PM – 3:15 PM',
+          activity: 'Block 4: Creative Arts Module (Visual Arts / Drama)',
+          description: 'Studio work in the Creative Arts & Design Center or stage blocking in the Spieker Center [1, 19].',
+        },
+        {
+          time: '3:20 PM – 5:00 PM',
+          activity: 'Interscholastic WBAL Soccer Match',
+          description: 'Boarding the school bus for a "B-team" interscholastic league game against a local Peninsula opponent, returning by 5:00 PM [24].',
+        },
+      ],
+    },
+    historyAndLeadership: {
+      historicalChronology: [
+        '1915: Founded as the William Warren School (military academy, 13 boys) [1].',
+        '1924: Military framework dropped; re-incorporated as Menlo School for Boys [1].',
+        '1927: Non-profit Board of Trustees governance established; junior college added [1].',
+        '1946: Acquisition of the 55-acre Douglass Estate on Valparaiso Avenue [1].',
+        '1949: Renamed Menlo School and Menlo College [1].',
+        '1979: Boarding phased out; transitions to co-educational day school [1].',
+        '1994: Legal and operational separation of Menlo School and Menlo College into independent entities [1].',
+        '1999: Opening of the dedicated Arrillaga Family Campus for the Middle School [1].',
+        '2010–2012: Construction of 54,000 sq. ft. Athletic Center, Creative Arts & Design Center, and Whitaker Lab [1].',
+        '2013: Nathaniel "Than" Healy appointed Head of School [1].',
+        '2017–2019: Opening of Menlo Commons dining facility and Spieker Center for the Arts [1].',
+      ],
+      namesakeBackground:
+        'Originally named William Warren School, renamed Menlo School after the surrounding Menlo Park / Atherton community and estate grounds [1].',
+      leadershipCohort: [
+        {
+          gradeOrRole: 'Head of School',
+          administrator: 'Nathaniel "Than" Healy (Head since 2013, Williams College, Columbia Univ, former Lakeside Asst Head) [1, 10]',
+          counselor: 'Earl Koberlein / John Farmer (Athletic Directors) [11]',
+        },
+        {
+          gradeOrRole: 'Middle School Director',
+          administrator: 'La Vina Lowery (MS Director since 2015, UCLA, Pepperdine, 35+ yrs independent education) [1, 12]',
+          counselor: 'Frankie Machado (Middle School Learning Specialist) [17]',
+        },
+        {
+          gradeOrRole: 'Upper School Director',
+          administrator: 'John Schafer (Upper School Director since 2007) [9]',
+          counselor: 'Performance & Wellness / Sports Medicine Staff (Aubrey Fennell, Stephanie Green) [35]',
+        },
+      ],
+      mediaAnalysis: {
+        positive:
+          'Consistently praised for exceptional faculty accessibility and mentorship, world-class writing and collegiate preparation, championship athletic programs (CIF state records, All-American honors), and top STEM accomplishments (FTC World Championship runners-up, Regeneron STS finalists) [2, 4, 18, 30, 32].',
+        neutral:
+          'Media and real estate analyses highlight the high-achievement Silicon Valley environment, fast-paced daily workload, and extensive co-curricular expectations [8, 16].',
+        critical: {
+          incidentSummary:
+            'Community reviews periodically reflect on the affluent Atherton socio-economic context ("the wealth bubble"), alongside parent discussions regarding administrative communication and financial aid equity for non-tuition expenses [8].',
+          reforms: [
+            'Implemented schedule redesigns and homework limits to safeguard student sleep and reduce academic stress [10].',
+            'Embedded athletic practices directly into school-day PE blocks to preserve evening family time [24].',
+            'Instituted mandatory MTerm civic studies examining local housing, food access, and justice systems in San Mateo/Santa Clara counties [22].',
+          ],
+        },
+      },
+    },
+    prospectiveFamilySynthesis: {
+      summary:
+        'For a parent evaluating Menlo School for a rising 6th grader, the institution offers an exceptional 6–12 college-preparatory environment featuring 100% in-school athletic practice integration, the 40,000 sq. ft. Whitaker Lab, collaborative conceptual math, and start-of-year outdoor retreats [1, 20, 24, 44].',
+      keyTakeaways: [
+        'Integrated Athletic Model: Embedding sports practices into the middle school day eliminates late-night practice commutes while fielding inclusive "A" and "B" teams across 4 seasons [24].',
+        'Advanced Applied STEM: Early access to the 40,000 sq. ft. Whitaker Lab, robotics (FTC World runners-up), CAD/woodworking, and inquiry science [1, 21, 23, 30].',
+        'Conceptual Depth in Mathematics: Focus on abstract reasoning, proofs, and depth over rote acceleration, paired with optional AMC 8 and Interstellar Math contests [20, 25, 29].',
+        'Comprehensive Socio-Emotional Scaffolding: Daily faculty advisory, Human Skills SEL curriculum, learning specialists, and overnight outdoor retreats at Redwood Glen [12, 15, 17, 44].',
+      ],
+    },
+    worksCited: [
+      { id: 1, title: 'History & Campus Facilities - Menlo School', url: 'https://www.menloschool.org/about/history/' },
+      { id: 2, title: 'Menlo School in Atherton, CA - Homes.com Profile & Metrics', url: 'https://www.homes.com/school/atherton-ca/menlo-school/zqw68wl96dgvs/' },
+      { id: 3, title: 'Academics & Habits of Heart and Mind • Menlo School', url: 'https://www.menloschool.org/academics/' },
+      { id: 4, title: 'Menlo School in Atherton, CA - Niche Ratings & Rankings', url: 'https://www.niche.com/k12/menlo-school-atherton-ca/' },
+      { id: 5, title: 'Menlo-Atherton High School Overview - Trulia & Public Context', url: 'https://www.trulia.com/schools/CA-atherton-menlo_atherton_high_school-123274' },
+      { id: 6, title: 'Why is Menlo Atherton High School rated differently than private peers?', url: 'https://www.reddit.com/r/BayAreaRealEstate/comments/1q58mzh/why_is_menlo_atherton_high_school_rated_lower/' },
+      { id: 7, title: 'Menlo School - myTheo Community Profile', url: 'https://jencogen.mytheo.com/schools/c39a1fb9-9633-4b73-93b2-f4ecd6c10f69' },
+      { id: 8, title: 'Menlo School Parent & Student Reviews - Niche', url: 'https://www.niche.com/k12/menlo-school-atherton-ca/reviews/' },
+      { id: 9, title: 'Menlo School - Wikipedia Overview', url: 'https://en.wikipedia.org/wiki/Menlo_School' },
+      { id: 10, title: 'Menlo School Appoints Head of School Than Healy', url: 'https://menlocoa.org/5911/news/menlo-school-appoints-new-head-of-school-than-healy/' },
+      { id: 11, title: 'School Leadership Directory - Menlo School', url: 'https://www.menloschool.org/about/school-leadership/' },
+      { id: 12, title: 'La Vina Lowery - Middle School Director Profile', url: 'https://www.menloschool.org/live/profiles/330-la-vina-lowery' },
+      { id: 13, title: 'Than Healy Biography | TheLeaderNetwork', url: 'https://www.theleadernetwork.org/our-team/than-healy' },
+      { id: 14, title: 'Than Healy Celebrates 10 Years at Menlo - The Coat of Arms', url: 'https://menlocoa.org/22484/news/from-50-1-healy-celebrates-10-years-at-menlo-2/' },
+      { id: 15, title: 'La Vina Lowery Appointed Middle School Director - Menlo News', url: 'https://www.menloschool.org/live/news/995-la-vina-lowery-our-next-middle-school-director' },
+      { id: 16, title: 'KnightLine Archive: La Vina Lowery on Middle School Culture', url: 'https://www.menloschool.org/live/files/1729-knightline-december-2015-la-vina-lowery' },
+      { id: 17, title: 'KnightLine Archive & Learning Specialists - Menlo School', url: 'https://www.menloschool.org/knightlines/' },
+      { id: 18, title: 'Athletics & CIF Central Coast Section Honors - Menlo School', url: 'https://www.menloschool.org/athletics/' },
+      { id: 19, title: 'Middle School Curriculum & Explorations - Menlo School', url: 'https://www.menloschool.org/academics/middle-school/' },
+      { id: 20, title: 'Middle School Mathematics Philosophy - Menlo School', url: 'https://www.menloschool.org/academics/middle-school/mathematics/' },
+      { id: 21, title: 'Middle School Inquiry Science - Menlo School', url: 'https://www.menloschool.org/academics/middle-school/science/' },
+      { id: 22, title: 'MTerm (May Term) Experiential Curriculum - Menlo School', url: 'https://www.menloschool.org/academics/upper-school/departments-programs/m-term/' },
+      { id: 23, title: 'Upper School Applied Science & Whitaker Lab Engineering - Menlo School', url: 'https://www.menloschool.org/academics/upper-school/applied-science-engineering/' },
+      { id: 24, title: 'New to Middle School Athletics & Practice Scheduling - Menlo School', url: 'https://www.menloschool.org/athletics/new-to-middle-school-athletics/' },
+      { id: 25, title: 'AMC 8 Mathematical Competition Overview - MAA Contests', url: 'https://www.randommath.com/tournaments/amc-8' },
+      { id: 26, title: 'American Mathematics Competitions (AMC 10/12)', url: 'https://maa.org/student-programs/amc/' },
+      { id: 27, title: 'M-A Math Contests & Regional Competitions', url: 'https://www.mabears.org/academics/departments/mathematics/m-a-math-contests' },
+      { id: 28, title: 'Math Competitions & Olympiad Coaching - AJ Tutoring', url: 'https://www.ajtutoring.com/academic-tutoring/math-competitions/' },
+      { id: 29, title: 'Interstellar Math Tournament at Menlo School', url: 'https://www.menloschool.org/live/news/376-interstellar-math' },
+      { id: 30, title: 'Robotics & FIRST Tech Challenge Honors - Menlo School', url: 'https://www.menloschool.org/live/news/112-robotics' },
+      { id: 31, title: 'Menlo Magazine: Robotics & Global GCER Accolades', url: 'https://www.menloschool.org/magazine/summer-fall-2018/files/basic-html/page17.html' },
+      { id: 32, title: 'Menlo Senior Named Finalist in Regeneron Science Talent Search', url: 'https://www.menloschool.org/live/news/3286-menlo-senior-named-finalist-in-regeneron-science' },
+      { id: 33, title: 'Athletics Philosophy & Core Values - Menlo School', url: 'https://www.menloschool.org/athletics/about-menlo-athletics/ ' },
+      { id: 34, title: 'Upper School Interscholastic Teams - Menlo School', url: 'https://www.menloschool.org/athletics/upper-school-teams/' },
+      { id: 35, title: 'Welcome to Menlo Athletics & Performance Training Facilities', url: 'https://www.menloschool.org/athletics/athletics-welcome/' },
+      { id: 36, title: 'Performance & Wellness Department - Menlo School', url: 'https://www.menloschool.org/athletics/performance-wellness/' },
+      { id: 37, title: 'Menlo School Atherton - Ranking, Tuition & Admissions (FindingSchool)', url: 'https://www.findingschool.com/menlo-school' },
+      { id: 38, title: 'Menlo School - Prep Review Profile', url: 'https://www.prepreview.com/school/Menlo_School.html' },
+      { id: 39, title: 'KnightLine: Than Healy on School Culture and Community', url: 'https://www.menloschool.org/live/files/1722-knightline-december-2015-than-healy' },
+      { id: 40, title: 'Events, Clubs & House Traditions - Student Life - Menlo School', url: 'https://www.menloschool.org/student-life/student-activities-traditions/' },
+      { id: 41, title: 'Calendar & Campus Events - Menlo School', url: 'https://www.menloschool.org/calendar/' },
+      { id: 42, title: 'Back to School Middle School Schedule & Timetable - Menlo School', url: 'https://www.menloschool.org/academics/middle-school/back-to-school/' },
+      { id: 43, title: 'Calendar of Athletics & Events - Menlo School', url: 'https://www.menloschool.org/calendar/all' },
+      { id: 44, title: 'Cultivating Community: Overnight Outdoor Retreats - Menlo School', url: 'https://www.menloschool.org/live/news/3940-cultivating-community-right-from-the-start' },
+      { id: 45, title: 'Menlo School Student Clubs & Interest Guilds', url: 'https://clubs.menloschool.org/' },
+      { id: 46, title: 'Menlo Magazine: Community Engagement & Elementary Buddy Programs', url: 'https://www.menloschool.org/magazine/summer-fall-2019/files/basic-html/page24.html' },
+    ],
+  },
+  'woodside-priory': {
+    schoolId: 'woodside-priory',
+    title: 'Institutional Assessment and Comprehensive Review of Woodside Priory School',
+    subtitle: 'Comprehensive Profile: Benedictine Values, Humanities Homeroom Model, STREAM & AMC 8 STEM Infrastructure, WBAL Athletics, Leadership, 51-Acre Foothills Campus, and Strategic Synthesis',
+    overview: {
+      leadParagraph:
+        'Woodside Priory School, situated in Portola Valley, California, represents a distinctive model within the San Francisco Bay Area independent secondary education ecosystem [1]. Operating as a co-educational, Catholic Benedictine college-preparatory institution, the school serves approximately 370 to 400 total students across its Middle School (Grades 6–8) and Upper School (Grades 9–12) [2]. The school functions as both a day school and a residential boarding institution, drawing students from local Bay Area communities as well as international regions on a 51-acre campus in the foothills of the Santa Cruz Mountains [2].',
+      metricsParagraph:
+        'The school\'s educational philosophy integrates academic rigor with five core Benedictine values: spirituality, hospitality, integrity, individuality, and community [2]. Operating under the spiritual oversight of Saint Anselm Abbey and an independent Board of Trustees, Woodside Priory maintains an intimate 7:1 student-teacher ratio, an average class size of 14–16 students, and a capped Middle School enrollment of approximately 100 students (~30–35 per grade) [2, 6, 8]. On GreatSchools, Priory is designated as "Unrated" (standard for independent schools that do not take public state CAASPP testing), while maintaining an overall grade of A+ on Niche (#1 Catholic High School in San Mateo County) [5, 29, 30].',
+      benchmarkTable: [
+        {
+          metric: 'Year Established',
+          schoolValue: '1957 (Hungarian Benedictine Monks) [2]',
+          districtValue: 'Independent / Catholic',
+          stateValue: 'Historic Foundation',
+        },
+        {
+          metric: 'Campus Footprint',
+          schoolValue: '51 Acres; Portola Valley, San Mateo County [2, 7]',
+          districtValue: 'Windy Hill Foothills',
+          stateValue: 'Suburban / Natural',
+        },
+        {
+          metric: 'Religious Affiliation',
+          schoolValue: 'Catholic Benedictine (Saint Anselm Abbey, NH) [2, 8]',
+          districtValue: 'Interfaith / Inclusive [2]',
+          stateValue: 'Independent Catholic',
+        },
+        {
+          metric: 'Governance Structure',
+          schoolValue: 'Monastic Board of Directors & Board of Trustees [8]',
+          districtValue: 'Non-Profit 501(c)(3)',
+          stateValue: 'Dual Governance',
+        },
+        {
+          metric: 'Total Enrollment (6–12)',
+          schoolValue: '~370–400 Students (Day & Boarding) [2]',
+          districtValue: '6–12 Continuous [4]',
+          stateValue: 'Middle/High Combined',
+        },
+        {
+          metric: 'Middle School Enrollment (6–8)',
+          schoolValue: '~100 Students (~30–35 per grade) [2, 6]',
+          districtValue: 'Dedicated MS Quad [6]',
+          stateValue: '22:1 (CA Public Avg)',
+        },
+        {
+          metric: 'Student-Teacher Ratio & Class Size',
+          schoolValue: '7:1 Ratio; 14–16 Students per Class [2, 6]',
+          districtValue: 'Seminar Model',
+          stateValue: '28 Students',
+        },
+        {
+          metric: 'Tuition (Day Program)',
+          schoolValue: '$64,460 annually (Need-based aid available) [5, 30]',
+          districtValue: 'Independent Benchmark',
+          stateValue: 'Independent Private',
+        },
+      ],
+    },
+    academics: {
+      lead:
+        'The academic program at Woodside Priory School is divided into two divisions: the Middle School (Grades 6–8) and the Upper School (Grades 9–12) [4]. The curriculum is college-preparatory, structured to meet and exceed University of California "A–G" subject requirements while fostering critical inquiry and independent learning [5].',
+      teamingModel: {
+        title: 'Humanities Homeroom Model & Dedicated Middle School Quad',
+        description:
+          'The Middle School serves approximately 100 students across Grades 6 through 8 [6]. A central feature is the Humanities model: in each grade, a single Humanities instructor teaches both English Literature and History, while also serving as the primary homeroom advisor [6]. This allows teachers to build strong multi-year relationships, monitor academic progress across disciplines, and provide consistent executive functioning support [6]. In addition to core disciplines (Math, Science, Theology, World Languages, PE), students complete required modules in Study Skills (Grade 6), Computer Science (Grade 6), Health (Grade 8), and "Project Step Up" (Grade 8 preparation for Upper School) [6].',
+      },
+      mathProgression: {
+        title: 'Sequential Mathematics & AMC 8 Problem-Solving Pipelines',
+        description:
+          'Middle School mathematics progresses sequentially through Pre-Algebra, Algebra I, and Geometry [6]. The school operates a joint Middle and Upper School Math Club and serves as an official host site for the Mathematical Association of America (MAA) American Mathematics Competitions 8 (AMC 8), preparing students for advanced high school contests including the AMC 10/12 and AIME [7, 20].',
+      },
+      choiceProgram: {
+        name: 'STREAM Building, Maker Spaces & Applied Electives Catalog',
+        description:
+          'Woodside Priory combines modern STREAM laboratory facilities with a diverse quarterly electives catalog and outdoor education [6, 7].',
+        pillars: [
+          {
+            title: 'STREAM Building & Robotics Labs',
+            description:
+              'A modern facility housing state-of-the-art science laboratories, computer science classrooms, and robotics engineering maker spaces for hands-on design, CAD, and prototyping [7].',
+          },
+          {
+            title: 'Quarterly Middle School Electives Catalog',
+            description:
+              'Diverse exploratory options: Visual/Performing Arts (Ceramics 1 & 2, Book Arts, Creative Writing, Drawing & Painting, Musical Theater, Play Performance, Songwriting, Band); STEM (CAD & 3D Printing, Coding, Robotics, Tinker); and Applied/Outdoor Skills (Garden, Plant to Plate, Outdoor Survival Skills, Stewards in Action, Swords, Words & Mayhem) [6].',
+          },
+          {
+            title: 'Upper School Science Olympiad',
+            description:
+              'An active 15-member team competing across 23 individual events spanning biology, earth science, chemistry, physics, and pre-built engineering challenges under faculty mentorship [7].',
+          },
+          {
+            title: 'Experiential Outdoor Education & Windy Hill Ecology',
+            description:
+              'Curriculum leverages the 51-acre campus and neighboring Windy Hill Open Space Preserve for compass navigation, botanical analysis, and environmental science field labs [2, 6].',
+          },
+        ],
+        governance: 'Directed by Head of Middle School Caitha Ambler and Academic Dean Justin Christensen [6, 8].',
+      },
+      foundationFunding: {
+        name: 'Endowment, Monastic Stewardship & Campus Infrastructure',
+        description:
+          'Woodside Priory maintains an active endowment, alumni network, and capital development program under the Board of Trustees [2, 8].',
+        initiatives: [
+          'Financial Aid & Inclusivity: Comprehensive need-based tuition assistance program ensuring broad socioeconomic access [2, 8].',
+          'STREAM Building & Learning Commons: Multimillion-dollar STEM complex and central library media center with quiet study carrels and collaborative rooms [7].',
+          'Athletic Complexes: Two natural turf soccer pitches, regulation running track, baseball diamond, outdoor tennis/basketball courts, and heated aquatic swimming pool [7].',
+          'Residential Dormitories: Benedict House (boys), Scholastica House (girls), and Anselm House (girls) with full-time Residential Faculty [7].',
+        ],
+      },
+    },
+    athletics: {
+      leagueArchitecture: {
+        title: 'Athletic Framework & Inclusive Philosophy (WBAL / CIF CCS)',
+        leagues: [
+          {
+            name: 'WBAL (West Bay Athletic League)',
+            description:
+              'The primary athletic conference for independent private secondary schools along the Peninsula (Priory, Menlo School, Sacred Heart Prep, Harker, Crystal Springs Uplands) [13, 23].',
+          },
+          {
+            name: 'CIF Central Coast Section (CCS) & State Playoffs',
+            description:
+              'The regional postseason governing body across public and private schools; Priory teams routinely advance to CCS playoffs and sectional tournaments [23].',
+          },
+          {
+            name: 'Inclusive "No-Cut" Participation Philosophy',
+            description:
+              'Ensures every interested middle school student has the opportunity to join athletic teams, building sportsmanship, fundamental skills, and fitness across three competitive seasons [7].',
+          },
+        ],
+      },
+      seasonalSchedule: [
+        {
+          season: 'Fall (Aug – Nov)',
+          sports: 'Cross Country, Flag Football, Girls Volleyball, Water Polo (Upper: Tackle Football, Girls Flag Football) [7]',
+          structure: 'After-school practices (3:30–5:30 PM), league meets, and start-of-year grade-level outdoor retreats [6, 7].',
+        },
+        {
+          season: 'Winter (Nov – Feb)',
+          sports: 'Boys Basketball, Girls Basketball, Boys Soccer (JV & Varsity), Girls Soccer (JV & Varsity) [7]',
+          structure: 'Natural turf soccer pitches, indoor gymnasium courts, and WBAL league matches [7].',
+        },
+        {
+          season: 'Spring (Feb – May)',
+          sports: 'Baseball, Boys & Girls Lacrosse, Boys & Girls Tennis, Track & Field, Swimming (Upper: Beach Volleyball) [7]',
+          structure: 'Campus regulation track meets, jump pits, tennis courts, and CCS postseason qualifiers [7, 23].',
+        },
+      ],
+      focusSportsAnalysis: [
+        {
+          title: 'Soccer Program: Natural Turf Pitches & Postseason Contention',
+          description:
+            'Fields Middle School Junior Varsity and Varsity teams for both boys and girls during the winter season, emphasizing tactical field positioning, ball control, and teamwork [7]. In the Upper School, high school academic faculty frequently serve as soccer coaches, reinforcing strong classroom-to-field mentorship, and both boys\' and girls\' varsity squads routinely qualify for WBAL and CCS postseason tournaments while training on two full-size natural turf pitches [7, 13, 23].',
+        },
+        {
+          title: 'Track & Field and Cross Country (Foothills Conditioning & Sectional Meets)',
+          description:
+            'Middle School Track & Field introduces students to sprinting, hurdles, distance running, long jump, triple jump, shot put, and high jump [7]. Upper School cross-country utilizes the campus foothills as a conditioning base, with track athletes routinely advancing to league finals and CCS regional championship meets on the campus regulation track [7, 25].',
+        },
+      ],
+    },
+    community: {
+      behavioralCharter: {
+        name: 'Five Core Benedictine Values & Spiritual Inclusivity',
+        motto: 'Spirituality, Hospitality, Integrity, Individuality, and Community',
+        pillars: [
+          {
+            name: 'Spirituality',
+            description:
+              'Encouraging personal reflection, moral discernment, and spiritual growth across all backgrounds [2].',
+          },
+          {
+            name: 'Hospitality',
+            description:
+              'Welcoming all individuals with warmth, respect, and unconditional open-heartedness [2].',
+          },
+          {
+            name: 'Integrity',
+            description:
+              'Fostering honesty, ethical accountability, and personal responsibility in all actions [2].',
+          },
+          {
+            name: 'Individuality',
+            description:
+              'Celebrating each student\'s distinct passions, cultural background, and unique talents [2].',
+          },
+          {
+            name: 'Community',
+            description:
+              'Building mutual support, lifelong camaraderie, and shared commitment to the common good [2].',
+          },
+        ],
+      },
+      communityEngagement: {
+        title: 'Panther Pals Mentorship Model & Weekly Chapel Traditions',
+        description:
+          'Close-knit cross-grade mentorship and weekly interfaith gatherings connecting the campus community [2, 6].',
+        initiatives: [
+          'Panther Pals Peer Mentorship: Every incoming 6th grader is paired with a 12th-grade senior for the year, sitting together at chapel, sharing campus lunches, and collaborating during spirit days [6].',
+          'Interfaith Weekly Chapel: Mandatory weekly gatherings focusing on universal moral themes, ethical reflection, musical performances, and student presentations rather than strict liturgical doctrine [2].',
+          'Residential & Global Perspective: Day students interact daily with international and domestic boarding students who comprise ~20% of the Upper School [2].',
+        ],
+      },
+      academicClimateAndWellbeing: {
+        historicalContext:
+          'Situated in the serene Portola Valley foothills adjacent to Windy Hill Preserve, Woodside Priory balances college-preparatory rigor with a restorative natural backdrop [2, 7].',
+        investigationFindings:
+          'Reviews on Niche and regional media spotlight the nurturing "known and loved" faculty culture, strong arts and STEM electives, and low-stress foothills campus, while noting the compact Middle School cohort size (~100 students) and transition step into Upper School Honors/AP courses [2, 5, 6, 30].',
+        countermeasures: [
+          'Humanities Homeroom Advisor Model: Single teacher integrates English/History and monitors daily social-emotional wellbeing [6].',
+          'Managed Homework Policies: Middle school homework guidelines protect time for family, sports, and rest [6].',
+          'Positive Psychology Guidance: Full-time campus counselors and full-time Residential Faculty providing continuous support [7, 8].',
+        ],
+      },
+    },
+    facilities: {
+      architecturalHeritage: {
+        architects: 'Hungarian Monastic Foundation (1957) & Modern Master Plan Facilities',
+        year: 1957,
+        history:
+          'Founded in 1957 on an 18-acre Portola Valley ranch by seven Hungarian Benedictine monks fleeing Soviet suppression; expanded over six decades to 51 acres in the Santa Cruz Mountains foothills [2].',
+      },
+      keyFacilities: [
+        {
+          name: 'STREAM Building & Maker Spaces',
+          category: 'STEM & Labs',
+          description:
+            'Multimillion-dollar facility housing science laboratories, computer science classrooms, and robotics engineering maker spaces [7].',
+        },
+        {
+          name: 'Learning Commons Library & Research Hub',
+          category: 'Research & Gathering',
+          description:
+            'Central campus library offering quiet study carrels, digital research databases, and collaborative team rooms [7].',
+        },
+        {
+          name: 'Performing Arts Theatre & Kriewall-Haehl Gallery',
+          category: 'Arts & Performance',
+          description:
+            'Fully equipped theater hosting dramatic productions, choral concerts, and chapel assemblies, alongside a visual arts gallery [7].',
+        },
+        {
+          name: 'Dedicated Middle School Quad & Village',
+          category: 'Classrooms & Quad',
+          description:
+            'Concentrated Middle School classroom wing and private courtyard/recreation area giving 6th–8th graders their own campus footprint [6].',
+        },
+        {
+          name: 'Athletic Complex, Turf Pitches & Heated Aquatic Pool',
+          category: 'Athletics & PE',
+          description:
+            'Two full-size natural turf soccer pitches, regulation running track with jump pits, baseball diamond, tennis courts, and swimming pool [7].',
+        },
+        {
+          name: 'Residential Dormitories (Benedict, Scholastica, Anselm)',
+          category: 'Residential',
+          description:
+            'Three on-campus dorm houses providing living spaces, student lounges, and study carrels for boarding students and full-time Residential Faculty [7].',
+        },
+      ],
+    },
+    logistics: {
+      counselingModel: {
+        name: 'Humanities Advisor Model & Positive Psychology Counseling',
+        description:
+          'Humanities teachers serve as primary homeroom advisors, supported by full-time campus counselors utilizing positive psychology to build resilience and emotional regulation [6, 7, 8].',
+      },
+      academicInterventions: {
+        name: 'Study Skills Seminar & Supervised Library Study Halls',
+        description:
+          'Mandatory 6th-grade Study Skills module, 8th-grade "Project Step Up," and supervised after-school library hours in the Learning Commons [6].',
+      },
+      safetyAndTransit: {
+        title: 'Campus Ingress, Foothills Location & After-School Supervision',
+        points: [
+          'Location: 302 Portola Rd, Portola Valley, CA 94028, ~18–22 min drive to MP4 Sunnyvale via I-280 & Alpine Rd [7].',
+          'After-School Coverage: Supervised library study hours in the Learning Commons and interscholastic sports/clubs running until 5:30 PM [6, 7].',
+          'Dining Services: Campus dining hall serves daily hot lunch to all students, with breakfast and dinner for boarders and extended-day students [7].',
+          'Scenic 51-Acre Gated Campus: Foothills location in Portola Valley adjacent to Windy Hill Open Space Preserve [2, 7].',
+        ],
+      },
+    },
+    extracurriculars: {
+      stemCompetitions: [
+        {
+          category: 'Mathematics',
+          name: 'AMC 8 Contest Hosting & Joint MS/US Math Club',
+          description:
+            'Official host site for the MAA American Mathematics Competitions 8 (AMC 8), preparing students for AMC 10/12 and AIME [7, 20].',
+        },
+        {
+          category: 'Science Olympiad',
+          name: 'Upper School Science Olympiad Team',
+          description:
+            '15-member team competing across 23 biology, earth science, chemistry, physics, and engineering events in the STREAM building [7].',
+        },
+        {
+          category: 'Robotics & Applied Tech',
+          name: 'Middle School Robotics, Coding & Tinker Electives',
+          description:
+            'Hands-on design, CAD modeling, 3D printing, and autonomous robotics programming in the STREAM maker space [6, 7].',
+        },
+        {
+          category: 'Environmental Stewardship',
+          name: 'Plant to Plate, Garden & Stewards in Action',
+          description:
+            'Campus organic garden cultivation, ecological stewardship, and sustainability projects connecting agriculture to science [6].',
+        },
+      ],
+      outdoorAndMedia: [
+        {
+          name: 'Annual Start-of-Year Class Retreats',
+          grade: 'Grades 6–12',
+          description:
+            'Mandatory grade-level retreats at the start of each school year focused on outdoor recreation, trust-building, and community bonding [6].',
+        },
+        {
+          name: 'Outdoor Survival Skills & Windy Hill Expeditions',
+          grade: 'Grades 6–8',
+          description:
+            'Quarterly elective teaching compass navigation, knot tying, and native plant identification along local foothills trails [6].',
+        },
+        {
+          name: 'Residential Weekend Trips & Publications',
+          grade: 'Grades 6–12',
+          description:
+            'Surfing in Half Moon Bay, coastal hiking, Lake Tahoe ski trips, Panther Press student newspaper, and Junior Thespians drama [7].',
+        },
+      ],
+      dayInTheLife: [
+        {
+          time: '8:00 AM – 8:25 AM',
+          activity: 'Arrival & Humanities Homeroom Advisory Check-In',
+          description: 'Students arrive on the 51-acre Portola Valley campus and gather in the Middle School Quad homeroom for morning check-in [6].',
+        },
+        {
+          time: '8:30 AM – 9:55 AM',
+          activity: 'Block 1: Integrated Humanities (Literature & History)',
+          description: 'Integrated English and History seminar analyzing primary sources followed by an essay writing workshop [6].',
+        },
+        {
+          time: '10:00 AM – 10:20 AM',
+          activity: 'Morning Recess in Middle School Village Quad',
+          description: 'Outdoor break in the dedicated Middle School play area with table tennis, basketball, and peer socializing [6].',
+        },
+        {
+          time: '10:25 AM – 11:40 AM',
+          activity: 'Block 2: Pre-Algebra & Collaborative Logic Puzzles',
+          description: 'Sequential math instruction with collaborative problem-solving exercises building logical reasoning for the AMC 8 [6, 20].',
+        },
+        {
+          time: '11:45 AM – 12:20 PM',
+          activity: 'Community Assembly & Weekly Chapel',
+          description: 'Middle School gathering in Priory Chapel for musical performances, student speeches on Benedictine values, and reflections [2].',
+        },
+        {
+          time: '12:25 PM – 1:05 PM',
+          activity: 'Dining Hall Lunch & Panther Pals Mentorship',
+          description: 'Hot lunch in the dining hall, sitting with matched Grade 12 "Panther Pal" senior mentor to share advice and outdoor games [6, 7].',
+        },
+        {
+          time: '1:10 PM – 2:20 PM',
+          activity: 'Block 3: Integrated Science in STREAM Building',
+          description: 'Hands-on laboratory investigations in the STREAM building analyzing water and soil samples from campus oak woodlands [6, 7].',
+        },
+        {
+          time: '2:25 PM – 3:25 PM',
+          activity: 'Block 4: Elective (Robotics or Outdoor Survival Skills)',
+          description: 'Quarterly elective practicing compass trail navigation or programming robotics mechanisms in the maker space [6].',
+        },
+        {
+          time: '3:30 PM – 5:00 PM',
+          activity: 'Co-Curricular Athletics: Panther Track & Field Practice',
+          description: 'Transitioning to the campus regulation track for sprinting drills, relay handoffs, and long jump under the no-cut policy [7].',
+        },
+        {
+          time: '5:00 PM – 5:30 PM',
+          activity: 'Supervised Study Hall in Learning Commons Library',
+          description: 'Quiet homework completion in the Learning Commons library until parent pickup [6].',
+        },
+      ],
+    },
+    historyAndLeadership: {
+      historicalChronology: [
+        '1957: Founded as an all-male boarding school on an 18-acre Portola Valley ranch by 7 Hungarian Benedictine monks from Pannonhalma [2].',
+        '1974: Formal affiliation of the monastic community with Saint Anselm Abbey in Goffstown, New Hampshire [2].',
+        '1990: Transition to co-education within the day-student program [2].',
+        '1995: First co-educational graduating class at Woodside Priory [2].',
+        '2004: Residential boarding program expands to include female students [2].',
+        '2020: Patrick Ruff appointed Head of School after leading St. Ignatius College Prep [14].',
+        'Present: 51-acre campus serving ~370–400 students across Grades 6–12 with a dedicated ~100-student Middle School village [2, 6].',
+      ],
+      namesakeBackground:
+        'Named after its location in the historic Woodside / Portola Valley corridor and its monastic foundation as a Benedictine Priory [2, 7].',
+      leadershipCohort: [
+        {
+          gradeOrRole: 'Head of School',
+          administrator: 'Patrick Ruff (Head since 2020, former Principal at St. Ignatius College Prep in SF) [14]',
+          counselor: 'Father Matthew Leavy, O.S.B. / Father Maurus Nemeth, O.S.B. (Monastic Chaplains) [2]',
+        },
+        {
+          gradeOrRole: 'Head of Middle School',
+          administrator: 'Caitha Ambler (Leads MS academics, advisory & student life for Grades 6–8) [6]',
+          counselor: 'Middle School Humanities Homeroom Advisors [6]',
+        },
+        {
+          gradeOrRole: 'Head of Upper School',
+          administrator: 'Ana Cortez-Hernández (Oversees US faculty and academic departments) [8]',
+          counselor: 'Justin Christensen (Academic Dean) & Chase Smith (Dean of Students) [8]',
+        },
+        {
+          gradeOrRole: 'Director of Athletics',
+          administrator: 'Mark Stogner (Oversees interscholastic WBAL / CCS sports & coaching staff) [7]',
+          counselor: 'Full-Time Campus Counselors & Residential Faculty [7, 8]',
+        },
+      ],
+      mediaAnalysis: {
+        positive:
+          'Praised by parents and educational publications for its nurturing "known and loved" culture, tranquil 51-acre foothills setting near Windy Hill Preserve, vibrant STREAM/Maker facilities, and welcoming interfaith Benedictine values [2, 5, 7, 30].',
+        neutral:
+          'Reviews note the intimate scale of the Middle School (~100 students across 6–8) which creates close-knit social circles, alongside mandatory weekly chapel attendance and theology coursework [2, 6].',
+        critical: {
+          incidentSummary:
+            'Independent school reviews discuss the significant tuition investment ($64,460) and the noticeable academic step-up when transitioning into Upper School Honors/AP courses [5, 6, 30].',
+          reforms: [
+            'Maintained the Humanities homeroom advisor model to ensure multi-year individualized support [6].',
+            'Implemented managed homework limits in Middle School to prevent academic burnout and protect wellness [6].',
+            'Expanded the Panther Pals mentorship initiative pairing 6th graders with 12th-grade senior mentors [6].',
+          ],
+        },
+      },
+    },
+    prospectiveFamilySynthesis: {
+      summary:
+        'For a prospective parent evaluating Woodside Priory for a rising 6th grader, the institution provides a continuous 6–12 college-preparatory pathway in a tranquil 51-acre foothills setting, featuring the Humanities homeroom model, STREAM building maker spaces, AMC 8 contest hosting, inclusive athletics, and Benedictine character values [2, 6, 7].',
+      keyTakeaways: [
+        'Continuous 6–12 Trajectory: Capped Middle School (~100 students) eliminates high school re-application anxiety while ensuring every child is deeply known by faculty [2, 4, 6].',
+        'Humanities Homeroom Scaffolding: A single teacher guides English and History while serving as homeroom advisor, providing steady executive functioning and SEL support [6].',
+        'Applied STREAM & Math Pipelines: Multimillion-dollar STREAM building, maker spaces, AMC 8 contest hosting, and robotics/coding electives [6, 7, 20].',
+        'Inclusive Athletics & Natural Foothills Campus: Inclusive no-cut athletic policy across WBAL/CCS leagues, 2 turf soccer pitches, regulation track, and 51-acre campus near Windy Hill [2, 7, 23].',
+      ],
+    },
+    worksCited: [
+      { id: 1, title: 'Woodside Priory School Overview & Profile', url: 'https://www.oneuhak.com/include/download.php?mode=product_attach&no=268' },
+      { id: 2, title: 'Woodside Priory Mission | Philosophy | Catholic Benedictine School', url: 'https://www.prioryca.org/about/mission--philosophy' },
+      { id: 3, title: 'City of Palo Alto Public Letters & Independent Schools Context', url: 'https://www.cityofpaloalto.org/files/assets/public/agendas-minutes-reports/public-letters-to-council/2021/04-05-21-ccm-public-letters-set-5.pdf' },
+      { id: 4, title: 'Woodside Priory School - Wikipedia', url: 'https://en.wikipedia.org/wiki/Woodside_Priory_School' },
+      { id: 5, title: 'Woodside Priory School in Portola Valley, CA - Niche Profile', url: 'https://www.niche.com/k12/woodside-priory-school-portola-valley-ca/' },
+      { id: 6, title: 'Middle School Program (Grades 6–8) - Woodside Priory School', url: 'https://www.prioryca.org/academics/middle-school--gr-68/middle-school-program' },
+      { id: 7, title: 'Woodside Priory School Clubs & Interscholastic Activities', url: 'https://www.prioryca.org/student-life/clubs--activities' },
+      { id: 8, title: 'Priory School Administration | Board of Trustees | Leadership', url: 'https://www.prioryca.org/about/school-leadership' },
+      { id: 9, title: 'Woodside & Portola Valley CA 94028 | Luxury Real Estate & Schools Guide', url: 'https://www.boyengarealestateteam.com/94028-zip-code' },
+      { id: 10, title: 'Mid-Century Modern Homes in Portola Valley | School District Overview', url: 'https://www.midmodhomes.com/mid-century-modern-homes/portola-valley' },
+      { id: 11, title: 'Woodland School, Portola Valley, CA - Review Profile', url: 'https://www.movoto.com/schools/portola-valley-ca/woodland-school-02012874/' },
+      { id: 12, title: 'Redwood City & Portola Valley Living: Tech Hub Access & Schools', url: 'https://www.boyengarealestateteam.com/94065-zip-code' },
+      { id: 13, title: 'WBAL League Overview & Girls Soccer Season - The Gryphon Gazette', url: 'https://crystalgryphongazette.org/2024/03/12/a-season-to-remember-crystal-girls-soccer/' },
+      { id: 14, title: 'Patrick Ruff Profile & Educational Leadership Background', url: 'https://branchservices.org/our-team/' },
+      { id: 15, title: 'Faculty & Staff Directory - Woodside Priory School', url: 'https://www.prioryca.org/about/faculty--staff-directory?letter=A' },
+      { id: 16, title: 'Woodside Priory Upper School (Grades 9–12) Academic Catalog', url: 'https://www.prioryca.org/academics/upper-school--gr-912' },
+      { id: 17, title: 'Woodside Priory School Faculty Directory & Department Heads', url: 'https://www.prioryca.org/about/faculty--staff-directory?2387216_contentId=2387216&2387216_deptId=24335' },
+      { id: 18, title: 'Middle School (Gr. 6–8) Curriculum Overview - Woodside Priory', url: 'https://www.prioryca.org/academics/middle-school--gr-68' },
+      { id: 19, title: 'Admissions Events & Campus Visits - Woodside Priory', url: 'https://www.prioryca.org/admissions/events-and-visits' },
+      { id: 20, title: 'AMC 8 Mathematical Competition Overview - MAA Contests', url: 'https://www.tka.org/cf_enotify/view.cfm?n=3976' },
+      { id: 21, title: 'Curriculum Detail & Department Courses - Woodside Priory', url: 'https://www.prioryca.org/curriculum-detail?LevelNum=1198&DepartmentId=21646' },
+      { id: 22, title: 'Faculty & Staff Directory - Woodside Priory School', url: 'https://www.prioryca.org/about/faculty--staff-directory?deptId=21646&gId=&letter=C' },
+      { id: 23, title: 'Historical Record of CIF CCS Boys Soccer Championship Results', url: 'https://cifccs.org/sports/soccer/boys_history' },
+      { id: 24, title: 'Historical Record of CIF CCS Girls Soccer Championship Results', url: 'https://cifccs.org/sports/soccer/girls_history' },
+      { id: 25, title: 'San Mateo Daily Journal: Peninsula High School Track & Athletics', url: 'https://www.scribd.com/document/402344781/San-Mateo-Daily-Journal-03-19-19-Edition' },
+      { id: 26, title: 'Tatiana Reese - Priory Athletics Alumni & Collegiate Profile', url: 'https://goeags.com/sports/womens-basketball/roster/tatiana--reese/7576' },
+      { id: 27, title: 'Portola Valley Community & Literary Reflections', url: 'https://www.goodreads.com/topic/show/22864731-north-woods-by-daniel-mason-discussion-includes-spoilers' },
+      { id: 28, title: 'AYSO Region 25 Youth Soccer & Portola Valley Sports Context', url: 'https://www.ayso25.com/about-us/' },
+      { id: 29, title: 'Woodside Priory School Test Scores & Academics - Niche', url: 'https://www.niche.com/k12/woodside-priory-school-portola-valley-ca/academics/' },
+      { id: 30, title: 'Woodside Priory School Reviews & Community Sentiment - Niche', url: 'https://www.niche.com/k12/woodside-priory-school-portola-valley-ca/reviews/' },
+      { id: 31, title: 'Contact Us & Campus Visitor Guidelines - Woodside Priory', url: 'https://www.prioryca.org/contact-us' },
+    ],
+  },
 };
 
