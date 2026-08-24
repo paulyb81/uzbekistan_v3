@@ -1,0 +1,144 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  html {
+    background-color: #f8fafc;
+    color: #0f172a;
+  }
+
+  html.dark {
+    background-color: #0b0f17;
+    color: #f1f5f9;
+  }
+
+  body {
+    background-color: #f8fafc;
+    color: #0f172a;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+
+  .dark body {
+    background-color: #0b0f17;
+    color: #f1f5f9;
+  }
+}
+
+/* Custom Leaflet score markers */
+.custom-score-pin {
+  background: transparent;
+  border: none;
+}
+
+.marker-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 8px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 13px;
+  font-weight: 700;
+  border-radius: 9999px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.35), 0 0 0 2px rgba(255, 255, 255, 0.4);
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  white-space: nowrap;
+}
+
+.marker-badge.selected {
+  transform: scale(1.18);
+  box-shadow: 0 0 0 4px rgba(16, 185, 129, 0.7), 0 6px 18px rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
+
+/* Green (Score >= 8.0) */
+.marker-badge.green {
+  background: #16a34a;
+  color: #ffffff;
+}
+
+/* Yellow / Amber (Score 7.0 - 7.99) */
+.marker-badge.yellow {
+  background: #d97706;
+  color: #ffffff;
+}
+
+/* Red (Score < 7.0) */
+.marker-badge.red {
+  background: #dc2626;
+  color: #ffffff;
+}
+
+.marker-badge:hover {
+  transform: scale(1.14);
+  filter: brightness(1.15);
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+
+.dark ::-webkit-scrollbar-track {
+  background: #0f172a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: #334155;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: #475569;
+}
+
+/* Leaflet Container */
+.leaflet-container {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  background-color: #e2e8f0 !important;
+}
+
+.dark .leaflet-container {
+  background-color: #0d131f !important;
+}
+
+.leaflet-popup-content-wrapper {
+  background: #ffffff !important;
+  color: #0f172a !important;
+  border: 1px solid #e2e8f0 !important;
+  border-radius: 12px !important;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.2) !important;
+}
+
+.dark .leaflet-popup-content-wrapper {
+  background: #131a29 !important;
+  color: #f8fafc !important;
+  border: 1px solid #334155 !important;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.7) !important;
+}
+
+.leaflet-popup-tip {
+  background: #ffffff !important;
+  border-top: 1px solid #e2e8f0 !important;
+  border-left: 1px solid #e2e8f0 !important;
+}
+
+.dark .leaflet-popup-tip {
+  background: #131a29 !important;
+  border-top: 1px solid #334155 !important;
+  border-left: 1px solid #334155 !important;
+}

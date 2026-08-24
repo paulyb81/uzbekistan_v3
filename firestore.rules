@@ -1,0 +1,9 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Middle school exploration app allows reading and editing school ratings, rubrics, and rental data
+    match /schools/{schoolId} {
+      allow read, write: if true;
+    }
+  }
+}
